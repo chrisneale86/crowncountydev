@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+<Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.2049909" y="-8.880759" z="-3.166992" />
+      <bbMax x="3.3433094" y="8.518631" z="3.166992" />
+      <bsCentre x="0.06915927" y="-0.18106413" z="0.0" />
+      <bsRadius value="9.820112" />
+      <hdTextureDist value="60" />
+      <name>snail_gunsmith</name>
+            <textureDictionary>snail_house</textureDictionary>
+      <physicsDictionary>snail_gunsmith</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_gunsmith</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.2049909" y="-8.880759" z="-3.166992" />
+      <bbMax x="3.3433094" y="8.518631" z="3.166992" />
+      <bsCentre x="0.06915927" y="-0.18106413" z="0.0" />
+      <bsRadius value="9.820112" />
+      <hdTextureDist value="60" />
+      <name>snail_house</name>
+            <textureDictionary>snail_house</textureDictionary>
+      <physicsDictionary>snail_house</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_house</assetName>
+    </Item>
+      </archetypes>
+      <name>snailhouse</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

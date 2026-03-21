@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-2179.719971" y="-803.500000" z="-244.512177"/>
+	<streamingExtentsMax x="-1376.449951" y="0.799988" z="557.339996"/>
+	<entitiesExtentsMin x="-1779.719971" y="-403.500000" z="155.487823"/>
+	<entitiesExtentsMax x="-1776.449951" y="-399.200012" z="157.339996"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.239990" y="-400.019989" z="158.149994"/>
+			<rotation w="0.705511" x="-0.047478" y="-0.047478" z="-0.705511"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.179993" z="158.149994"/>
+			<rotation w="0.707107" x="0.000000" y="-0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.190002" z="158.580002"/>
+			<rotation w="0.481865" x="0.516765" y="-0.473527" z="-0.525863"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.459991" z="158.179993"/>
+			<rotation w="0.678440" x="-0.093837" y="0.176233" z="-0.707004"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.309998" z="158.449997"/>
+			<rotation w="0.671820" x="-0.069523" y="0.200230" z="-0.709741"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.339996" z="158.539993"/>
+			<rotation w="0.134805" x="-0.036889" y="0.692616" z="-0.707637"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-399.899994" z="158.149994"/>
+			<rotation w="0.707107" x="0.000000" y="-0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.019989" z="158.160004"/>
+			<rotation w="0.695266" x="-0.128860" y="0.177045" z="-0.684584"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-399.720001" z="158.580002"/>
+			<rotation w="0.238803" x="-0.671469" y="0.676541" z="-0.185459"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.170013" z="158.429993"/>
+			<rotation w="0.481865" x="0.516765" y="-0.473527" z="-0.525863"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.339996" z="158.179993"/>
+			<rotation w="0.164911" x="-0.067613" y="0.685539" z="-0.705882"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-399.720001" z="158.149994"/>
+			<rotation w="0.696200" x="-0.132700" y="0.173364" z="-0.683843"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.309998" z="158.300003"/>
+			<rotation w="0.699949" x="0.036683" y="0.037329" z="-0.712273"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.510010" z="158.289993"/>
+			<rotation w="0.699949" x="0.036683" y="0.037329" z="-0.712273"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.339996" z="158.190002"/>
+			<rotation w="0.697879" x="0.189550" y="-0.066122" z="-0.687506"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_bamboostick01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1776.187500" y="-400.510010" z="158.449997"/>
+			<rotation w="0.693462" x="0.225272" y="-0.102555" z="-0.676643"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

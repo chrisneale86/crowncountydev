@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="1700.87866" y="-1458.93616" z="-108.079361" />
+	<streamingExtentsMax x="2096.5708" y="-1080.58032" z="192.0376" />
+	<entitiesExtentsMin x="1817.12622" y="-1311.80115" z="19.9373245" />
+	<entitiesExtentsMax x="1967.42163" y="-1198.50256" z="47.3564262" />
+	<entities>
+ <Item type="CEntityDef">
+   <archetypeName>p_doorsglw01x</archetypeName>
+   <flags value="1572865" />
+   <position x="1826.332" y="-1244.17407" z="41.5297165" />
+   <rotation x="0" y="0" z="0.258818984" w="0.9659258" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="-1" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+   <numChildren value="0" />
+   <priorityLevel>PRI_REQUIRED</priorityLevel>
+   <extensions>
+    <Item type="CExtensionDefDoor">
+     <name>p_doorsglw01x</name>
+     <offsetPosition x="-0.000122070313" y="0.000122070313" z="0" />
+     <autoOpens value="False" />
+     <enableLimitAngle value="True" />
+     <EFwMwAA_0x091A42D0 value="False" />
+     <startsLocked value="False" />
+     <canBreak value="False" />
+     <PkpciBA_0xA37CAB71 value="False" />
+     <dKbmTLA_0xCFE37BDB value="1.570796" />
+     <nuskEbA_0xA0CF3C8D value="1.570796" />
+     <RbUnQLA_0x9C555ECF value="0" />
+     <OPkNlHA_0xBCA0289E value="0" />
+     <doorTargetRatio value="0" />
+     <audioHash>zcapQNA_0x20D17C69</audioHash>
+     <doorTags>
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+     </doorTags>
+    </Item>
+    <Item type="SSxlGTA_0xDB12012B">
+     <name>p_doorsglw01x</name>
+     <offsetPosition x="-0.000122070313" y="0.000122070313" z="0" />
+     <Id>cal_houses-door1</Id>
+    </Item>
+   </extensions>
+   <powerGridId value="0" />
+   <tintValue value="0" />
+   <GtyHDFA_0x0DC5F270 value="255" />
+   <kXvVXMA_0x540CA436 value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>p_doorsglw01x</archetypeName>
+   <flags value="1572865" />
+   <position x="1828.41821" y="-1245.34912" z="41.5297165" />
+   <rotation x="0" y="0" z="0.96866554" w="-0.248368874" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="-1" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+   <numChildren value="0" />
+   <priorityLevel>PRI_REQUIRED</priorityLevel>
+   <extensions>
+    <Item type="CExtensionDefDoor">
+     <name>p_doorsglw01x</name>
+     <offsetPosition x="0" y="0.000122070313" z="0" />
+     <autoOpens value="False" />
+     <enableLimitAngle value="True" />
+     <EFwMwAA_0x091A42D0 value="False" />
+     <startsLocked value="False" />
+     <canBreak value="False" />
+     <PkpciBA_0xA37CAB71 value="False" />
+     <dKbmTLA_0xCFE37BDB value="1.570796" />
+     <nuskEbA_0xA0CF3C8D value="1.570796" />
+     <RbUnQLA_0x9C555ECF value="0" />
+     <OPkNlHA_0xBCA0289E value="0" />
+     <doorTargetRatio value="0" />
+     <audioHash>zcapQNA_0x20D17C69</audioHash>
+     <doorTags>
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+     </doorTags>
+    </Item>
+    <Item type="SSxlGTA_0xDB12012B">
+     <name>p_doorsglw01x</name>
+     <offsetPosition x="0" y="0.000122070313" z="0" />
+     <Id>cal_houses-door2</Id>
+    </Item>
+   </extensions>
+   <powerGridId value="0" />
+   <tintValue value="0" />
+   <GtyHDFA_0x0DC5F270 value="255" />
+   <kXvVXMA_0x540CA436 value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>p_door41x</archetypeName>
+   <flags value="1572865" />
+   <position x="1832.50232" y="-1243.379" z="41.5330734" />
+   <rotation x="0" y="0" z="0.8595629" w="0.511029959" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="-1" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+   <numChildren value="0" />
+   <priorityLevel>PRI_REQUIRED</priorityLevel>
+   <extensions>
+    <Item type="CExtensionDefDoor">
+     <name>p_door41x</name>
+     <offsetPosition x="0" y="0" z="0" />
+     <autoOpens value="False" />
+     <enableLimitAngle value="True" />
+     <EFwMwAA_0x091A42D0 value="False" />
+     <startsLocked value="False" />
+     <canBreak value="False" />
+     <PkpciBA_0xA37CAB71 value="False" />
+     <dKbmTLA_0xCFE37BDB value="1.570796" />
+     <nuskEbA_0xA0CF3C8D value="1.570796" />
+     <RbUnQLA_0x9C555ECF value="0" />
+     <OPkNlHA_0xBCA0289E value="0" />
+     <doorTargetRatio value="0" />
+     <audioHash>yVOTcBA_0x39C680DA</audioHash>
+     <doorTags>
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+     </doorTags>
+    </Item>
+    <Item type="SSxlGTA_0xDB12012B">
+     <name>p_door41x</name>
+     <offsetPosition x="0" y="0" z="0" />
+     <Id>cal_houses-door3</Id>
+    </Item>
+   </extensions>
+   <powerGridId value="0" />
+   <tintValue value="0" />
+   <GtyHDFA_0x0DC5F270 value="255" />
+   <kXvVXMA_0x540CA436 value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>p_door45x</archetypeName>
+   <flags value="1572865" />
+   <position x="1850.91382" y="-1240.00879" z="42.2503166" />
+   <rotation x="0" y="0" z="0.258818984" w="0.9659258" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="-1" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+   <numChildren value="0" />
+   <priorityLevel>PRI_REQUIRED</priorityLevel>
+   <extensions>
+    <Item type="CExtensionDefDoor">
+     <name>p_door45x</name>
+     <offsetPosition x="-0.000122070313" y="0.000122070313" z="0" />
+     <autoOpens value="False" />
+     <enableLimitAngle value="True" />
+     <EFwMwAA_0x091A42D0 value="False" />
+     <startsLocked value="False" />
+     <canBreak value="False" />
+     <PkpciBA_0xA37CAB71 value="False" />
+     <dKbmTLA_0xCFE37BDB value="1.570796" />
+     <nuskEbA_0xA0CF3C8D value="1.570796" />
+     <RbUnQLA_0x9C555ECF value="0" />
+     <OPkNlHA_0xBCA0289E value="0" />
+     <doorTargetRatio value="0" />
+     <audioHash>vDpNxGA_0x777CB171</audioHash>
+     <doorTags>
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+     </doorTags>
+    </Item>
+    <Item type="SSxlGTA_0xDB12012B">
+     <name>p_door45x</name>
+     <offsetPosition x="-0.000122070313" y="0.000122070313" z="0" />
+     <Id>cal_houses-door4</Id>
+    </Item>
+   </extensions>
+   <powerGridId value="0" />
+   <tintValue value="0" />
+   <GtyHDFA_0x0DC5F270 value="255" />
+   <kXvVXMA_0x540CA436 value="255" />
+  </Item>
+  <Item type="CEntityDef">
+   <archetypeName>p_door45x</archetypeName>
+   <flags value="1572865" />
+   <position x="1858.2478" y="-1227.79224" z="41.96365" />
+   <rotation x="0" y="0" z="0.9659259" w="-0.258818984" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="-1" />
+   <lodDist value="-1" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+   <numChildren value="0" />
+   <priorityLevel>PRI_REQUIRED</priorityLevel>
+   <extensions>
+    <Item type="CExtensionDefDoor">
+     <name>p_door45x</name>
+     <offsetPosition x="0" y="-0.000122070313" z="0" />
+     <autoOpens value="False" />
+     <enableLimitAngle value="True" />
+     <EFwMwAA_0x091A42D0 value="False" />
+     <startsLocked value="False" />
+     <canBreak value="False" />
+     <PkpciBA_0xA37CAB71 value="False" />
+     <dKbmTLA_0xCFE37BDB value="1.570796" />
+     <nuskEbA_0xA0CF3C8D value="1.570796" />
+     <RbUnQLA_0x9C555ECF value="0" />
+     <OPkNlHA_0xBCA0289E value="0" />
+     <doorTargetRatio value="0" />
+     <audioHash>vDpNxGA_0x777CB171</audioHash>
+     <doorTags>
+      <Item />
+      <Item />
+      <Item />
+      <Item />
+     </doorTags>
+    </Item>
+    <Item type="SSxlGTA_0xDB12012B">
+     <name>p_door45x</name>
+     <offsetPosition x="0" y="-0.000122070313" z="0" />
+     <Id>cal_houses-door5</Id>
+    </Item>
+   </extensions>
+   <powerGridId value="0" />
+   <tintValue value="0" />
+   <GtyHDFA_0x0DC5F270 value="255" />
+   <kXvVXMA_0x540CA436 value="255" />
+  </Item>
+  	</entities>
+</CMapData>

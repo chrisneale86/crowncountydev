@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+<Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.5343037" y="-1.818423" z="-0.037370503" />
+      <bbMax x="0.26305962" y="1.7782568" z="1.0114579" />
+      <bsCentre x="-0.13562205" y="-0.02008313" z="0.4870437" />
+      <bsRadius value="1.9151981" />
+      <hdTextureDist value="60" />
+      <name>snail_counter1</name>
+            <textureDictionary>snail_counters</textureDictionary>
+      <physicsDictionary>snail_counter1</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_counter1</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.95808303" y="-2.3220465" z="0.0068359375" />
+      <bbMax x="1.7124419" y="2.5474322" z="2.726074" />
+      <bsCentre x="0.37717944" y="0.11269283" z="1.366455" />
+      <bsRadius value="3.0918353" />
+      <hdTextureDist value="60" />
+      <name>snail_counter2</name>
+            <textureDictionary>snail_counters</textureDictionary>
+      <physicsDictionary>snail_counter2</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_counter2</assetName>
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.95808303" y="-2.3220465" z="0.0068359375" />
+      <bbMax x="1.7124419" y="2.5474322" z="2.726074" />
+      <bsCentre x="0.37717944" y="0.11269283" z="1.366455" />
+      <bsRadius value="3.0918353" />
+      <hdTextureDist value="60" />
+      <name>snail_counter2</name>
+            <textureDictionary>snail_counters</textureDictionary>
+      <physicsDictionary>snail_counter2</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_counter2</assetName>
+    </Item>
+            <Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.765137" y="-1.6565835" z="-0.028791547" />
+      <bbMax x="1.8100591" y="2.0074792" z="1.0278492" />
+      <bsCentre x="0.022461057" y="0.17544782" z="0.49952883" />
+      <bsRadius value="2.613612" />
+      <hdTextureDist value="60" />
+      <name>snail_counter3</name>
+            <textureDictionary>snail_counters</textureDictionary>
+      <physicsDictionary>snail_counter3</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_counter3</assetName>
+    </Item>
+       <Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.79891455" y="-1.1747996" z="-0.0019283295" />
+      <bbMax x="-0.003992057" y="1.1010797" z="1.0498295" />
+      <bsCentre x="-0.40145332" y="-0.03685993" z="0.5239506" />
+      <bsRadius value="1.3150783" />
+      <hdTextureDist value="60" />
+      <name>snail_counter4</name>
+            <textureDictionary>snail_counters</textureDictionary>
+      <physicsDictionary>snail_counter4</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_counter4</assetName>
+    </Item>
+      </archetypes>
+      <name>snailhouse</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

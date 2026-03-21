@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+<Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.928223" y="1.121582" z="-1.252441" />
+      <bbMax x="2.579102" y="1.550781" z="1.257813" />
+      <bsCentre x="0.3254395" y="1.3361815" z="0.002685964" />
+      <bsRadius value="2.5885115" />
+      <hdTextureDist value="60" />
+      <name>snail_gunshelf1</name>
+            <textureDictionary>snail_shelfs</textureDictionary>
+      <physicsDictionary>snail_gunshelf1</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_gunshelf1</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.928223" y="1.121582" z="-1.252441" />
+      <bbMax x="1.12793" y="1.550781" z="1.257813" />
+      <bsCentre x="-0.40014648" y="1.3361815" z="0.002685964" />
+      <bsRadius value="1.9890738" />
+      <hdTextureDist value="60" />
+      <name>snail_gunshelf2</name>
+            <textureDictionary>snail_shelfs</textureDictionary>
+      <physicsDictionary>snail_gunshelf2</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_gunshelf2</assetName>
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.020206451" y="-2.7828693" z="0.00045228004" />
+      <bbMax x="0.5471439" y="3.3291833" z="3.0151002" />
+      <bsCentre x="0.2634687" y="0.273157" z="1.5077763" />
+      <bsRadius value="3.4193265" />
+      <hdTextureDist value="60" />
+      <name>snail_shelf3</name>
+            <textureDictionary>snail_shelfs</textureDictionary>
+      <physicsDictionary>snail_shelf3</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_shelf3</assetName>
+    </Item>
+            <Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="0.13793594" y="-2.3558342" z="-0.022042274" />
+      <bbMax x="1.0588349" y="2.9385998" z="3.8969038" />
+      <bsCentre x="0.59838545" y="0.2913828" z="1.9374307" />
+      <bsRadius value="3.3255537" />
+      <hdTextureDist value="60" />
+      <name>snail_shelf4</name>
+            <textureDictionary>snail_shelfs</textureDictionary>
+      <physicsDictionary>snail_shelf4</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_shelf4</assetName>
+    </Item>
+                <Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="0.13793594" y="-2.3558342" z="-0.022042274" />
+      <bbMax x="0.7175266" y="2.9385998" z="3.8969038" />
+      <bsCentre x="0.42773128" y="0.2913828" z="1.9374307" />
+      <bsRadius value="3.3062477" />
+      <hdTextureDist value="60" />
+      <name>snail_shelf5</name>
+            <textureDictionary>snail_shelfs</textureDictionary>
+      <physicsDictionary>snail_shelf5</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_shelf5</assetName>
+    </Item>
+                    <Item type="CBaseArchetypeDef">
+      <lodDist value="140" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="0.07368671" y="-1.8372723" z="-0.14352274" />
+      <bbMax x="0.7172423" y="1.9312828" z="3.7754233" />
+      <bsCentre x="0.3954645" y="0.047005236" z="1.8159503" />
+      <bsRadius value="2.7374399" />
+      <hdTextureDist value="60" />
+      <name>snail_shelf6</name>
+            <textureDictionary>snail_shelfs</textureDictionary>
+      <physicsDictionary>snail_shelf6</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>snail_shelf6</assetName>
+    </Item>
+
+      </archetypes>
+      <name>snailhouse</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

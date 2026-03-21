@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="1397.839966" y="-1752.390015" z="-357.290001"/>
+	<streamingExtentsMax x="2197.839966" y="-952.390015" z="442.709999"/>
+	<entitiesExtentsMin x="1747.839966" y="-1402.390015" z="-7.290001"/>
+	<entitiesExtentsMax x="1847.839966" y="-1302.390015" z="92.709999"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>pavillion8</archetypeName>
+			<flags value="1572897"/>
+			<position x="1797.839966" y="-1352.390015" z="42.709999"/>
+			<rotation w="0.819238" x="-0.000000" y="0.000000" z="0.573453"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>
