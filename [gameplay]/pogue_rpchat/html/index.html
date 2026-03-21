@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="nui://game/ui/jquery.js"></script>
+</head>
+<body>
+    <div id="chat-wrapper">
+        <!-- Sol üst: her zaman görünen mesaj feed'i -->
+        <div id="chat-feed">
+            <div id="chat-window">
+
+                <div id="chat-messages"></div>
+            </div>
+        </div>
+
+        <!-- Alt orta: açılıp kapanan panel (input + suggestion) -->
+        <div id="chat-panel">
+            <div id="chat-footer">
+                <div id="chat-suggestions"></div>
+                <div id="chat-input-wrapper">
+                    <span class="prompt">&gt;</span>
+                    <input
+                        id="chat-input"
+                        type="text"
+                        spellcheck="false"
+                        autocomplete="off"
+                        placeholder="Mesaj veya /komut yaz..."
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

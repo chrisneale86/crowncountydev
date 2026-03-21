@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cinzel", "Times New Roman", serif;
+}
+
+body {
+    background: transparent;
+}
+
+/* Genel chat overlay */
+#chat-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* default: oyun tıklaması geçsin */
+}
+
+/* === SOL ÜST FEED ======================== */
+
+/* Başlangıçta gizli feed */
+#chat-feed {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 32%;
+    max-width: 580px;
+    pointer-events: none;
+    display: none;              /* varsayılan: kapalı */
+}
+
+/* JS, #chat-feed'e .feed-visible bastığında açılır */
+#chat-feed.feed-visible {
+    display: block;
+}
+
+/* Chat penceresi (artık tam kutu değil, tamamen şeffaf) */
+#chat-window {
+    background: transparent;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    overflow: visible;
+    display: block;
+    pointer-events: none;
+}
+
+#chat-messages {
+    max-height: 360px;
+    min-height: 160px;
+    padding: 8px 10px;
+    overflow-y: auto;
+
+    /* 🔽 Satırların her zaman alt alta gelmesi için */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* satırları sola hizala */
+
+    /* Scrollbar’ı gizle (ama scroll çalışsın) */
+    scrollbar-width: none;          /* Firefox */
+}
+
+/* WebKit (Chrome, Edge) için scrollbar gizle */
+#chat-messages::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+#chat-messages::-webkit-scrollbar-track {
+    background: transparent;
+}
+#chat-messages::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.chat-line {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    padding: 3px 10px;
+    margin-bottom: 4px;
+
+    font-size: 17px;        /* 🔼 14 → 15 */
+    line-height: 1.45;
+    font-weight: 500;
+    color: #ffe9c4;
+
+    background: linear-gradient(
+        90deg,
+        rgba(24, 14, 6, 0.90) 0%,
+        rgba(40, 22, 10, 0.70) 25%,
+        rgba(60, 34, 16, 0.35) 55%,
+        rgba(76, 45, 24, 0.12) 80%,
+        rgba(76, 45, 24, 0.00) 100%
+    );
+    border-radius: 4px;
+
+    text-shadow:
+        0 0 2px rgba(0, 0, 0, 0.9),
+        0 0 6px rgba(0, 0, 0, 0.7);
+
+    backdrop-filter: none;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+
+/* Nick / prefix */
+.chat-prefix {
+    font-weight: 700;
+    color: #f3cf8a;
+}
+
+/* Komut tipine göre renkler */
+.chat-line.cmd-me {
+    color: #b3e5ff;
+}
+
+.chat-line.cmd-do {
+    color: #ffe0b2;
+}
+
+.chat-line.cmd-zar {
+    color: #ffeb3b;
+}
+
+.chat-line.cmd-doc {
+    color: #c5ffb3;
+}
+
+.chat-line.cmd-report {
+    color: #ff8a80;
+}
+
+/* === ALT ORTA PANEL (INPUT) ============== */
+
+/* === PANEL (INPUT) – FEED'İN ALTINDA ============== */
+
+#chat-panel {
+    position: absolute;
+
+    /* 🔽 Feed ile aynı hizada sola al */
+    left: 2%;
+    width: 32%;
+    max-width: 580px;
+
+    /* 🔽 Feed: top: 5% + max 360px yükseklik + biraz boşluk */
+    top: calc(5% + 360px + 12px);
+    transform: none; /* artık ortalamıyoruz */
+
+    background: rgba(20, 12, 6, 0.94);
+    border-radius: 10px;
+    border: 1px solid rgba(180, 140, 90, 0.9);
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.85);
+    padding: 6px 8px 8px;
+    pointer-events: auto;
+    display: none; /* varsayılan: kapalı */
+}
+
+/* Body'ye class gelince panel açılır (T tuşu) */
+body.chat-panel-visible #chat-panel {
+    display: block;
+}
+
+
+#chat-footer {
+    border-top: 1px solid rgba(180, 140, 90, 0.8);
+    padding: 4px 8px 6px;
+    background: radial-gradient(
+        circle at top,
+        rgba(80, 46, 20, 0.9),
+        rgba(15, 9, 3, 0.98)
+    );
+}
+
+#chat-suggestions {
+    min-height: 16px;
+    max-height: 40px;
+    overflow-y: auto;
+    font-size: 12px;
+    color: #d6c2a1;
+    margin-bottom: 4px;
+
+    /* 🔽 Scrollbar’ı gizle ama scroll çalışmaya devam etsin */
+    scrollbar-width: none;          /* Firefox */
+}
+
+/* WebKit (Chrome, Edge) için scrollbar gizle */
+#chat-suggestions::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+#chat-suggestions::-webkit-scrollbar-track {
+    background: transparent;
+}
+#chat-suggestions::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.suggestion {
+    display: inline-block;
+    padding: 2px 4px;
+    margin: 1px 2px;
+    border-radius: 4px;
+    border: 1px solid rgba(180, 140, 90, 0.6);
+    background: rgba(45, 27, 13, 0.9);
+    font-family: "Consolas", monospace;
+}
+
+#chat-input-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 2px 4px;
+    background: rgba(12, 7, 3, 0.95);
+    border-radius: 6px;
+    border: 1px solid rgba(180, 140, 90, 0.8);
+}
+
+#chat-input-wrapper .prompt {
+    font-size: 14px;    /* 🔼 13 → 14 */
+    color: #f3cf8a;
+    margin-right: 4px;
+}
+
+#chat-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #f4e3c0;
+    font-size: 14px;    /* 🔼 13 → 14 */
+    padding: 4px 2px;
+    caret-color: #f3cf8a;
+}
+
+
+
+#chat-input::placeholder {
+    color: rgba(220, 200, 170, 0.5);
+}
+
+.hidden {
+    display: none !important;
+}
