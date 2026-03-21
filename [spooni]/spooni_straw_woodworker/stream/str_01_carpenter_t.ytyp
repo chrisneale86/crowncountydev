@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CMapTypes>
+	<archetypes>
+		<Item type="CBaseArchetypeDef">
+			<loadFlags value="0x0000000000000000" />
+			<lodDist value="199" />
+			<flags value="0" />
+			<avoidanceflags value="0" />
+			<specialAttribute value="0" />
+			<bbMin x="-51.8971872" y="-58.625734" z="-35.228065" />
+			<bbMax x="51.9010906" y="58.649563" z="34.964195" />
+			<bsCentre x="0.00195217133" y="0.0119142532" z="-0.13193512" />
+			<bsRadius value="48.56178" />
+			<hdTextureDist value="100" />
+			<name>str_01_carpenter_shell</name>
+			<textureDictionary>str_01_carpenter_shell</textureDictionary>
+			<clipDictionary />
+			<drawableDictionary />
+			<physicsDictionary />
+			<assetType>ASSET_TYPE_DRAWABLE</assetType>
+			<assetName>str_01_carpenter_shell</assetName>
+			<extensions />
+			<guid value="0x0000000000000000" />
+			<zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+		</Item>
+		<Item type="CMloArchetypeDef">
+			<loadFlags value="0x0000000000000000" />
+			<lodDist value="80" />
+			<flags value="0" />
+			<avoidanceflags value="0" />
+			<specialAttribute value="0" />
+			<bbMin x="0" y="0" z="0" />
+			<bbMax x="0" y="0" z="0" />
+			<bsCentre x="0" y="0" z="0" />
+			<bsRadius value="0" />
+			<hdTextureDist value="40" />
+			<name>str_01_carpenter_col</name>
+			<textureDictionary />
+			<clipDictionary />
+			<drawableDictionary />
+			<physicsDictionary>str_01_carpenter_col</physicsDictionary>
+			<assetType>ASSET_TYPE_ASSETLESS</assetType>
+			<assetName>str_01_carpenter_col</assetName>
+			<extensions />
+			<guid value="0x0000000000000000" />
+			<zqNiUDA_0x07D164A8>ORmmUEA_0x9B931532</zqNiUDA_0x07D164A8>
+			<mloFlags value="0" />
+			<entities>
+				<Item type="CEntityDef">
+					<archetypeName>str_01_carpenter_shell</archetypeName>
+					<flags value="1572864" />
+					<id value="0x0000000000000000" />
+					<position x="0" y="0" z="0" />
+					<rotation x="0" y="0" z="0" w="1" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="80" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions />
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+        <Item type="CEntityDef">
+			<archetypeName>p_lamp17bx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1.140000" y="0.264799" z="7.669998"/>
+			<rotation w="0.111449" x="0.000000" y="0.000000" z="-0.993770"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+    <Item type="CEntityDef">
+			<archetypeName>p_doorcatjak_01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2.217000" y="3.630000" z="-0.416000"/>
+			<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="40"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+      <extensions>
+                <Item type="CExtensionDefDoor">
+                <name>p_doorcatjak_01x</name>
+                <offsetPosition x="0" y="0" z="0" />
+                <ELUGHoA_0xDAF8214E value="false" />
+                <enableLimitAngle value="true" />
+                <EFwMwAA_0x091A42D0 value="false" />
+                <startsLocked value="false" />
+                <canBreak value="false" />
+                <PkpciBA_0xA37CAB71 value="false" />
+                <dKbmTLA_0xCFE37BDB value="1.470796" />
+                <nuskEbA_0xA0CF3C8D value="1.470796" />
+                <RbUnQLA_0x9C555ECF value="0" />
+                <OPkNlHA_0xBCA0289E value="0" />
+                <doorTargetRatio value="0" />
+                <audioHash>ismdclsa_0x725d11b6</audioHash>
+                <doorTags>
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                </doorTags>
+                </Item>
+                <Item type="SSxlGTA_0xDB12012B">
+                <name>p_doorcatjak_01x</name>
+                <offsetPosition x="0" y="0" z="0" />
+                <Id>straw_wood_door1</Id>
+                </Item>
+        </extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_doorcatjak_01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-0.019000" y="3.630000" z="-0.416000"/>
+			<rotation w="0.000000" x="0.000000" y="0.000000" z="1.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="40"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+       <extensions>
+                <Item type="CExtensionDefDoor">
+                <name>p_doorcatjak_01x</name>
+                <offsetPosition x="0" y="0" z="0" />
+                <ELUGHoA_0xDAF8214E value="false" />
+                <enableLimitAngle value="true" />
+                <EFwMwAA_0x091A42D0 value="false" />
+                <startsLocked value="false" />
+                <canBreak value="false" />
+                <PkpciBA_0xA37CAB71 value="false" />
+                <dKbmTLA_0xCFE37BDB value="1.470796" />
+                <nuskEbA_0xA0CF3C8D value="1.470796" />
+                <RbUnQLA_0x9C555ECF value="0" />
+                <OPkNlHA_0xBCA0289E value="0" />
+                <doorTargetRatio value="0" />
+                <audioHash>ismdclsa_0x725d11b6</audioHash>
+                <doorTags>
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                </doorTags>
+                </Item>
+                <Item type="SSxlGTA_0xDB12012B">
+                <name>p_doorcatjak_01x</name>
+                <offsetPosition x="0" y="0" z="0" />
+                <Id>straw_wood_door2</Id>
+                </Item>
+        </extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_doorcatjak_01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-4.949030" y="-2.378000" z="-0.447586"/>
+			<rotation w="0.707107" x="0.000000" y="0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="40"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+       <extensions>
+                <Item type="CExtensionDefDoor">
+                <name>p_doorcatjak_01x</name>
+                <offsetPosition x="0" y="0" z="0" />
+                <ELUGHoA_0xDAF8214E value="false" />
+                <enableLimitAngle value="true" />
+                <EFwMwAA_0x091A42D0 value="false" />
+                <startsLocked value="false" />
+                <canBreak value="false" />
+                <PkpciBA_0xA37CAB71 value="false" />
+                <dKbmTLA_0xCFE37BDB value="1.470796" />
+                <nuskEbA_0xA0CF3C8D value="1.470796" />
+                <RbUnQLA_0x9C555ECF value="0" />
+                <OPkNlHA_0xBCA0289E value="0" />
+                <doorTargetRatio value="0" />
+                <audioHash>ismdclsa_0x725d11b6</audioHash>
+                <doorTags>
+                    <Item />
+                    <Item />
+                    <Item />
+                    <Item />
+                </doorTags>
+                </Item>
+                <Item type="SSxlGTA_0xDB12012B">
+                <name>p_doorcatjak_01x</name>
+                <offsetPosition x="0" y="0" z="0" />
+                <Id>straw_wood_door3</Id>
+                </Item>
+        </extensions>
+		</Item>
+			</entities>
+      <rooms itemType="CMloRoomDef">
+        <Item>
+          <name>limbo</name>
+          <bbMin x="-4.9987085" y="-7.222204" z="-0.5699866" />
+          <bbMax x="2.708328" y="3.6665735" z="7.871893" />
+          <blend value="1" />
+          <timecycleName />
+          <flags value="0" />
+          <portalCount value="10" />
+          <floorId value="0" />
+          <exteriorVisibiltyDepth value="-1" />
+          <attachedObjects content="int_array">0</attachedObjects>
+        </Item>
+        <Item>
+          <name>Room.1</name>
+          <bbMin x="-4.9987085" y="-7.222204" z="-0.5699866" />
+          <bbMax x="2.708328" y="3.6665735" z="7.871893" />
+          <blend value="1" />
+          <timecycleName>straw_woodworker_int</timecycleName>
+          <flags value="0" />
+          <portalCount value="10" />
+          <floorId value="0" />
+          <exteriorVisibiltyDepth value="-1" />
+          <attachedObjects content="int_array">1</attachedObjects>
+          <reflectionProbes itemType="CReflectionProbeData">
+						<Item>
+							<minExtents x="-4.9887085" y="-7.202204" z="-0.5699866" />
+							<maxExtents x="2.698328" y="3.6565735" z="7.871893" />
+							<rotation x="0" y="0" z="0" w="1" />
+							<centerOffset x="0" y="0" z="0" />
+							<influenceExtents x="1" y="1" z="1" />
+							<probePriority value="255" />
+							<guid value="0x413ee5057f3b7a48" />
+						</Item>
+			</reflectionProbes>
+        </Item>
+      </rooms>
+      <portals itemType="CMloPortalDef">
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners content="vector3_array">
+            -2.1837745   3.634165   -0.44775444   
+            -2.1837745   3.6341653   1.7783197   
+            -0.053589165   3.634205   1.7807611   
+            -0.053589165   3.6342049   -0.44775444
+          </corners>
+          <attachedObjects content="int_array">2 3</attachedObjects>
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners content="vector3_array">
+            -2.4775805   3.5980556   4.2958336   
+            -2.4775805   3.5980558   5.231509   
+            0.24201438   3.5983093   5.2311826   
+            0.24201438   3.598309   4.29616
+          </corners>
+          <attachedObjects content="int_array" />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners content="vector3_array">
+            -1.4401464   3.633393   5.6948237   
+            -1.4401464   3.633393   6.3784175   
+            -0.8107406   3.633203   6.3784175   
+            -0.8087277   3.6332366   5.6948237
+          </corners>
+          <attachedObjects content="int_array" />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners content="vector3_array">
+            -4.956126   0.38163146   1.364746   
+            -4.956126   0.38163167   2.5229492   
+            -4.956339   3.0557015   2.5229487   
+            -4.956339   3.0557013   1.3647456
+          </corners>
+          <attachedObjects content="int_array" />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners content="vector3_array">
+            -4.9561186   -6.7722874   1.3647472   
+            -4.9561186   -6.772287   2.5229504   
+            -4.9563313   -4.0982175   2.52295   
+            -4.9563313   -4.098218   1.3647468
+          </corners>
+          <attachedObjects content="int_array" />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners content="vector3_array">
+            -4.961377   -2.3769555   -0.44775352   
+            -4.961377   -2.3769553   1.7452484   
+            -4.961417   -1.2760763   1.7476897   
+            -4.961417   -1.2760767   -0.4477537
+          </corners>
+          <attachedObjects content="int_array">4</attachedObjects>
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners content="vector3_array">
+            2.696093   -4.104155   1.3647468   
+            2.696093   -4.1041546   2.52295   
+            2.6957078   -6.7778797   2.5229504   
+            2.6957078   -6.77788   1.3647472
+          </corners>
+          <attachedObjects content="int_array" />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners content="vector3_array">
+            2.696132   -0.53678876   1.3647462   
+            2.696132   -0.5367886   2.5229492   
+            2.695747   -3.210513   2.5229497   
+            2.695747   -3.2105134   1.3647466
+          </corners>
+          <attachedObjects content="int_array" />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners content="vector3_array">
+            2.695866   3.048694   1.3652339   
+            2.695866   3.0486941   2.5239253   
+            2.6954808   0.37496972   2.5239258   
+            2.6954808   0.3749695   1.3652343
+          </corners>
+          <attachedObjects content="int_array" />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners content="vector3_array">
+            0.16036391   -7.185068   3.7949219   
+            0.16036391   -7.185068   6.354266   
+            -2.4465933   -7.178697   6.355817   
+            -2.4465933   -7.178697   3.796472
+          </corners>
+          <attachedObjects content="int_array" />
+        </Item>
+      </portals>
+     <entitySets />
+			<timeCycleModifiers />
+			<awOyxCA_0x8471928B />
+			<NuIPvDA_0xEC8E962B />
+			<hOImZHA_0x2AF2E200 type="CMloActivationVolume">
+				<bound type="rage__spdSphere">
+					<centerAndRadius x="0" y="0" z="0" w="0" />
+				</bound>
+				<flags />
+			</hOImZHA_0x2AF2E200>
+			<tnISOEA_0xA916F55B value="False" />
+		</Item>
+	</archetypes>
+	<name>str_01_carpenter_t</name>
+</CMapTypes>

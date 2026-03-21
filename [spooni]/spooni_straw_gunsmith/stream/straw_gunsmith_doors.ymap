@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-2292.767334" y="-864.511536" z="-242.475555"/>
+	<streamingExtentsMax x="-1382.822998" y="41.340393" z="579.470016"/>
+	<entitiesExtentsMin x="-1892.767334" y="-464.511536" z="157.524445"/>
+	<entitiesExtentsMax x="-1782.822998" y="-358.659607" z="179.470016"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_val_genstore2</archetypeName>
+			<flags value="1572865"/>
+			<position x="-1837.329956" y="-416.989990" z="163.279999"/>
+			<rotation w="0.529919" x="-0.000000" y="0.000000" z="0.848048"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="150"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_val_genstore2</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.570796" />
+					<nuskEbA_0xA0CF3C8D value="1.570796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_val_genstore2</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>straw-gunsmith-1</Id> <!-- hash = 761989158 -->
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_val_genstore2</archetypeName>
+			<flags value="1572865"/>
+			<position x="-1846.989990" y="-419.029999" z="160.360001"/>
+			<rotation w="0.522499" x="-0.000000" y="0.000000" z="0.852640"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="150"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_val_genstore2</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.570796" />
+					<nuskEbA_0xA0CF3C8D value="1.570796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_val_genstore2</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>straw-gunsmith-2</Id> <!-- hash = 936942845 -->
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_val_genstore2</archetypeName>
+			<flags value="1572865"/>
+			<position x="-1840.680054" y="-423.959991" z="163.279999"/>
+			<rotation w="0.843391" x="0.000000" y="-0.000000" z="-0.537300"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="150"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_val_genstore2</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.570796" />
+					<nuskEbA_0xA0CF3C8D value="1.570796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_val_genstore2</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>straw-gunsmith-3</Id> <!-- hash = 1167276146 -->
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_val_genstore</archetypeName>
+			<flags value="1572865"/>
+			<position x="-1837.839966" y="-418.269989" z="160.350006"/>
+			<rotation w="0.848048" x="0.000000" y="-0.000000" z="-0.529919"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="150"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_val_genstore</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.570796" />
+					<nuskEbA_0xA0CF3C8D value="1.570796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_val_genstore</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>straw-gunsmith-4</Id> <!-- hash = 391601143 -->
+				</Item>
+			</extensions>
+		</Item>
+	</entities>
+</CMapData>
