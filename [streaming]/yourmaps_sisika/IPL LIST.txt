@@ -1,0 +1,32 @@
+IPL LIST!
+
+----Prison SISIKA-------
+RemoveImap(350100475) --- underground basement tunnels: doors from tower to tunnel and from tunnel to outside (waterpump building) - remove open doors for escape? / request closes doors 
+RequestImap(-2137016051) --- open gates near waterpump outside if active. If "remove" will make open gates/door disappear
+RequestImap(-1268433731) --- gallows & buidings definitions in sisika - if remove will only see LODs - alwayes Request
+RequestImap(-625233089) --- big wood gates - if remove the will be no gates
+RequestImap(-2131576785) --- underground tunnel active
+RequestImap(927290876) --- underground tunnel active - goes together with "-2131576785"
+RequestImap(-1883779933) --- something unknown near services building - undergroung
+RemoveImap(728046625) --- detail of metal bars in one window on service building - remove it so window wont be black
+RequestImap(2033090463) --- something with central tower
+
+once you copy paste this on your interior file, search if you have already some doubled/repeating
+
+
+Useful webpage for IPL/IMAP Hashes
+https://www.rdr2mods.com/wiki/pages/list-of-imap-hashes-r23/
+
+
+Sisika Towers IPL list
+RequestImap(723786870) ---[0x2B241C76] = {hashname="",dec_hash=723786870,x=3315.912109375,y=-655.99877929688,z=49.887580871582,h=7.7043042182922},
+RequestImap(-225844616) ---[0xF289E278] = {hashname="",dec_hash=-225844616,x=3315.953125,y=-655.96801757812,z=49.81004333496,h=7.8847026824952},
+
+RequestImap(1193151399) ----[0x471E0BA7] = {hashname="",dec_hash=1193151399,x=3386.673828125,y=-636.95739746094,z=50.221626281738,h=7.6383032798768}, 
+RequestImap(-975154818) --- [0xC5E0517E] = {hashname="",dec_hash=-975154818,x=3386.634765625,y=-636.93041992188,z=50.187522888184,h=7.5196800231934},
+
+RequestImap(-367425300) ---[0xEA1988EC] = {hashname="",dec_hash=-367425300,x=3410.4306640625,y=-678.75671386718,z=50.187522888184,h=6.8665690422058},
+RequestImap(-1353871107) --[0xAF4D90FD] = {hashname="",dec_hash=-1353871107,x=3410.4162597656,y=-678.79656982422,z=50.221714019776,h=6.9784317016602},
+
+RequestImap(2026630914) ---[0x78CBEF02] = {hashname="",dec_hash=2026630914,x=3369.0346679688,y=-726.85546875,z=49.50597000122,h=7.052800655365}, 
+RequestImap(-97116080) ---[0xFA362050] = {hashname="",dec_hash=-97116080,x=3369.078125,y=-726.85681152344,z=49.60149383545,h=6.847363948822},

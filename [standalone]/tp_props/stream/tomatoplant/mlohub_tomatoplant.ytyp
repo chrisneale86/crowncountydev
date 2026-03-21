@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+ <extensions />
+ <archetypes>
+  <Item type="CBaseArchetypeDef">
+   <lodDist value="60" />
+   <flags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-0.435196251" y="-0.2665468" z="-0.113121472" />
+   <bbMax x="0.3814738" y="0.463603139" z="1.58265591" />
+   <bsCentre x="-0.02686122" y="0.09852818" z="0.7347672" />
+   <bsRadius value="1.00942183" />
+   <hdTextureDist value="40" />
+   <name>mlohub_tomatoplant</name>
+   <textureDictionary>mlohub_tomatoplant</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary>mlohub_tomatoplant</physicsDictionary>
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>mlohub_tomatoplant</assetName>
+   <extensions />
+  </Item>
+ </archetypes>
+ <name>mlohub_tomatoplant</name>
+ <dependencies />
+ <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

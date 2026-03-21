@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-2042.060791" y="-1784.647095" z="-317.170792"/>
+	<streamingExtentsMax x="-1242.060791" y="-984.647095" z="482.829208"/>
+	<entitiesExtentsMin x="-1692.060791" y="-1434.647095" z="32.829208"/>
+	<entitiesExtentsMax x="-1592.060791" y="-1334.647095" z="132.829208"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_waterpump01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1642.060791" y="-1384.647095" z="82.829208"/>
+			<rotation w="0.226983" x="-0.026649" y="0.028094" z="-0.973129"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="150"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

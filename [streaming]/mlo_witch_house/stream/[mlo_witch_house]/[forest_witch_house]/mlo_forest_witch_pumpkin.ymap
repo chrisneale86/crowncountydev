@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapData>
+  <name>mlo_forest_witch_pumpkin</name> 
+  <parent/>
+  <flags value="1"/>
+  <contentFlags value="73"/>
+  <streamingExtentsMin x="-2668.739990" y="-2068.119995" z="-257.850006"/>
+  <streamingExtentsMax x="-1856.770020" y="-1254.619995" z="544.990005"/>
+  <entitiesExtentsMin x="-2268.739990" y="-1668.119995" z="142.149994"/>
+  <entitiesExtentsMax x="-2256.770020" y="-1654.619995" z="144.990005"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>mlo_witch_house_pumpkin</archetypeName>
+      <flags value="1572897"/>
+      <position x="-2268.739990" y="-1668.119995" z="142.149994"/>
+      <rotation w="1.000000" x="0.000000" y="-0.000000" z="-0.000000"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="500"/>
+      <childLodDist value="500"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>mlo_witch_house_pumpkin</archetypeName>
+      <flags value="1572897"/>
+      <position x="-2266.409912" y="-1663.349976" z="143.860001"/>
+      <rotation w="1.000000" x="0.000000" y="-0.000000" z="-0.000000"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="500"/>
+      <childLodDist value="500"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>mlo_witch_house_pumpkin</archetypeName>
+      <flags value="1572897"/>
+      <position x="-2256.770020" y="-1661.300049" z="144.990005"/>
+      <rotation w="0.544639" x="0.000000" y="-0.000000" z="-0.838671"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="500"/>
+      <childLodDist value="500"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>mlo_witch_house_pumpkin</archetypeName>
+      <flags value="1572897"/>
+      <position x="-2258.540039" y="-1656.239990" z="143.860001"/>
+      <rotation w="0.325568" x="0.000000" y="-0.000000" z="-0.945519"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="500"/>
+      <childLodDist value="500"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>mlo_witch_house_pumpkin_set</archetypeName>
+      <flags value="1572897"/>
+      <position x="-2267.769531" y="-1660.339966" z="142.270004"/>
+      <rotation w="0.979925" x="-0.000000" y="0.000000" z="0.199368"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="500"/>
+      <childLodDist value="500"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+    </Item>
+    <Item type="CEntityDef">
+      <archetypeName>mlo_witch_house_pumpkin</archetypeName>
+      <flags value="1572897"/>
+      <position x="-2267.399902" y="-1654.619995" z="144.279999"/>
+      <rotation w="0.615663" x="-0.000000" y="0.000000" z="0.788009"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="500"/>
+      <childLodDist value="500"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>mlo_forest_witch_pumpkin</name>
+    <exportedBy/>
+    <owner/>
+    <time/>
+  </block>
+</CMapData>

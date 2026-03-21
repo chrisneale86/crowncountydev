@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-4110.189941" y="-3066.733887" z="-413.581276"/>
+	<streamingExtentsMax x="-3308.822510" y="-2264.939941" z="389.140000"/>
+	<entitiesExtentsMin x="-3760.189941" y="-2716.733887" z="-63.581276"/>
+	<entitiesExtentsMax x="-3658.822510" y="-2614.939941" z="39.140000"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>s_gallowsstairs03x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-3710.189941" y="-2664.939941" z="-10.860000"/>
+			<rotation w="0.803857" x="0.000000" y="0.000000" z="-0.594823"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_gallowsstairs_03x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-3708.822510" y="-2666.733887" z="-13.581276"/>
+			<rotation w="0.807158" x="0.000000" y="0.000000" z="-0.590335"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_gallowlevernbx01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-3709.219971" y="-2662.760010" z="-10.760000"/>
+			<rotation w="0.207840" x="0.005442" y="0.025605" z="-0.977812"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

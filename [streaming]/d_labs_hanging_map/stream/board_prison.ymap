@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="2930.800049" y="-1080.700012" z="-353.470001"/>
+	<streamingExtentsMax x="3732.149902" y="-278.937317" z="446.599998"/>
+	<entitiesExtentsMin x="3280.800049" y="-730.700012" z="-3.470001"/>
+	<entitiesExtentsMax x="3382.149902" y="-628.937317" z="96.599998"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>s_gallowlevernbx01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="3332.040039" y="-675.630005" z="46.619999"/>
+			<rotation w="0.608761" x="0.000000" y="0.000000" z="-0.793353"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_gallowsstairs04x</archetypeName>
+			<flags value="1572897"/>
+			<position x="3331.159912" y="-679.059998" z="46.549999"/>  
+			<rotation w="0.78953" x="0.000000" y="0.000000" z="0.608761"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_lumber08x</archetypeName>
+			<flags value="1572897"/>
+			<position x="3332.149902" y="-680.700012" z="46.529999"/>
+			<rotation w="0.798636" x="0.000000" y="0.000000" z="0.601815"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_lumber08x</archetypeName>
+			<flags value="1572897"/>
+			<position x="3330.800049" y="-678.937317" z="46.540001"/>
+			<rotation w="0.991445" x="0.000000" y="0.000000" z="-0.130526"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

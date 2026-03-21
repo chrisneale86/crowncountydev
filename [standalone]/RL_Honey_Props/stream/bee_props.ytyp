@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CMapTypes>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.5714745" y="-0.45814818" z="0.0" />
+      <bbMax x="0.5714745" y="0.45814818" z="1.0387052" />
+      <bsCentre x="0.0" y="0.0" z="0.5193526" />
+      <bsRadius value="0.89789194" />
+      <hdTextureDist value="60" />
+      <name>bee_hive01</name>
+      <physicsDictionary>bee_hive01</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive01</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.34471342" y="-0.3743922" z="-0.4145627" />
+      <bbMax x="0.3418382" y="0.33534765" z="0.50297064" />
+      <bsCentre x="-0.0014376044" y="-0.01952228" z="0.044203967" />
+      <bsRadius value="0.67397165" />
+      <hdTextureDist value="60" />
+      <name>bee_hive02</name>
+      <physicsDictionary>bee_hive02</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive02</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.34282416" y="-0.3691485" z="-0.4110089" />
+      <bbMax x="0.3389045" y="0.3356054" z="0.5000788" />
+      <bsCentre x="-0.0019598305" y="-0.01677154" z="0.04453495" />
+      <bsRadius value="0.669237" />
+      <hdTextureDist value="60" />
+      <name>bee_hive03</name>
+      <physicsDictionary>bee_hive03</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive03</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.8842197" y="-0.51191896" z="-0.7607983" />
+      <bbMax x="0.8837805" y="0.5896003" z="0.5514523" />
+      <bsCentre x="-0.00021961331" y="0.03884068" z="-0.104673" />
+      <bsRadius value="1.2309723" />
+      <hdTextureDist value="60" />
+      <name>bee_hive04</name>
+      <physicsDictionary>bee_hive04</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive04</assetName>
+    </Item>	
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.31334752" y="-0.08638097" z="-0.21722151" />
+      <bbMax x="0.31341898" y="0.13739328" z="0.29189533" />
+      <bsCentre x="3.5732985e-05" y="0.025506154" z="0.03733691" />
+      <bsRadius value="0.41896036" />
+      <hdTextureDist value="60" />
+      <name>bee_hive05</name>
+      <physicsDictionary>bee_hive05</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive05</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.36591324" y="-0.40354016" z="-1.0504903e-08" />
+      <bbMax x="0.36591324" y="0.4035402" z="0.8812782" />
+      <bsCentre x="0.0" y="1.4901161e-08" z="0.4406391" />
+      <bsRadius value="0.7006426" />
+      <hdTextureDist value="60" />
+      <name>bee_hive06</name>
+      <physicsDictionary>bee_hive06</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive06</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.26432484" y="-0.2768635" z="-1.3901773e-08" />
+      <bbMax x="0.26432484" y="0.27686357" z="0.7919624" />
+      <bsCentre x="0.0" y="4.4703484e-08" z="0.3959812" />
+      <bsRadius value="0.5507469" />
+      <hdTextureDist value="60" />
+      <name>bee_hive07</name>
+      <physicsDictionary>bee_hive07</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive07</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.26432484" y="-0.2768635" z="-1.3901773e-08" />
+      <bbMax x="0.26432484" y="0.27686357" z="0.7919624" />
+      <bsCentre x="0.0" y="4.4703484e-08" z="0.3959812" />
+      <bsRadius value="0.5507469" />
+      <hdTextureDist value="60" />
+      <name>bee_hive08</name>
+      <physicsDictionary>bee_hive08</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive08</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.3946999" y="-0.35507566" z="-0.5340576" />
+      <bbMax x="0.3943477" y="0.4385894" z="0.6031382" />
+      <bsCentre x="-0.00017610192" y="0.04175687" z="0.034540296" />
+      <bsRadius value="0.7977648" />
+      <hdTextureDist value="60" />
+      <name>bee_hive09</name>
+      <physicsDictionary>bee_hive09</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive09</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.3946999" y="-0.35507566" z="-0.5340576" />
+      <bbMax x="0.3943477" y="0.4385894" z="0.6031382" />
+      <bsCentre x="-0.00017610192" y="0.04175687" z="0.034540296" />
+      <bsRadius value="0.7977648" />
+      <hdTextureDist value="60" />
+      <name>bee_hive10</name>
+      <physicsDictionary>bee_hive10</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive10</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-1.0915548" y="-0.57272816" z="-0.587506" />
+      <bbMax x="1.0620286" y="0.45896205" z="1.6886417" />
+      <bsCentre x="-0.014763057" y="-0.056883052" z="0.55056787" />
+      <bsRadius value="1.6494813" />
+      <hdTextureDist value="60" />
+      <name>bee_hive11</name>
+      <physicsDictionary>bee_hive11</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive11</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-1.0915548" y="-0.57272816" z="-0.587506" />
+      <bbMax x="1.0620286" y="0.45896205" z="1.6886417" />
+      <bsCentre x="-0.014763057" y="-0.056883052" z="0.55056787" />
+      <bsRadius value="1.6494813" />
+      <hdTextureDist value="60" />
+      <name>bee_hive12</name>
+      <physicsDictionary>bee_hive12</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive12</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.14838174" y="-0.14908421" z="-0.19795278" />
+      <bbMax x="0.14699923" y="0.15029947" z="0.11534178" />
+      <bsCentre x="-0.0006912574" y="0.0006076321" z="-0.041305497" />
+      <bsRadius value="0.26221842" />
+      <hdTextureDist value="60" />
+      <name>bee_hive13</name>
+      <physicsDictionary>bee_hive13</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive13</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.14428167" y="-0.14537859" z="-0.23224962" />
+      <bbMax x="0.14339845" y="0.14617401" z="0.12959963" />
+      <bsCentre x="-0.0004416108" y="0.000397712" z="-0.051324993" />
+      <bsRadius value="0.2732662" />
+      <hdTextureDist value="60" />
+      <name>bee_hive14</name>
+      <physicsDictionary>bee_hive14</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive14</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.19699524" y="-0.199343" z="-0.21729583" />
+      <bbMax x="0.19683169" y="0.19756523" z="0.13315809" />
+      <bsCentre x="-8.177757e-05" y="-0.00088888407" z="-0.04206887" />
+      <bsRadius value="0.32994458" />
+      <hdTextureDist value="60" />
+      <name>bee_hive15</name>
+      <physicsDictionary>bee_hive15</physicsDictionary>
+      <textureDictionary>bee_hive_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_hive15</assetName>
+    </Item>	
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.14895639" y="-0.15306152" z="-0.0023340373" />
+      <bbMax x="0.24386135" y="0.12062325" z="0.17350818" />
+      <bsCentre x="0.04745248" y="-0.016219135" z="0.08558707" />
+      <bsRadius value="0.2550145" />
+      <hdTextureDist value="60" />
+      <name>bee_honey01</name>
+      <physicsDictionary>bee_honey01</physicsDictionary>
+      <textureDictionary>bee_honey_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_honey01</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.07749286" y="-0.077088065" z="-0.077881105" />
+      <bbMax x="0.07918488" y="0.07956546" z="0.08344175" />
+      <bsCentre x="0.0008460097" y="0.0012386963" z="0.002780322" />
+      <bsRadius value="0.13703404" />
+      <hdTextureDist value="60" />
+      <name>bee_honey02</name>
+      <physicsDictionary>bee_honey02</physicsDictionary>
+      <textureDictionary>bee_honey_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_honey02</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.1321682" y="-0.056371495" z="0.0004445267" />
+      <bbMax x="0.12101585" y="0.050553855" z="0.13974003" />
+      <bsCentre x="-0.0055761784" y="-0.0029088203" z="0.07009228" />
+      <bsRadius value="0.15406041" />
+      <hdTextureDist value="60" />
+      <name>bee_honey03</name>
+      <physicsDictionary>bee_honey03</physicsDictionary>
+      <textureDictionary>bee_honey_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_honey03</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.10304536" y="-0.1026263" z="0.00067096495" />
+      <bbMax x="0.102207035" y="0.10262634" z="0.23639455" />
+      <bsCentre x="-0.0004191622" y="1.8626451e-08" z="0.11853276" />
+      <bsRadius value="0.18696444" />
+      <hdTextureDist value="60" />
+      <name>bee_honey04</name>
+      <physicsDictionary>bee_honey04</physicsDictionary>
+      <textureDictionary>bee_honey_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_honey04</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.08658188" y="-0.08016385" z="-0.12584218" />
+      <bbMax x="0.08974574" y="0.13676947" z="0.14079556" />
+      <bsCentre x="0.0015819296" y="0.028302811" z="0.0074766874" />
+      <bsRadius value="0.1931626" />
+      <hdTextureDist value="60" />
+      <name>bee_honey05</name>
+      <physicsDictionary>bee_honey05</physicsDictionary>
+      <textureDictionary>bee_honey_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_honey05</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.07639384" y="-0.07372153" z="-0.08920988" />
+      <bbMax x="0.07022341" y="0.07948947" z="0.08828792" />
+      <bsCentre x="-0.0030852146" y="0.0028839707" z="-0.0004609786" />
+      <bsRadius value="0.1382712" />
+      <hdTextureDist value="60" />
+      <name>bee_honey06</name>
+      <physicsDictionary>bee_honey06</physicsDictionary>
+      <textureDictionary>bee_honey_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_honey06</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.04550015" y="-0.044631008" z="-0.001026239" />
+      <bbMax x="0.047595605" y="0.050445806" z="0.09453213" />
+      <bsCentre x="0.0010477267" y="0.002907399" z="0.04675295" />
+      <bsRadius value="0.081911266" />
+      <hdTextureDist value="60" />
+      <name>bee_honey07</name>
+      <physicsDictionary>bee_honey07</physicsDictionary>
+      <textureDictionary>bee_honey_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_honey07</assetName>
+    </Item>	
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.30228794" y="-0.034701034" z="-0.25287345" />
+      <bbMax x="0.30251214" y="0.034419097" z="0.15752661" />
+      <bsCentre x="0.000112101436" y="-0.00014096871" z="-0.04767342" />
+      <bsRadius value="0.36707935" />
+      <hdTextureDist value="60" />
+      <name>bee_honeycomp01</name>
+      <physicsDictionary>bee_honeycomp01</physicsDictionary>
+      <textureDictionary>bee_honey_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_honeycomp01</assetName>
+    </Item>	
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.30236253" y="-0.034653973" z="-0.25292808" />
+      <bbMax x="0.30243754" y="0.03446615" z="0.15747198" />
+      <bsCentre x="3.7506223e-05" y="-9.391084e-05" z="-0.047728047" />
+      <bsRadius value="0.36707935" />
+      <hdTextureDist value="60" />
+      <name>bee_honeycomp02</name>
+      <physicsDictionary>bee_honeycomp02</physicsDictionary>
+      <textureDictionary>bee_honey_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_honeycomp02</assetName>
+    </Item>		
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.0552372" y="-0.10825491" z="-1.40733505e-08" />
+      <bbMax x="0.055237565" y="0.12894636" z="0.27725127" />
+      <bsCentre x="1.8253922e-07" y="0.010345727" z="0.13862564" />
+      <bsRadius value="0.1906157" />
+      <hdTextureDist value="60" />
+      <name>bee_smoker01</name>
+      <physicsDictionary>bee_smoker01</physicsDictionary>
+      <textureDictionary>bee_honey_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_smoker01</assetName>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="32" />
+      <avoidanceflags value="0" />
+      <bbMin x="-0.05684" y="-0.13212924" z="-0.0009111442" />
+      <bbMax x="0.05684" y="0.1321292" z="0.27177247" />
+      <bsCentre x="0.0" y="-1.4901161e-08" z="0.13543066" />
+      <bsRadius value="0.1981868" />
+      <hdTextureDist value="60" />
+      <name>bee_smoker02</name>
+      <physicsDictionary>bee_smoker02</physicsDictionary>
+      <textureDictionary>bee_honey_txt</textureDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bee_smoker02</assetName>
+    </Item>
+  </archetypes>
+  <name>bee_props</name>
+</CMapTypes>

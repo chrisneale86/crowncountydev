@@ -1,0 +1,265 @@
+@font-face {
+    font-family: crock;
+    src: url(fonts/crock.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: cowboys;
+    src: url(fonts/CowboyMovie.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: rdr;
+    src: url(fonts/HapnaSlabSerif-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: sheriff;
+    src: url(fonts/Thesignature.ttf) format('truetype');
+}
+
+
+body {
+    display: none;
+}
+
+#wantedBoardContainer {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+
+#wantedBoardContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('images/tooltip.png');
+    background-size: 90vw 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+    z-index: -1;
+}
+
+
+#wantedBoardHeader {
+    color: white;
+    font-family: 'cowboys';
+    font-size: 6vw;
+    margin-bottom: 63vh;
+    margin-right: 50vw;
+    opacity: 0.8;
+}
+
+#posterContainer {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    overflow-y: scroll;
+    height: 76vh;
+    width: 49vw;
+    top: 14vh;
+    left: 43vw;
+}
+
+
+#posterContainer::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+#posterContainer::-webkit-scrollbar-thumb {
+    opacity: 0.0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#posterContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+#posterContainer::-webkit-scrollbar {
+    width: 0.1vw;
+}
+
+.wantedBoard {
+    width: 15vw;
+    height: 36vh;
+    margin: 0.5vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.3s ease;
+    filter: brightness(0.8);
+
+}
+
+.wantedBoard img {
+    width: 80%;
+    height: auto;
+    display: none;
+    margin: auto;
+}
+
+.wantedBoard .description {
+    display: none;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: 'crock';
+}
+
+.wantedBoard:hover {
+    transform: scale(0.95);
+    filter: brightness(1.0);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+#displayContainer {
+    position: fixed;
+    left: 20vw;
+    top: 39vh;
+    max-width: 9vw;
+    max-height: 10vh;
+    width: 9vw;
+}
+
+#displayContainer img {
+    position: absolute;
+    opacity: 0.8;
+    left: 1.5vw;
+    top: -2vh;
+    max-height: 180px;
+    max-width: 260px;
+}
+
+.tooltip {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+    top: 28vh;
+    left: 14vw;
+    width: 24vw;
+    padding: 10px;
+    height: 63vh;
+}
+
+
+
+.tooltip p {
+    position: absolute;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    text-align: center;
+    top: 31vh;
+    font-size: 1vw;
+    font-family: crock;
+    color: white;
+    opacity: 0.8;
+}
+
+
+.tooltip reward {
+    position: absolute;
+    color: white;
+    top: 0;
+    font-size: 3vw;
+    font-family: cowboys;
+    opacity: 0.8;
+}
+
+
+.tooltip amount {
+    position: absolute;
+    color: white;
+    bottom: 3vh;
+    font-size: 2vw;
+    font-family: cowboys;
+    opacity: 0.8;
+}
+
+.tooltip titleReward {
+    position: absolute;
+    color: white;
+    bottom: 8vh;
+    font-size: 3vw;
+    font-family: cowboys;
+    opacity: 0.8;
+}
+
+.tooltip name {
+    position: absolute;
+    color: white;
+    top: 26.2vh;
+    font-size: 1vw;
+    font-family: crock;
+    opacity: 0.8;
+}
+
+.tooltip gender {
+    position: absolute;
+    color: white;
+    top: 29vh;
+    font-size: 1vw;
+    font-family: crock;
+    opacity: 0.8;
+}
+
+.tooltip date {
+    position: absolute;
+    color: white;
+    top: 46vh;
+    font-size: 1vw;
+    font-family: crock;
+    opacity: 0.8;
+}
+
+
+.tooltip postedBy {
+    position: absolute;
+    color: white;
+    bottom: 4vh;
+    left: -5vw;
+    font-size: 2vw;
+    font-family: sheriff;
+    opacity: 0.8;
+}
+
+#searchInput {
+    position: absolute;
+    top: 5vw;
+    right: 10vw;
+    font-family: 'rdr';
+    font-size: 1vw;
+    padding: 0.3vw;
+    margin: 20px;
+    border-radius: 8px;
+    width: 8vw;
+    opacity: 0.8;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: white;
+}
+
+#searchInput::placeholder {
+    color: #A9A9A9;
+    opacity: 1;
+}

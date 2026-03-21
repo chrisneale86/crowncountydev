@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.45898438" y="-0.70166016" z="-0.07470715" />
+      <bbMax x="0.5385742" y="13.61957" z="4.0300198" />
+      <bsCentre x="0.039794922" y="6.458955" z="1.9776564" />
+      <bsRadius value="7.4656134" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_haywall01</name>
+      <textureDictionary>haymazetex</textureDictionary>
+      <physicsDictionary>ntc_haywall01</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_haywall01</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.4601416" y="-0.70166016" z="-0.07470703" />
+      <bbMax x="0.5385742" y="6.2947226" z="4.0530033" />
+      <bsCentre x="0.03921631" y="2.7965312" z="1.9891481" />
+      <bsRadius value="4.092212" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_haywall02</name>
+      <textureDictionary>haymazetex</textureDictionary>
+      <physicsDictionary>ntc_haywall02</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_haywall02</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>haymaze</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

@@ -1,0 +1,45 @@
+@font-face {
+  font-family: RDRLino;
+  src: url(font/RDRLino-Regular.ttf);
+}
+
+
+.body {
+  font-family: RDRLino;
+
+}
+
+.HUD {
+  position: static;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: none;
+  position: absolute;
+  text-shadow: 0vw 0.1vw 0.2vw rgba(0, 0, 0, 0.568);
+  max-width: 15.5vw;
+  right: 1%;
+  top: 50%;
+  padding: 0.45vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+/*   -webkit-align-items: center; */
+  -ms-flex-align: center;
+  align-items: left;
+  grid-column-gap: 0.25vw;
+  grid-row-gap: 0.25vw;
+  font-size: 0.8vw;
+  border-style: solid;
+  border-width: 0.05vw;
+  border-color: #ffffff;
+  border-radius: 0.6vw;
+  color: #fff;
+}

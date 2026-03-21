@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CPackFileMetaData>
+  <MapDataGroups/>
+  <HDTxdBindingArray/>
+  <imapDependencies/>
+  <imapDependencies_2>
+	<Item>
+      <imapName>arm_doctor</imapName>
+      <manifestFlags>INTERIOR_DATA</manifestFlags>
+      <itypDepArray>
+        <Item>arm_doctor</Item>
+<Item>int_doctor_office</Item>
+<Item>int_general_store</Item>
+<Item>int_specialist_shop</Item>
+<Item>mp007_naturalist</Item>
+<Item>p_bedroom</Item>
+<Item>p_camp</Item>
+<Item>p_furniture</Item>
+<Item>p_household</Item>
+<Item>p_instrument</Item>
+<Item>p_kitchen</Item>
+<Item>p_light_ground01</Item>
+<Item>p_light_wall01</Item>
+<Item>p_office</Item>
+<Item>p_seating</Item>
+<Item>p_storage</Item>
+<Item>p_store</Item>
+<Item>p_table</Item>
+<Item>p_tool</Item>
+<Item>s_cs_objects</Item>
+<Item>s_lev_des_mp</Item>
+<Item>s_lev_des_re</Item>
+<Item>p_door</Item>
+      </itypDepArray>
+    </Item>
+  </imapDependencies_2>
+  <itypDependencies_2/>
+  <Interiors>
+    <Item>
+      <Name>arm_doctor_int</Name>
+      <Bounds>
+        <Item>arm_doctor_int</Item>
+      </Bounds>
+    </Item>
+  </Interiors>
+  <redm_loves_you_7cc2afb2d40476ed/>
+  <redm_loves_you_c1fa8cdfbc6c9972/>
+  <txdRelationships/>
+  <redm_loves_you_faf7283fa0923550/>
+  <redm_loves_you_5179f30cceb03389/>
+</CPackFileMetaData>

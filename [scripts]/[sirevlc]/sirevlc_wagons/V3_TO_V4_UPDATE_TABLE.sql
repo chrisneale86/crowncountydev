@@ -1,0 +1,5 @@
+ALTER TABLE `sirevlc_wagons`
+
+  ADD COLUMN IF NOT EXISTS `gold` INT(8) NOT NULL DEFAULT 0 AFTER `price`,
+  ADD COLUMN IF NOT EXISTS `stashlimit` INT(10) NOT NULL DEFAULT 0 AFTER `destroyed`,
+  ADD COLUMN IF NOT EXISTS `stashslots` INT(10) NOT NULL DEFAULT 0 AFTER `stashlimit`;

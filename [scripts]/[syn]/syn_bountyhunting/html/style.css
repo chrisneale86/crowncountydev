@@ -1,0 +1,219 @@
+.container{
+background-image: url("img/background.png");
+width:50%;
+height:50%;
+background-position: 50% 50%;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+top: 20%;
+left: 25%;
+}
+
+.paper{
+  background-image: url("img/wanted3.png");
+  width:30%;
+  height:80%;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  }
+
+
+
+#landing, #list{
+width: 16vw;
+position: absolute;
+top: 15vw;
+left: 50%;
+height: 2vh;
+border: 1px solid black;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 40%;
+  column-gap: 10%;
+  margin-left: 20%;
+  margin-top: 18%;
+  margin-bottom: 20%;
+  max-height: 220px;
+  max-width: 600px;
+  padding-right: 5%;
+  padding-top: 0%;
+  padding-bottom: 10%;
+  height: 55%;
+  text-align: center;
+  width: 60%;
+  overflow:auto;
+  float: left; 
+}
+#viewselection2 { 
+  width: 130%;
+  height: 350%;
+  max-height: 150px;
+  max-width: 100px;
+  margin-top: -10%;
+  margin-left: -10%;
+  border: solid transparent;
+  word-wrap:break-word;
+  background: url('img/wanted.png') ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left; 
+  word-wrap:break-word;
+  color: rgb(0, 0, 0);
+  font-size: 100%;
+  text-align: center;
+  list-style-type: none;
+/*   padding: 7px; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 200px 0;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+#wanted { 
+  width: 130%;
+  height: 10%;
+  border: solid transparent;
+  word-wrap:break-word;
+  margin-left: -14%;
+  float: left; 
+  color: rgb(0, 0, 0);
+  font-size: 500%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#reward { 
+  width: 130%;
+  height: 10%;
+  border: solid transparent;
+  word-wrap:break-word;
+  margin-top: 2%;
+  margin-left: -14%;
+  float: left; 
+  color: rgb(0, 0, 0);
+  font-size: 350%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+#names { 
+  width: 130%;
+  height: 10%;
+  border: solid transparent;
+  word-wrap:break-word;
+  margin-top: -15%;
+  margin-left: -14%;
+  float: left; 
+  color: rgb(0, 0, 0);
+  font-size: 200%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+#desc { 
+  height: 15vw;
+  width: 20vw;
+  border: solid transparent;
+  word-wrap:break-word;
+  margin-top: -15%;
+  margin-left: 5vw;
+  float: left; 
+  color: rgb(0, 0, 0);
+  font-size: 100%;
+  word-wrap:break-word;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+#cash { 
+  width: 130%;
+  height: 10%;
+  border: solid transparent;
+  word-wrap:break-word;
+  margin-top: -15%;
+  margin-left: -18%;
+  float: left; 
+  color: rgb(0, 0, 0);
+  font-size: 350%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#text2 { 
+  width:  250px;
+  height: 250px;
+  margin-top: -10%;
+  margin-left: 30%;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  float: left; 
+}
+
+#mission { 
+  width: 5%;
+  height: 5%;
+  margin-top: 38.5vw;
+  margin-left: -15vw;
+  border: solid transparent;
+  word-wrap:break-word;
+  background: url('img/buttonz.png') ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left; 
+  color: rgb(211, 211, 211);
+  font-size: 80%;
+  text-align: center;
+  position: fixed;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#back { 
+  width: 5%;
+  height: 5%;
+  margin-top: 38.5vw;
+  margin-left: -30vw;
+  border: solid transparent;
+  word-wrap:break-word;
+  background: url('img/buttonz.png') ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left; 
+  color: rgb(211, 211, 211);
+  font-size: 80%;
+  text-align: center;
+  position: fixed;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+::-webkit-scrollbar {
+  width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+  background: url('img/toast_bg.png') !important;
+  background-size: 100% 100%!important; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: url('img/bgPanel.png') !important;
+  background-size: 100% 100%!important;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: url('img/buttonv.png') !important;
+  background-size: 100% 100%!important;
+}

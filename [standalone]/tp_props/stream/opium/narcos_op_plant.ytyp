@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes name="tgo_opium_plant3">
+ <extensions />
+ <archetypes>
+  <Item type="CBaseArchetypeDef">
+   <lodDist value="101.228" />
+   <flags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-0.360146" y="-0.239766" z="-0.0475475" />
+   <bbMax x="0.310838" y="0.444176" z="1.28062" />
+   <bsCentre x="-0.0246537" y="0.102205" z="0.616535" />
+   <bsRadius value="0.818843" />
+   <hdTextureDist value="75.9212" />
+   <name>tgo_opium_plant</name>
+   <textureDictionary>opium_txd</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>tgo_opium_plant</assetName>
+   <extensions />
+  </Item>
+ </archetypes>
+ <name>hash_AFE1F26F</name>
+ <dependencies />
+ <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

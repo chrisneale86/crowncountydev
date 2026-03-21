@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-5961.850098" y="-3315.610107" z="-402.580000"/>
+	<streamingExtentsMax x="-5157.750000" y="-2514.030029" z="400.230000"/>
+	<entitiesExtentsMin x="-5611.850098" y="-2965.610107" z="-52.580000"/>
+	<entitiesExtentsMax x="-5507.750000" y="-2864.030029" z="50.230000"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>s_gallowsstairs_03x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-5557.750000" y="-2914.840088" z="-2.580000"/>
+			<rotation w="0.300706" x="0.000000" y="0.000000" z="-0.953717"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_gallowlevernbx01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-5561.850098" y="-2914.030029" z="0.230000"/>
+			<rotation w="0.468701" x="0.000000" y="0.000000" z="0.883357"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_gallowsstairs03x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-5559.879883" y="-2915.610107" z="0.140000"/>
+			<rotation w="0.300706" x="0.000000" y="0.000000" z="-0.953717"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

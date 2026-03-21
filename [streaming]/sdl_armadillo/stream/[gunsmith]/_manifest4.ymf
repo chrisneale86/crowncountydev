@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CPackFileMetaData>
+  <MapDataGroups/>
+  <HDTxdBindingArray />
+  <imapDependencies/>
+  <imapDependencies_2>
+	<Item>
+      <imapName>arm_gunsmith</imapName>
+      <manifestFlags>INTERIOR_DATA</manifestFlags>
+      <itypDepArray>
+        <Item>arm_gunsmith</Item><Item>int_barber</Item>
+<Item>int_doctor_office</Item>
+<Item>int_general_store</Item>
+<Item>int_gunsmith</Item>
+<Item>int_hotel</Item>
+<Item>int_lootable</Item>
+<Item>int_office</Item>
+<Item>int_saloon</Item>
+<Item>int_specialist_shop</Item>
+<Item>mp005_s_lev_des</Item>
+<Item>mp005_s_posse_bounty</Item>
+<Item>mp005_s_possecamp</Item>
+<Item>mp006_lev_des</Item>
+<Item>mp006_lev_des_mp</Item>
+<Item>mp007_lev_des_mp</Item>
+<Item>p_armory</Item>
+<Item>p_bedroom</Item>
+<Item>p_camp</Item>
+<Item>p_door</Item>
+<Item>p_drink</Item>
+<Item>p_drug</Item>
+<Item>p_food</Item>
+<Item>p_furniture</Item>
+<Item>p_household</Item>
+<Item>p_hunting</Item>
+<Item>p_kitchen</Item>
+<Item>p_light_ground01</Item>
+<Item>p_light_hanging01</Item>
+<Item>p_light_wall01</Item>
+<Item>p_office</Item>
+<Item>p_plant</Item>
+<Item>p_roadside</Item>
+<Item>p_seating</Item>
+<Item>p_store</Item>
+<Item>p_table</Item>
+<Item>p_tool</Item>
+<Item>p_window</Item>
+<Item>s_bullets</Item>
+<Item>s_cs_objects</Item>
+<Item>s_lev_des</Item>
+<Item>s_lev_des_re</Item>
+<Item>s_pickups</Item>
+<Item>vehicle_props_int</Item>
+<Item>weapons</Item>
+<Item>p_door</Item>
+<Item>p_window</Item>
+      </itypDepArray>
+    </Item>
+  </imapDependencies_2>
+  <itypDependencies_2/>
+  <Interiors>
+    <Item>
+      <Name>arm_gunsmith_int</Name>
+      <Bounds>
+        <Item>arm_gunsmith_int</Item>
+      </Bounds>
+    </Item>
+  </Interiors>
+   <redm_loves_you_7cc2afb2d40476ed />
+ <redm_loves_you_c1fa8cdfbc6c9972 />
+ <txdRelationships />
+ <imapAliases />
+ <assetOwnerMap />
+</CPackFileMetaData>

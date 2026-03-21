@@ -1,0 +1,333 @@
+SISIKA DOOR HASHES
+
+
+BIG WOOD FRONT DOOR - you can use spooner for this to know the object hash, they are game objects
+
+prop: p_sis_frontgateb_r 
+X:3327.573 Y:-707.5176 Z:43.38306
+
+prop: p_sis_frontgateb_l 
+X:3325.805 Y:-705.5448 Z:43.38306
+
+
+2nd BIG WOOD FRONT DOOR - you can use spooner for this to know the object hash, they are game objects
+
+prop: p_sis_frontgateb_r 
+X:3333.581 Y:-702.056 Z:43.06853
+
+prop: p_sis_frontgateb_l 
+X:3331.815 Y:-700.0859 Z:43.06853
+
+
+METAL WALLS DOORS that are entrance to sisika if you come from bridge
+
+For sis_walls_door1
+Hex: 238DD512
+Decimal: 596497682
+x="3350.991943" y="-644.946472" z="44.537170" 
+
+For sis_walls_door2:
+Hex: DB9A96A
+Decimal: 230271338
+x="3350.563721" y="-648.003052" z="44.537643" 
+
+
+DOOR TOWERS
+
+For sis_tower_door_central:
+Hex: 6B82AF93
+Decimal: 1803726739
+x="3366.479980" y="-680.435120" z="45.636028" z="45.627605"  
+
+For sis_tower_door1:
+Hex: 5228F7C6
+Decimal: 1378416582
+x="3369.641846" y="-723.589355" z="44.423378"  
+
+For sis_tower_door2:
+Hex: 2A6EA852
+Decimal: 711895122
+x="3407.346924" y="-677.658875" z="45.639351" 
+
+For sis_tower_door3:
+Hex: FD88CE87
+Decimal: 4253601415
+x="3384.534424" y="-639.446472" z="45.644089" 
+
+For sis_tower_door4:
+Hex: 7E1E339
+Decimal: 132244281
+x="3318.457520" y="-658.115112" z="45.032860" 
+
+
+CELLS BUILDING
+
+For sis_newblock_main_door1:
+Hex: 8A213964
+Decimal: 2317433188
+x="3339.753174" y="-667.641174" z="44.786285"
+
+For sis_newblock_main_door2:
+Hex: DC305D81
+Decimal: 3694157185
+x="3337.627441" y="-668.207886" z="44.786476"
+
+For sis_newblock_entryright_door:
+Hex: 36E3B2A5
+Decimal: 920892069
+x="3339.430176" y="-663.323486" z="44.786285"
+
+For sis_newblock_entryleft_door:
+Hex: EA79CDC1
+Decimal: 3933851073
+x="3333.316895" y="-664.813843" z="44.786285"
+
+For sis_newblock_intermediaire_right_door:
+Hex: 227DD8DA
+Decimal: 578672858
+x="3342.385010" y="-662.483459" z="44.763107"
+
+For sis_newblock_investigation_door:
+Hex: 858B5CD8
+Decimal: 2240503000
+x="3329.715576" y="-666.624207" z="44.787041"
+
+For sis_newblock_interrogation_door:
+Hex: 26C2F14B
+Decimal: 650309963
+x="3329.003662" y="-664.026978" z="44.787041"
+
+For sis_newblock_central_door:
+Hex: 68EC9CDD
+Decimal: 1760337117
+x="3330.397949" y="-661.265991" z="44.786285"
+
+For sis_newblock_room1stjail_door:
+Hex: 55488B44
+Decimal: 1430817604
+x="3328.041260" y="-660.397949" z="44.763107"
+
+For sis_newblock_corridor1st_door:
+Hex: ACAADDC2
+Decimal: 2896879042
+x="3333.610596" y="-657.747864" z="44.773106"
+
+For sis_newblock_corridor2nd_door:
+Hex: 4647EEAD
+Decimal: 1179119277
+x="3346.351563" y="-654.368164" z="44.773106"
+
+For sis_newblock_corridor3rd_door:
+Hex: 5C8DB939
+Decimal: 1552791865
+x="3348.167969" y="-657.824890" z="44.773106"
+
+For sis_newblock_storage_door:
+Hex: AC92DFBB
+Decimal: 2895306683
+x="3347.139648" y="-663.273682" z="44.790688"
+
+For sis_newblock_canteen_door:
+Hex: C964A9DA
+Decimal: 3378817498
+x="3344.764404" y="-663.478088" z="44.790688"
+
+For sis_newblock_intermediaire_1stfloor_door1:
+Hex: 3CD2DD3A
+Decimal: 1020452154
+x="3348.852295" y="-662.804138" z="47.767624"
+
+For sis_newblock_intermediaire_1stfloor_door2:
+Hex: EF7D4290
+Decimal: 4017963664
+x="3345.152832" y="-665.374939" z="47.776539"
+
+For sis_newblock_2ndfloor_middle_door:
+Hex: 46588D60
+Decimal: 1180208480
+x="3345.116943" y="-665.424438" z="50.796913"
+
+For sis_newblock_director_office_door:
+Hex: 7AAC6BE4
+Decimal: 2058120164
+x="3337.520996" y="-663.018616" z="50.796913"
+
+For sis_newblock_director_room_door:
+Hex: 8F867FEA
+Decimal: 2407956458
+x="3333.573730" y="-664.994324" z="50.796474"
+
+For sis_newblock_2ndfloor_room1_door:
+Hex: 39ECFD69
+Decimal: 971832681
+x="3344.298096" y="-660.613037" z="50.793919"
+
+For sis_newblock_2ndfloor_room2_door:
+Hex: CD2409E7
+Decimal: 3441691111
+x="3333.813477" y="-662.931580" z="50.797668"
+
+JAILS AT CELLS BUILDING
+
+For sis_newblock_solitaire1_door:
+Hex: 98170F74
+Decimal: 2551648116
+x="3345.630859" y="-657.307922" z="47.788280"
+
+For sis_newblock_solitaire2_door:
+Hex: EDA4565C
+Decimal: 3986970204
+x="3344.994141" y="-655.049255" z="47.788280"
+
+For sis_newblock_jaildown_door:
+Hex: 277CCE12
+Decimal: 662490642
+x="3325.836426" y="-661.487244" z="44.786285"
+
+For sis_newblock_jail1r_door:
+Hex: 960D1ED9
+Decimal: 2517442265
+x="3341.176758" y="-659.920715" z="47.789719"
+
+For sis_newblock_jail2r_door:
+Hex: 542B7B90
+Decimal: 1412135824
+x="3337.097412" y="-661.021057" z="47.799717"
+
+For sis_newblock_jail3r_door:
+Hex: 35173299
+Decimal: 890712729
+x="3332.998779" y="-662.134521" z="47.799717"
+
+For sis_newblock_jail4r_door:
+Hex: 7BFE2D53
+Decimal: 2080255315
+x="3328.855713" y="-663.232666" z="47.799717"
+
+For sis_newblock_jail1l_door:
+Hex: 8F6C3E36
+Decimal: 2406235702
+x="3340.908447" y="-662.855042" z="47.790314"
+
+For sis_newblock_jail2l_door:
+Hex: 5DA092BC
+Decimal: 1570804412
+x="3336.768311" y="-663.949585" z="47.789436"
+
+For sis_newblock_jail3l_door:
+Hex: 865F63C6
+Decimal: 2254398406
+x="3332.663330" y="-665.049438" z="47.790314"
+
+For sis_newblock_jail4l_door:
+Hex: F73FA5AD
+Decimal: 4148143533
+x="3328.587402" y="-666.140808" z="47.790314"
+
+
+WORK BLOCK
+
+For sis_workblock_main_door:
+Hex: A8B8ABA6
+Decimal: 2830674854
+x="3378.376709" y="-660.780396" z="45.805721"
+
+For sis_workblock_shop_main_door1:
+Hex: 60526D03
+Decimal: 1616014595
+x="3371.849121" y="-658.318909" z="45.454914"
+
+For sis_workblock_shop_main_door2:
+Hex: 352B16B5
+Decimal: 892016309
+x="3370.909180" y="-651.186829" z="45.444916"
+
+For sis_workblock_shop_middle_door:
+Hex: 40183418
+Decimal: 1075328024
+x="3376.431152" y="-656.826538" z="45.804745"
+
+For sis_workblock_littleroom_door:
+Hex: 912B7BE3
+Decimal: 2435546083
+x="3377.379150" y="-654.105957" z="45.805588"
+
+For sis_workblock_middle_door1:
+Hex: 1B1BC7CA
+Decimal: 454805450
+x="3381.016846" y="-654.990967" z="45.806583"
+
+For sis_workblock_middle_door_furnace:
+Hex: 833134B3
+Decimal: 2201040051
+x="3392.192383" y="-672.162415" z="45.809448"
+
+For sis_workblock_2ndfloor_room_door:
+Hex: 44E1E079
+Decimal: 1155653753
+x="3392.190674" y="-672.165649" z="48.821251"
+
+
+LIBRARY POST OFFICE BLOCK
+
+For sis_3block_main_door:
+Hex: 67E92816
+Decimal: 1743333398
+x="3381.197754" y="-682.679688" z="45.805664"
+
+For sis_3block_library_door:
+Hex: 4DEA7C85
+Decimal: 1307212933
+x="3384.758301" y="-684.909973" z="45.805229"
+
+For sis_3block_postoffice_door:
+Hex: 32D90741
+Decimal: 853083969
+x="3390.750977" y="-689.248108" z="45.805229"
+
+For sis_3block_storage_door:
+Hex: 78E7C324
+Decimal: 2028454692
+x="3387.488281" y="-686.056213" z="45.805229"
+
+For sis_3block_paperfabric_door:
+Hex: 565438B2
+Decimal: 1448360114
+x="3388.303223" y="-689.045593" z="48.785191"
+
+For sis_3block_bath_door:
+Hex: EBEB53FE
+Decimal: 3958068222
+x="3385.996338" y="-691.807251" z="48.785191"
+
+
+MEDICAL CENTER
+
+For sis_doctor_main_door:
+Hex: 81E55DBE
+Decimal: 2179292606
+x="3365.164551" y="-701.826965" z="44.545605"
+
+For sis_doctor_back_door:
+Hex: 1F35A90D
+Decimal: 523610381
+x="3374.066162" y="-702.687439" z="44.545506"
+
+For sis_doctor_middle_door:
+Hex: FE557408
+Decimal: 4267013128
+x="3368.164063" y="-703.458740" z="44.535507"
+
+
+ELECTRIC CHAIR ROOM
+
+For sis_electric_chair_door_room:
+Hex: 9A709F65
+Decimal: 2591072101
+x="3354.872314" y="-713.454163" z="44.055737"
+
+
+Useful link/tool hasher: https://www.rdr2mods.com/wiki/hasher/
+RDR2/GTA5 joaat hasher, using this tool, you can generate joaat hashes for GTA5 and RDR2, and other Rockstar Games titles.
+
+

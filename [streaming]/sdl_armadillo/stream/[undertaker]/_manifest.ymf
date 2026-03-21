@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPackFileMetaData>
+ <MapDataGroups />
+ <HDTxdBindingArray />
+ <imapDependencies />
+ <imapDependencies_2 itemType="CImapDependencies">
+  <Item>
+   <imapName>arm_undertaker</imapName>
+   <manifestFlags>INTERIOR_DATA</manifestFlags>
+   <itypDepArray>
+    <Item>arm_undertaker</Item>
+<Item>p_door</Item>
+<Item>p_window</Item>
+<Item>int_barber</Item>
+<Item>int_depot</Item>
+<Item>int_doctor_office</Item>
+<Item>int_general_store</Item>
+<Item>int_gunsmith</Item>
+<Item>int_jail</Item>
+<Item>int_lootable</Item>
+<Item>int_office</Item>
+<Item>int_saloon</Item>
+<Item>mp001_lev_des_mp</Item>
+<Item>mp004_lev_des_mp</Item>
+<Item>mp006_s_lev_des_rend_targ</Item>
+<Item>p_armory</Item>
+<Item>p_camp</Item>
+<Item>p_door</Item>
+<Item>p_drug</Item>
+<Item>p_furniture</Item>
+<Item>p_household</Item>
+<Item>p_hunting</Item>
+<Item>p_instrument</Item>
+<Item>p_light_ground01</Item>
+<Item>p_light_hanging01</Item>
+<Item>p_light_wall01</Item>
+<Item>p_lumber</Item>
+<Item>p_new_01</Item>
+<Item>p_office</Item>
+<Item>p_plant</Item>
+<Item>p_rhodes_frags</Item>
+<Item>p_seating</Item>
+<Item>p_sign</Item>
+<Item>p_storage</Item>
+<Item>p_store</Item>
+<Item>p_straw_frags</Item>
+<Item>p_tool</Item>
+<Item>p_window</Item>
+<Item>s_cs_objects</Item>
+<Item>s_lev_des_mp</Item>
+<Item>vehicle_props02</Item>
+
+   </itypDepArray>
+  </Item>
+ </imapDependencies_2>
+ <itypDependencies_2 />
+ <Interiors itemType="CInteriorBoundsFiles">
+  <Item>
+   <Name>arm_undertaker_int</Name>
+   <Bounds>
+    <Item>arm_undertaker_int</Item>
+   </Bounds>
+  </Item>
+ </Interiors>
+ <bogwbkaa_0xe4e2a5f7 />
+ <dwsenfba_0x637c584a />
+ <txdRelationships />
+ <imapAliases />
+ <assetOwnerMap />
+</CPackFileMetaData>

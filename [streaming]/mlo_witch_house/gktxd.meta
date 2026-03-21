@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CMapParentTxds>
+<txdRelationships>
+  <Item>
+    <parent>mlo_witch_house_tex_2</parent>
+    <child>mlo_witch_house_tex_1</child>
+  </Item>
+  <Item>
+    <parent>mlo_witch_house_tex_3</parent>
+    <child>mlo_witch_house_tex_2</child>
+  </Item>
+  <Item>
+    <parent>mlo_witch_house_tex_4</parent>
+    <child>mlo_witch_house_tex_3</child>
+  </Item>
+  <Item>
+    <parent>mlo_witch_house_ext</parent>
+    <child>mlo_witch_house_tex_4</child>
+  </Item>
+</txdRelationships>
+</CMapParentTxds>
+

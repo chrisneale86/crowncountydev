@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report System</title>
+    <link rel="stylesheet" href="style_wantedboard.css">
+    <link rel="stylesheet" href="style_reports.css">
+    <link rel="stylesheet" href="style_duty.css">
+</head>
+
+<body>
+    <!-- DUTY SYSTEM -->
+    <div class="window">
+        <div class="titlebar">
+            <text>LAW DUTY</text> <!-- TRANSLATE THIS -->
+            <button class="btn" onclick="togglePage()">
+                <span id="toggle-text">Duty Times</span> <!-- TRANSLATE THIS -->
+            </button>
+            <button class="close-btn" onclick="closeUI()">X</button>
+        </div>
+        <div id="front-page" class="page">
+            <h2>Law Duty List</h2> <!-- TRANSLATE THIS -->
+            <p class="duty-tip">❗Choose location to go on duty above❗</p>
+
+            <div class="card">
+                <div class="row">
+                    <div class="custom-dropdown" id="location-dropdown">
+                        <div class="dropdown-selected" onclick="toggleDropdown('location-dropdown')">
+                            <span id="location-selected-text">Choose Location</span>
+                            <span class="dropdown-arrow">▼</span>
+                        </div>
+                        <div class="dropdown-options" id="location-options">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="on-duty-list" class="list">
+            </div>
+
+            <div class="orders-button-container">
+                <button class="btn orders-btn" onclick="DutySystem.openOrdersCard()">
+                    <!-- TRANSLATE THIS -->
+                    Duty Orders <span id="new-orders-indicator" class="new-orders-indicator hidden">●</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="duty-page" class="page hidden">
+            <div class="row">
+                <h2>Duty Times Review</h2> <!-- TRANSLATE THIS -->
+                <input type="text" id="search" placeholder="Search players...">
+            </div>
+
+            <div class="filter-controls">
+                <div class="custom-dropdown" id="duty-location-dropdown">
+                    <div class="dropdown-selected" onclick="toggleDropdown('duty-location-dropdown')">
+                        <span id="duty-location-selected-text">Choose Location</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <div class="dropdown-options" id="duty-location-options">
+                    </div>
+                </div>
+            </div>
+
+            <div class="scope-controls">
+                <div class="custom-dropdown" id="scope-dropdown">
+                    <div class="dropdown-selected" onclick="toggleDropdown('scope-dropdown')">
+                        <span id="scope-selected-text">Year</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <div class="dropdown-options" id="scope-options">
+                        <div class="dropdown-option" data-value="year" onclick="selectScope('year')">Year</div>
+                        <!-- TRANSLATE THIS -->
+                        <div class="dropdown-option" data-value="month" onclick="selectScope('month')">Month</div>
+                        <!-- TRANSLATE THIS -->
+                    </div>
+                </div>
+
+                <div class="custom-dropdown" id="year-dropdown">
+                    <div class="dropdown-selected" onclick="toggleDropdown('year-dropdown')">
+                        <span id="year-selected-text">2026</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <div class="dropdown-options" id="year-options">
+                        <!-- Years will be generated dynamically from 2025 onwards -->
+                    </div>
+                </div>
+
+                <div class="custom-dropdown hidden" id="month-dropdown">
+                    <div class="dropdown-selected" onclick="toggleDropdown('month-dropdown')">
+                        <span id="month-selected-text">September</span>
+                        <span class="dropdown-arrow">▼</span>
+                    </div>
+                    <div class="dropdown-options" id="month-options">
+                        <div class="dropdown-option" data-value="0" onclick="selectMonth('0')">January</div>
+                        <div class="dropdown-option" data-value="1" onclick="selectMonth('1')">February</div>
+                        <div class="dropdown-option" data-value="2" onclick="selectMonth('2')">March</div>
+                        <div class="dropdown-option" data-value="3" onclick="selectMonth('3')">April</div>
+                        <div class="dropdown-option" data-value="4" onclick="selectMonth('4')">May</div>
+                        <div class="dropdown-option" data-value="5" onclick="selectMonth('5')">June</div>
+                        <div class="dropdown-option" data-value="6" onclick="selectMonth('6')">July</div>
+                        <div class="dropdown-option" data-value="7" onclick="selectMonth('7')">August</div>
+                        <div class="dropdown-option" data-value="8" onclick="selectMonth('8')">September</div>
+                        <div class="dropdown-option" data-value="9" onclick="selectMonth('9')">October</div>
+                        <div class="dropdown-option" data-value="10" onclick="selectMonth('10')">November</div>
+                        <div class="dropdown-option" data-value="11" onclick="selectMonth('11')">December</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="player-list" class="list">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Orders Card -->
+    <div id="orders-card" class="orders-card hidden">
+        <div class="orders-header">
+            <text>LOCATION ORDERS</text> <!-- TRANSLATE THIS -->
+            <div class="orders-controls">
+                <button class="btn" onclick="DutySystem.editOrders()" id="edit-orders-btn">Edit Orders</button>
+                <!-- TRANSLATE THIS -->
+                <button class="btn" onclick="DutySystem.closeOrdersCard()">Close</button> <!-- TRANSLATE THIS -->
+            </div>
+        </div>
+
+        <div class="orders-content">
+            <div id="orders-display" class="orders-display">
+            </div>
+
+            <div id="orders-edit" class="orders-edit hidden">
+                <div class="orders-edit-header">
+                    <div class="current-location-display">
+                        <span class="location-label">Editing orders for:</span> <!-- TRANSLATE THIS -->
+                        <span id="current-location-name" class="location-name">Valentine</span>
+                    </div>
+                    <div class="edit-instructions">
+                        <p><strong>Instructions:</strong></p> <!-- TRANSLATE THIS -->
+                        <p>• Select location from dropdown above to edit specific location</p>
+                        <p>• Click "All Locations" to send same orders to all locations</p>
+                        <p>• Use markdown formatting</p>
+                    </div>
+                </div>
+                <textarea id="orders-textarea" placeholder="Enter orders for this location..."></textarea>
+                <div class="orders-edit-controls">
+                    <button id="all-locations-btn" class="btn" onclick="DutySystem.toggleAllLocations()">All
+                        Locations</button> <!-- TRANSLATE THIS -->
+                    <button class="btn" onclick="DutySystem.saveOrders()">Save Orders</button> <!-- TRANSLATE THIS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- wWANTED BOARD -->
+    <div id="wantedBoardContainer">
+        <div id="wantedBoardHeader"></div>
+        <div id="posterContainer" class="wantedBoardRow"></div>
+        <div id="tooltipContainer"></div>
+        <div id="displayContainer"></div>
+        <input type="text" id="searchInput" placeholder="Search by name..."> <!-- TRANSLATE THIS -->
+    </div>
+
+    <!-- REPORT SYSTEM -->
+    <!-- TRANSLATE SOME OF THIS BELOW -->
+    <div id="reportsContainer">
+        <div id="reportHeader"></div>
+        <div id="reportHeaderTown"></div>
+        <div id="reportDisplayInfo"></div>
+        <image id="reportDisplayBadge" src="" alt="officer badge"></image>
+
+        <div id="buttonsContainer">
+            <button id="Occurences" onclick="occurences()"></button>
+            <button id="Records" onclick="records()"></button>
+            <button id="Jail" onclick="jail()"></button>
+            <button id="PenalCode" onclick="penalcode()"></button>
+            <button id="Archives" onclick="archives()"></button>
+            <button id="Wanted" onclick="wanted()"></button>
+            <button id="Investigation" onclick="investigation()"></button>
+        </div>
+        <img id="reportImageMenu" src="" alt="" style="display: none;">
+        <div id="reportImageMenuDescription"></div>
+
+        <div id="penalCodeContainer"></div>
+        <div id="searchContainer">
+            <input type="text" id="searchInputReport" placeholder="Search for titles..."> <!-- TRANSLATE THIS -->
+        </div>
+
+        <div id="occurencesContainer"></div>
+        <button id="new-occurrence" onclick="newOccurrence()">New Report</button> <!-- TRANSLATE THIS -->
+        <div id="occurenceSearchContainer">
+            <input type="text" id="searchInputOccurrences" placeholder="Search titles or case#...">
+        </div>
+        <div id="overlay" style="display: none;"></div>
+        <div id="recordsContainer"></div>
+        <div id="archivesContainer"></div>
+        <div id="archiveSearchContainer">
+            <input type="text" id="searchInputArchives" placeholder="Search titles or case#..."> <!-- TRANSLATE THIS -->
+        </div>
+        <div id="wantedContainer"></div>
+        <button id="new-request" onclick="newRequest()">New Request</button> <!-- TRANSLATE THIS -->
+        <div id="requestSearchContainer">
+            <input type="text" id="searchInputRequests" placeholder="Search titles or case#..."> <!-- TRANSLATE THIS -->
+        </div>
+        <div id="investigationContainer"></div>
+        <button id="new-investigation" onclick="newInvestigation()">Create Case</button> <!-- TRANSLATE THIS -->
+    </div>
+
+    <div id="tutorialContainer"></div>
+
+    <div id="newOccurrenceContainer" style="display: none;">
+
+        <div id="newOccurrenceHeader"> </div>
+        <form id="newOccurrenceForm">
+
+            <div class="inputTitleTooltip">
+                <span class="tooltip-title">
+                    ⚠️ Enter the title of the occurrence not too long but enough to be searchedfor.
+                </span>
+                <input type="text" id="newOccurrenceTitle" placeholder="Occurrence title...">
+            </div>
+            <div class="inputLocationTooltip">
+                <span class="tooltip-location">
+                    ⚠️ Enter the location of this occurrence with (in a way it can beidentifed)
+                </span>
+                <input type="text" id="newOccurrenceLocation" placeholder="Occurrence location...">
+            </div>
+            <div class="inputTypeTooltip">
+                <select id="newOccurrenceType">
+                    <option value="" disabled selected>Occurrence Type</option>
+                    <option value="ARREST">ARREST</option>
+                    <option value="INCIDENT">INCIDENT</option>
+                    <option value="GENERAL">GENERAL</option>
+                    <option value="JAIL">JAIL</option>
+                    <!-- Add more types here -->
+                </select>
+                <span class="tooltip-type">
+                    ⚠️ Select the type of the request
+                </span>
+            </div>
+
+            <div id="suspectsContainer" class="inputContainer">
+                <input type="text" class="suspectInput" placeholder="Suspects involved or none...">
+                <span class="tooltip-suspect">
+                    ⚠️ type and press buton add to add individual suspect names to the form
+                    ❗ To remove press on the names
+                </span>
+                <button type="button" class="addSuspectButton"
+                    onclick="addNames('newOccurrenceForm','suspectsContainer','suspectInput','suspectList')">Add</button>
+            </div>
+
+            <div id="suspectsIdsContainer" class="inputContainer4">
+                <input type="text" class="suspectIdInput" placeholder="Suspects ids involved or none...">
+                <span class="tooltip-suspectId">
+                    ⚠️ type and press buton add to add individual suspect server id to the form
+                    ❗ To remove press on the ids
+                </span>
+                <button type="button" class="addSuspectIdButton"
+                    onclick="addNames('newOccurrenceForm','suspectsIdsContainer','suspectIdInput','suspectIdList')">Add</button>
+            </div>
+            <div id="officersContainer" class="inputContainer1">
+                <input type="text" class="officerInput" placeholder="Officers involved or none...">
+                <span class="tooltip-officer">
+                    ⚠️ type and press buton add to add individual officer names to theform
+                    ❗ To remove press on the names
+                </span>
+                <button type="button" class="addOfficerButton"
+                    onclick="addNames('newOccurrenceForm','officersContainer','officerInput','officerList')">Add</button>
+            </div>
+            <div id="witnessesContainer" class="inputContainer2">
+                <input type="text" class="witnessInput" placeholder="Witnesses involved or none...">
+                <span class="tooltip-witness">
+                    ⚠️ type and press buton add to add individual witness names to the form
+                    ❗ To remove press on the names
+                </span>
+                <button type="button" class="addWitnessButton"
+                    onclick="addNames('newOccurrenceForm','witnessesContainer','witnessInput','witnessList')">Add</button>
+            </div>
+            <div id="chargesContainer" class="inputContainer3">
+                <input type="text" class="chargeInput" placeholder="Charges (Penal Codes)...">
+                <span class="tooltip-charge">
+                    ❗ type and press buton add to add individual charges to the form (penal codes only)
+                </span>
+                <button type="button" class="addChargeButton"
+                    onclick="addNames('newOccurrenceForm','chargesContainer','chargeInput','chargeList')">Add</button>
+            </div>
+            <div id="imagesContainer" class="inputContainer5">
+                <input type="text" class="imageInput" placeholder="evidence images links...">
+                <span class="tooltip-image">
+                    ❗ add image links that contain evidence of the occurrence
+                </span>
+                <button type="button" class="addImageButton" onclick="addImage('newOccurrenceForm')">Add</button>
+            </div>
+
+            <div id="suspectList" class="nameList"></div>
+            <div id="suspectIdList" class="nameList"></div>
+            <div id="officerList" class="nameList"></div>
+            <div id="witnessList" class="nameList"></div>
+            <div id="chargeList" class="nameList"></div>
+            <div id="imageList" class="nameList"></div>
+
+            <textarea id="newOccurrenceDescription" placeholder="Description"></textarea>
+            <button id="newOccurrenceConfirm" class="submit-report" type="button"
+                onclick="saveOccurrenceChanges('newOccurrenceForm')">
+                Submit Report
+            </button>
+        </form>
+    </div>
+    <div id="newWantedContainer" style="display: none;">
+
+        <div id="newRequestHeader"> </div>
+        <form id="newRequestForm">
+            <div class="inputTitleTooltip">
+                <span class="tooltip-title">
+                    ⚠️ Enter a tittle not too long.
+                </span>
+                <input type="text" id="newOccurrenceTitle" placeholder="Request title...">
+            </div>
+            <div class="inputTypeTooltip">
+                <select id="newOccurrenceType">
+                    <option value="" disabled selected>Request Type</option>
+                    <option value="WARRANT">WARRANT</option>
+                    <option value="BOLO">BOLO</option>
+                    <option value="BOUNTY">BOUNTY</option>
+                    <option value="ARREST">ARREST</option>
+                    <!-- Add more types here -->
+                </select>
+                <span class="tooltip-type">
+                    ⚠️ Select the type of the request
+                </span>
+            </div>
+            <div id="suspectsContainer" class="inputContainer">
+                <input type="text" class="suspectInput" placeholder="Suspects involved or none...">
+                <span class="tooltip-suspect">
+                    ⚠️ type and press buton add to add individual suspect names to the form
+                    ❗ To remove press on the names
+                </span>
+                <button type="button" class="addSuspectButton"
+                    onclick="addNames('newRequestForm','suspectsContainer','suspectInput','suspectList')">Add</button>
+            </div>
+            <div id="officersContainer" class="inputContainer1">
+                <input type="text" class="officerInput" placeholder="Officers involved or none...">
+                <span class="tooltip-officer">
+                    ⚠️ type and press buton add to add individual officer names to theform
+                    ❗ To remove press on the names
+                </span>
+                <button type="button" class="addOfficerButton"
+                    onclick="addNames('newRequestForm','officersContainer','officerInput','officerList')">Add</button>
+            </div>
+            <div id="witnessesContainer" class="inputContainer2">
+                <input type="text" class="witnessInput" placeholder="Witnesses involved or none...">
+                <span class="tooltip-witness">
+                    ⚠️ type and press buton add to add individual witness names to the form
+                    ❗ To remove press on the names
+                </span>
+                <button type="button" class="addWitnessButton"
+                    onclick="addNames('newRequestForm','witnessesContainer','witnessInput','witnessList')">Add</button>
+            </div>
+            <div id="chargesContainer" class="inputContainer3">
+                <input type="text" class="chargeInput" placeholder="Charges (Penal Codes)...">
+                <span class="tooltip-charge">
+                    ⚠️ type and press buton add to add individual charges to the form (penal codes only)
+                    ❗ To remove press on the codes
+                </span>
+                <button type="button" class="addChargeButton"
+                    onclick="addNames('newRequestForm','chargesContainer','chargeInput','chargeList')">Add</button>
+            </div>
+            <div id="imagesContainer" class="inputContainer5">
+                <input type="text" class="imageInput" placeholder="evidence images links...">
+                <span class="tooltip-image">
+                    ❗ add image links that contain evidence for the request
+                </span>
+                <button type="button" class="addImageButton" onclick="addImage('newRequestForm')">Add</button>
+            </div>
+
+            <div id="suspectList" class="nameList"></div>
+            <div id="officerList" class="nameList"></div>
+            <div id="witnessList" class="nameList"></div>
+            <div id="chargeList" class="nameList"></div>
+            <div id="imageList" class="nameList"></div>
+
+            <textarea id="newOccurrenceDescription" placeholder="Description"></textarea>
+            <button id="newReportConfirm" class="submit-report" type="button" onClick()> Submit Report</button>
+            <button type="button" id="newReportConfirm" class="submit-report"
+                onclick="saveReportChanges('newRequestForm')">
+                Submit Report
+            </button>
+        </form>
+    </div>
+
+    <div id="records-container"></div>
+    <div id="searchRecordsContainer">
+        <input type="text" id="searchInputRecords" placeholder="full name...">
+    </div>
+
+    <div id="jail-container"></div>
+
+    <div id="newInvestigationContainer" style="display: none;">
+        <div id="newInvestigationHeader"> </div>
+        <form id="newCaseForm">
+            <div class="inputTitleTooltip">
+                <span class="tooltip-title">
+                    ⚠️ Enter a title for the case but not too long.
+                </span>
+                <input type="text" id="newOccurrenceTitle" placeholder="Request title...">
+            </div>
+
+            <div class="inputTypeTooltip">
+                <select id="newOccurrenceType">
+                    <option value="" disabled selected>Case type</option>
+                    <option value="ROBBERY">ROBBERY</option>
+                    <option value="HOMICIDE">HOMICIDE</option>
+                    <option value="KIDNAPPING">KIDNAPPING</option>
+                    <!-- Add more types here -->
+                </select>
+                <span class="tooltip-type">
+                    ⚠️ Select the type of the case
+                </span>
+            </div>
+
+            <div id="suspectsContainer" class="inputContainer">
+                <input type="text" class="suspectInput" placeholder="Suspects involved or none...">
+                <span class="tooltip-suspect">
+                    ⚠️ type and press buton add to add individual suspect names to the form ❗ To remove press on the
+                    names
+                </span>
+                <button type="button" class="addSuspectButton"
+                    onclick="addNames('newCaseForm','suspectsContainer','suspectInput','suspectList')">Add</button>
+            </div>
+            <div id="officersContainer" class="inputContainer1">
+                <input type="text" class="officerInput" placeholder="Officers involved or none...">
+                <span class="tooltip-officer">
+                    ⚠️ type and press buton add to add individual officer names to theform
+                    ❗ To remove press on the names
+                </span>
+                <button type="button" class="addOfficerButton"
+                    onclick="addNames('newCaseForm','officersContainer','officerInput','officerList')">Add</button>
+            </div>
+            <div id="witnessesContainer" class="inputContainer2">
+                <input type="text" class="witnessInput" placeholder="Witnesses involved or none...">
+                <span class="tooltip-witness">
+                    ⚠️ type and press buton add to add individual witness names to the form
+                    ❗ To remove press on the names
+                </span>
+                <button type="button" class="addWitnessButton"
+                    onclick="addNames('newCaseForm','witnessesContainer','witnessInput','witnessList')">Add</button>
+            </div>
+            <div id="chargesContainer" class="inputContainer3">
+                <input type="text" class="chargeInput" placeholder="Charges (Penal Codes)...">
+                <span class="tooltip-charge">
+                    ⚠️ type and press buton add to add individual charges to the form (penal codes only)
+                    ❗ To remove press on the codes
+                </span>
+                <button type="button" class="addChargeButton"
+                    onclick="addNames('newCaseForm','chargesContainer','chargeInput','chargeList')">Add</button>
+            </div>
+            <div id="imagesContainer" class="inputContainer5">
+                <input type="text" class="imageInput" placeholder="evidence images links...">
+                <span class="tooltip-image">
+                    ⚠️ add valid image links and edited that contain evidence for the case.
+                    ❗ to remove press on the links
+                </span>
+                <button type="button" class="addImageButton" onclick="addImage('newCaseForm')">Add</button>
+            </div>
+            <div id="suspectList" class="nameList"></div>
+            <div id="officerList" class="nameList"></div>
+            <div id="witnessList" class="nameList"></div>
+            <div id="chargeList" class="nameList"></div>
+            <div id="imageList" class="nameList"></div>
+            <textarea id="newOccurrenceDescription" placeholder="Description"></textarea>
+            <button type="button" id="newReportConfirm" class="submit-report" onclick="saveCaseChanges('newCaseForm')">
+                Save Changes
+            </button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script_main.js"></script>
+    <script src="script_wantedboard.js"></script>
+    <script src="script_reports.js"></script>
+    <script src="script_duty.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+local TEXTS = Config.Texts
+local TEXTURES = Config.Textures
+local notifSettings = {}
+-----------------------------------------------------------------------------------------------------
+local notifSettings = {
+	[1] = {
+		TEXTS.FastTravel, TEXTS.Arrived, TEXTURES.alert[1], TEXTURES.alert[2], 3000,
+	},
+	[2] = {
+		TEXTS.FastTravel, TEXTS.NotAllowed, TEXTURES.alert[1], TEXTURES.alert[2], 3000,
+	},
+	[3] = {
+		TEXTS.FastTravel, TEXTS.NoJob, TEXTURES.alert[1], TEXTURES.alert[2], 3000,
+	},
+	[4] = {
+		TEXTS.FastTravel, TEXTS.NoMoney, TEXTURES.alert[1], TEXTURES.alert[2], 3000,
+	},
+	[5] = {
+		TEXTS.FastTravel, TEXTS.NoItems, TEXTURES.alert[1], TEXTURES.alert[2], 3000,
+	},
+	[6] = {
+		TEXTS.FastTravel, TEXTS.WaitCD, TEXTURES.alert[1], TEXTURES.alert[2], 3000,
+	},
+	--[[
+	[] = {
+		TEXTS.TEXT, TEXTS.Saved, TEXTURES.alert[1], TEXTURES.alert[2], 3000,
+	},
+]]
+}
+
+-----------------------------------------------------------------------------------------------------
+function CallTravelNotif(id, extra)
+	local _id = tonumber(id)
+	local title = notifSettings[_id][1]
+	local text = notifSettings[_id][2]
+	local dict = notifSettings[_id][3]
+	local texture = notifSettings[_id][4]
+	local timer = notifSettings[_id][5]
+
+------------------EXTRA CODE START------------------
+	if extra ~= nil then 						 --|
+		if extra.title ~= nil then 				 --|
+			title = extra.title					 --|
+		end									 	 --|
+		if extra.text ~= nil then 				 --|
+			text = extra.text					 --|
+		end										 --|
+		if extra.dict ~= nil then 				 --|
+			dict = extra.dict					 --|
+		end										 --|
+		if extra.texture ~= nil then 			 --|
+			texture = extra.texture				 --|
+		end										 --|
+		if extra.timer ~= nil then 				 --|
+			timer = extra.timer					 --|
+		end										 --|
+	end											 --|
+------------------EXTRA CODE END------------------
+	TriggerEvent("Notification:ricx_fasttravel", title, text, dict, texture, timer)--change this to a different notification logic if you want
+end
+-----------------------------------------------------------------------------------------------------
+RegisterNetEvent("ricx_fasttravel:call_notif", function(id, extra)
+	local _id = tonumber(id)
+	CallTravelNotif(_id, extra)
+end)
+----------------------------Basic Notification----------------------------
+RegisterNetEvent('Notification:ricx_fasttravel', function(t1, t2, dict, txtr, timer)
+    local _dict = tostring(dict)
+    PrepareTexture(_dict)
+    exports.ricx_fasttravel.LeftNot(0, tostring(t1), tostring(t2), tostring(dict), tostring(txtr), tonumber(timer))
+    SetStreamedTextureDictAsNoLongerNeeded(_dict)
+end)
+--------------------------------------------------------------------------------------------------------------------------------------------

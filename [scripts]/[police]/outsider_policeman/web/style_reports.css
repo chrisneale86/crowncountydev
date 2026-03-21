@@ -1,0 +1,1262 @@
+/* body and fonts are in wanted.css */
+
+#reportsContainer {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+
+#reportsContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('images/reportbackground.png');
+    background-size: 90vw 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1.0;
+    z-index: -1;
+}
+
+#reportDisplayBadge {
+    position: absolute;
+    height: 6vh;
+    top: 16vh;
+    left: 42vw;
+    opacity: 1;
+}
+
+#reportDisplayInfo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+}
+
+.date-class,
+.name-class,
+.job-class,
+.rank-class {
+    position: absolute;
+    color: white;
+    font-family: crock;
+    font-size: 1.0rem;
+}
+
+.date-class {
+    top: 11vh;
+    left: 42vw;
+    width: 6vw;
+}
+
+.name-class {
+    top: 11vh;
+    left: 46.8vw;
+    width: 11vw;
+}
+
+.job-class {
+    top: 11vh;
+    left: 52vw;
+    width: 6vw;
+}
+
+.rank-class {
+    top: 11vh;
+    left: 57.5vw;
+}
+
+#reportHeader {
+    position: absolute;
+    color: white;
+    font-family: cowboys;
+    font-size: 2.5vw;
+    top: 12vh;
+    opacity: 0.8;
+    left: 26.7vw;
+    transform: translateX(-50%);
+}
+
+#reportHeaderTown {
+    position: absolute;
+    color: white;
+    font-family: crock;
+    font-size: 1vw;
+    top: 17.5vh;
+    left: 45.5vw;
+    opacity: 0.8;
+
+}
+
+#buttonsContainer {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 41vh;
+    left: 16.6vw;
+}
+
+#reportImageMenu {
+    width: 10vw;
+    height: 16vh;
+    position: absolute;
+    top: 20vh;
+    left: 21.5vw;
+    opacity: 0.9;
+
+}
+
+#reportImageMenuDescription {
+    position: absolute;
+    bottom: 14vh;
+    color: white;
+    font-family: 'rdr';
+    font-size: 0.9vw;
+    left: 26vw;
+    transform: translateX(-50%);
+}
+
+.custom-dropdown {
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+.selected-value {
+    padding: 0px 10px;
+    background-color: transparent;
+    border: nonne;
+
+}
+
+
+.selected-value:hover {
+    transform: scale(0.95);
+}
+
+.options-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.option {
+    padding: 0px 10px;
+    font-family: crock;
+    color: white;
+}
+
+.option:hover {
+    background-color: black;
+}
+
+#buttonsContainer button {
+    display: block;
+    color: white;
+    font-family: crock;
+    font-size: 1vw;
+    background: none;
+    border: none;
+    opacity: 0.6;
+    height: 6.5vh;
+    width: 19.5vw;
+    background-image: url('images/selection_box.png');
+    background-size: 100% 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -0.8vh;
+}
+
+#buttonsContainer button.button-selected {
+    background-image: url('images/select.png'), url('images/selection_box.png');
+    background-size: 100% 70px, 100% 70px;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    opacity: 1.0;
+}
+
+#buttonsContainer button:hover {
+    background-image: url('images/select.png'), url('images/selection_box.png');
+    background-size: 100% 70px, 100% 70px;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    opacity: 1.0;
+}
+
+
+#penalCodeContainer,
+#occurencesContainer,
+#archivesContainer,
+#tutorialContainer,
+#wantedContainer,
+#investigationContainer,
+#records-container,
+#jail-container {
+    display: none;
+    justify-items: center;
+    position: absolute;
+    top: 25vh;
+    left: 44vw;
+    width: 39vw;
+    height: 48vh;
+    opacity: 0.8;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+#penalCodeContainer::-webkit-scrollbar,
+#occurencesContainer::-webkit-scrollbar,
+#archivesContainer::-webkit-scrollbar,
+#tutorialContainer::-webkit-scrollbar,
+#wantedContainer::-webkit-scrollbar,
+#investigationContainer::-webkit-scrollbar,
+#records-container::-webkit-scrollbar,
+#jail-container::-webkit-scrollbar {
+    width: 0.2vw;
+}
+
+#penalCodeContainer::-webkit-scrollbar-track,
+#occurencesContainer::-webkit-scrollbar-track,
+#archivesContainer::-webkit-scrollbar-track,
+#tutorialContainer::-webkit-scrollbar-track,
+#wantedContainer::-webkit-scrollbar-track,
+#investigationContainer::-webkit-scrollbar-track,
+#records-container::-webkit-scrollbar-track,
+#jail-container::-webkit-scrollbar-track {
+    background: none;
+
+}
+
+#penalCodeContainer::-webkit-scrollbar-thumb,
+#occurencesContainer::-webkit-scrollbar-thumb,
+#archivesContainer::-webkit-scrollbar-thumb,
+#tutorialContainer::-webkit-scrollbar-thumb,
+#wantedContainer::-webkit-scrollbar-thumb,
+#investigationContainer::-webkit-scrollbar-thumb,
+#records-container::-webkit-scrollbar-thumb,
+#jail-container::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 19px;
+}
+
+#penalCodeContainer::-webkit-scrollbar-thumb:hover,
+#occurencesContainer::-webkit-scrollbar-thumb:hover,
+#archivesContainer::-webkit-scrollbar-thumb:hover,
+#tutorialContainer::-webkit-scrollbar-thumb:hover,
+#wantedContainer::-webkit-scrollbar-thumb:hover,
+#investigationContainer::-webkit-scrollbar-thumb:hover,
+#records-container::-webkit-scrollbar-thumb:hover,
+#jail-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.typeEntries,
+.occurrenceEntries {
+    padding-left: 0.4vw;
+    margin-top: 1vh;
+
+}
+
+.typeHeader,
+.occurrenceHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37vw;
+    font-size: 1vw;
+    height: 4vh;
+    color: white;
+    font-family: crock;
+    opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('images/selection_box.png');
+    background-size: 100% 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.typeHeader:hover,
+.occurrenceHeader:hover {
+    opacity: 1.0;
+    background-image: url('images/select.png'), url('images/selection_box.png');
+    background-size: 100% 4.2vh, 100% 4.2vh;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.penalCodeEntry,
+.occurrenceCodeEntry {
+    border-bottom: 1px solid whitesmoke;
+    padding: 1vw;
+    width: 35vw;
+}
+
+.criminal-records {
+    padding: 0.2vw;
+    width: 37vw;
+}
+
+.criminal-records h3 {
+    color: white;
+    font-family: rdr;
+    font-size: 0.8vw;
+    margin-top: 6vh;
+}
+
+
+.code {
+    font-size: 0.8vw;
+    margin-left: 1vw;
+    font-family: rdr;
+}
+
+.entryHeader,
+.occurrenceEntryHeader {
+    color: white;
+    font-family: crock;
+    font-size: 1vw;
+    opacity: 0.8;
+
+}
+
+.entryHeader:hover,
+.occurrenceEntryHeader:hover {
+    color: white;
+    font-family: crock;
+    opacity: 1.0;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+.entryContent,
+.occurrenceEntryContent,
+.record-panel {
+    display: none;
+    color: white;
+    font-size: 0.8vw;
+    font-family: rdr;
+    margin-top: 1vh;
+    border-radius: 20px;
+    padding: 0.7vw;
+    background-image: url('images/pause_background.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#searchContainer,
+#occurenceSearchContainer,
+#archiveSearchContainer,
+#requestSearchContainer,
+#searchRecordsContainer {
+    position: absolute;
+    top: 18.7vh;
+    right: 17vw;
+}
+
+
+
+#searchInputReport,
+#searchInputOccurrences,
+#searchInputArchives,
+#searchInputRequests,
+#searchInputRecords {
+    display: none;
+    border: none;
+    border-radius: 8px;
+    width: 6vw;
+    padding: 0.25vw;
+    font-size: 0.6vw;
+    font-family: rdr;
+}
+
+.entry-time-or-fine,
+.entry-fine-info {
+    font-family: crock;
+    font-size: 25px;
+    white-space: pre-line;
+}
+
+.entry-notes {
+    font-family: rdr;
+    white-space: pre-line;
+}
+
+/*Ocurrences*/
+
+.occurrenceTitleCount {
+    font-size: 0.8vw;
+    margin-left: 1vw;
+    color: black;
+    font-family: crock;
+    border-radius: 50%;
+    background-color: white;
+    height: 2vh;
+    width: 1.2vw;
+    line-height: 2vh;
+    text-align: center;
+}
+
+.no-occurrences-message {
+    padding: 10px;
+    text-align: center;
+    margin-top: 25%;
+    color: white;
+    font-family: rdr;
+    font-size: 2rem;
+
+}
+
+.entry-occurrence-info,
+.entry-occurrence-witnesses,
+.entry-occurrence-suspects,
+.entry-occurrence-charges,
+.entry-occurrence-evidence,
+.entry-occurrence-location,
+.entry-record-charges,
+.record-label,
+.entry-record-date,
+.entry-record-type,
+.record-title {
+    font-family: crock;
+    font-size: 0.7vw;
+}
+
+.reported-by {
+    font-family: crock;
+    font-size: 18px;
+    opacity: 1;
+}
+
+.reported-name {
+    font-family: crock;
+    color: white;
+    background-color: white;
+    margin: 5px;
+    padding: 1px 10px;
+    color: black;
+    border-radius: 15px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.entry-occurrence-description,
+.entry-record-description {
+    font-family: rdr;
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+.occurence-desc-label,
+.record-desc-label {
+    font-family: crock;
+    font-size: 1.1vw;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-left: 13vw;
+    text-shadow: 2px -5px 0px rgba(0, 0, 0, 0.8);
+}
+
+.entry-edited {
+    font-size: 21px;
+    color: lightyellow;
+}
+
+#new-occurrence,
+#new-investigation,
+#new-request {
+    display: none;
+    position: absolute;
+    height: 2.2vh;
+    left: 69vw;
+    top: 18.8vh;
+    border: none;
+    border-radius: 8px;
+    width: 7vw;
+    font-family: crock;
+    font-size: 16px;
+}
+
+#new-occurrence:hover,
+#new-investigation:hover,
+#new-request:hover {
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+
+.submit-report {
+    position: absolute;
+    background-image: url('images/selection_box.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 9vw;
+    bottom: 5.5vh;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    font-family: crock;
+    font-size: 24px;
+    color: white;
+    width: 23vw;
+    height: 3vh;
+    opacity: 0.8;
+}
+
+
+.submit-report:hover {
+    opacity: 1.0;
+    background-image: url('images/select.png'), url('images/selection_box.png');
+    background-size: 100% 100%, 100% 100%;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+
+}
+
+
+#newOccurrenceContainer,
+#newInvestigationContainer,
+#newWantedContainer {
+    display: none;
+    position: absolute;
+    background-image: url('images/tooltip_1.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 94vh;
+    width: 40vw;
+    left: 30vw;
+    top: 3vh;
+    z-index: 2;
+}
+
+#newOccurrenceForm,
+#newCaseForm,
+#newRequestForm {
+    display: block;
+    position: absolute;
+    height: 90vh;
+    width: 39vw;
+    left: 0;
+    top: 3vw;
+}
+
+#newOccurrenceType,
+#newOccurrenceLocation,
+#newOccurrenceTitle,
+#newOccurrenceDescription {
+    display: block;
+    position: absolute;
+    padding: 0 20px;
+    color: white;
+    resize: none;
+    border: none;
+    border-radius: 12px;
+    background-image: url('images/selection_box.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+#newOccurrenceTitle {
+    height: 3.5vh;
+    left: 22.4vw;
+    top: 10vh;
+    width: 13.5vw;
+    font-size: 25px;
+    font-family: crock;
+}
+
+#newOccurrenceType {
+    height: 3vh;
+    left: 27.5vw;
+    top: 21vh;
+    width: 10vw;
+    font-size: 20px;
+    font-family: crock;
+    background-color: black;
+}
+
+#newCaseForm #newOccurrenceType,
+#newRequestForm #newOccurrenceType {
+    top: 15vh;
+}
+
+#newOccurrenceLocation {
+    height: 3.5vh;
+    padding: 0 20px;
+    left: 23.9vw;
+    top: 15vh;
+    border: none;
+    width: 12vw;
+    font-size: 20px;
+    font-family: crock;
+
+}
+
+#newOccurrenceDescription {
+    background-color: transparent;
+    height: 25vh !important;
+    left: 5vw;
+    bottom: 10vh;
+    width: 29.5vw;
+    font-size: 20px;
+    font-family: rdr;
+    color: white;
+    padding: 20px 20px;
+    opacity: 0.9;
+    border-radius: 12px;
+    background-image: url('images/pause_background.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+#newOccurrenceDescription:focus,
+#newOccurrenceType:focus,
+#newOccurrenceLocation:focus,
+#newOccurrenceForm input:focus,
+#newOccurrenceTitle:focus,
+#newCaseForm input:focus,
+#newRequestForm input:focus {
+    outline: none;
+    border: none;
+}
+
+#newOccurrenceForm .inputContainer input,
+#newOccurrenceForm .inputContainer1 input,
+#newOccurrenceForm .inputContainer2 input,
+#newOccurrenceForm .inputContainer3 input,
+#newOccurrenceForm .inputContainer4 input,
+#newOccurrenceForm .inputContainer5 input,
+#newCaseForm .inputContainer input,
+#newCaseForm .inputContainer1 input,
+#newCaseForm .inputContainer2 input,
+#newCaseForm .inputContainer3 input,
+#newCaseForm .inputContainer5 input,
+#newRequestForm .inputContainer input,
+#newRequestForm .inputContainer1 input,
+#newRequestForm .inputContainer2 input,
+#newRequestForm .inputContainer3 input,
+#newRequestForm .inputContainer5 input {
+    position: absolute;
+    width: 8vw;
+    height: 1.8vh;
+    padding: 0.3vw;
+    border-radius: 10px;
+    color: white;
+    font-family: rdr;
+    font-size: 15px;
+    background-image: url('images/selection_box.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+
+}
+
+
+/*images*/
+#newOccurrenceForm .inputContainer5 input {
+    left: 2vw;
+    top: 45.1vh;
+}
+
+#newOccurrenceForm .inputContainer input,
+#newCaseForm .inputContainer input,
+#newRequestForm .inputContainer input {
+    left: 2vw;
+    top: 10.3vh;
+}
+
+#newOccurrenceForm .inputContainer4 input,
+#newCaseForm .inputContainer1 input,
+#newRequestForm .inputContainer1 input {
+    left: 2vw;
+    top: 17.3vh;
+}
+
+#newOccurrenceForm .inputContainer1 input,
+#newCaseForm .inputContainer2 input,
+#newRequestForm .inputContainer2 input {
+    /*     padding: 8px; */
+    left: 2vw;
+    top: 24.3vh;
+}
+
+#newOccurrenceForm .inputContainer2 input,
+#newCaseForm .inputContainer3 input,
+#newRequestForm .inputContainer3 input {
+    left: 2vw;
+    top: 31.2vh;
+}
+
+#newOccurrenceForm .inputContainer3 input,
+#newCaseForm .inputContainer5 input,
+#newRequestForm .inputContainer5 input {
+    left: 2vw;
+    top: 38.2vh;
+}
+
+#newCaseForm .addSuspectButton,
+#newCaseForm .addWitnessButton,
+#newCaseForm .addChargeButton,
+#newCaseForm .addOfficerButton,
+#newCaseForm .addImageButton,
+#newOccurrenceForm .addSuspectButton,
+#newOccurrenceForm .addSuspectIdButton,
+#newOccurrenceForm .addWitnessButton,
+#newOccurrenceForm .addChargeButton,
+#newOccurrenceForm .addOfficerButton,
+#newOccurrenceForm .addImageButton,
+#newRequestForm .addSuspectButton,
+#newRequestForm .addWitnessButton,
+#newRequestForm .addChargeButton,
+#newRequestForm .addOfficerButton,
+#newRequestForm .addImageButton {
+    display: block;
+    position: absolute;
+    padding: 6px 12px;
+    background-color: white;
+    color: color;
+    border: none;
+    border-radius: 2px;
+    font-family: crock;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+#newOccurrenceForm .addSuspectIdButton {
+    top: 17.7vh;
+    left: 11.5vw;
+}
+
+#newCaseForm .addSuspectButton,
+#newOccurrenceForm .addSuspectButton,
+#newRequestForm .addSuspectButton {
+    top: 10.9vh;
+    left: 11.5vw;
+}
+
+
+#newOccurrenceForm .addWitnessButton {
+    top: 31.6vh;
+    left: 11.5vw;
+}
+
+#newCaseForm .addWitnessButton,
+#newRequestForm .addWitnessButton {
+    top: 24.6vh;
+    left: 11.5vw;
+}
+
+
+#newOccurrenceForm .addChargeButton {
+    top: 38.6vh;
+    left: 11.5vw;
+}
+
+#newCaseForm .addChargeButton,
+#newRequestForm .addChargeButton {
+    top: 31.6vh;
+    left: 11.5vw;
+}
+
+#newOccurrenceForm .addOfficerButton {
+    top: 24.7vh;
+    left: 11.5vw;
+}
+
+#newCaseForm .addOfficerButton,
+#newRequestForm .addOfficerButton {
+    top: 17.7vh;
+    left: 11.5vw;
+}
+
+
+#newOccurrenceForm .addImageButton {
+    top: 45.6vh;
+    left: 11.5vw;
+}
+
+#newCaseForm .addImageButton,
+#newRequestForm .addImageButton {
+    top: 38.6vh;
+    left: 11.5vw;
+}
+
+#newCaseForm .addChargeButton:hover,
+#newCaseForm .addWitnessButton:hover,
+#newCaseForm .addOfficerButton:hover,
+#newCaseForm .addSuspectButton:hover,
+#newCaseForm .addImageButton:hover,
+#newOccurrenceForm .addChargeButton:hover,
+#newOccurrenceForm .addWitnessButton:hover,
+#newOccurrenceForm .addOfficerButton:hover,
+#newOccurrenceForm .addSuspectButton:hover,
+#newOccurrenceForm .addSuspectIdButton:hover,
+#newOccurrenceForm .addImageButton:hover,
+#newRequestForm .addChargeButton:hover,
+#newRequestForm .addWitnessButton:hover,
+#newRequestForm .addOfficerButton:hover,
+#newRequestForm .addSuspectButton:hover,
+#newRequestForm .addImageButton:hover {
+    opacity: 1.0;
+    transform: scale(1.05)
+}
+
+.name-bubble {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    white-space: nowrap;
+    background-image: url('images/selection_box.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.name-bubble-form {
+    display: inline-block;
+    border-radius: 15px;
+    font-family: crock;
+    color: white;
+    background-color: white;
+    margin: 5px;
+    padding: 1px 10px;
+    color: black;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+#suspectList,
+#suspectIdList,
+#officerList,
+#witnessList,
+#chargeList,
+#imageList {
+    position: absolute;
+}
+
+#suspectList {
+    top: 14vh;
+    left: 2.4vw;
+}
+
+#suspectIdList {
+    top: 21vh;
+    left: 2.4vw;
+}
+
+#officerList {
+    top: 27vh;
+    left: 2.0vw;
+    padding: 10px;
+}
+
+#newCaseForm #officerList,
+#newRequestForm #officerList {
+    top: 20vh;
+}
+
+#witnessList {
+    top: 34vh;
+    left: 2.0vw;
+    padding: 10px;
+}
+
+#newCaseForm #witnessList,
+#newRequestForm #witnessList {
+    top: 27vh;
+}
+
+#chargeList {
+    top: 41vh;
+    left: 2.0vw;
+    padding: 10px;
+}
+
+#newCaseForm #chargeList,
+#newRequestForm #chargeList {
+    top: 34vh;
+}
+
+#imageList {
+    top: 48vh;
+    left: 2.0vw;
+    padding: 10px;
+}
+
+#newCaseForm #imageList,
+#newRequestForm #imageList {
+    top: 41vh;
+}
+
+#newOccurrenceHeader,
+#newInvestigationHeader,
+#newRequestHeader {
+    margin-top: 7vh;
+    margin-left: 6vw;
+    font-family: cowboys;
+    font-size: 4.3em;
+    color: white;
+    border-bottom: 1px solid white;
+    opacity: 0.8;
+    line-height: 5vh;
+    text-align: center;
+    width: 28vw
+}
+
+.tooltip-suspect,
+.tooltip-suspectId,
+.tooltip-officer,
+.tooltip-witness,
+.tooltip-charge,
+.tooltip-type,
+.tooltip-location,
+.tooltip-title,
+.tooltip-image {
+    visibility: hidden;
+    width: 20vw;
+    opacity: 1.0;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: rdr;
+    text-align: center;
+    padding: 29px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 52vh;
+    left: 17vw;
+    background-image: url('images/selection_box.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    white-space: pre-line;
+}
+
+.inputContainer:hover .tooltip-suspect,
+.inputContainer4:hover .tooltip-suspectId,
+.inputContainer1:hover .tooltip-officer,
+.inputContainer2:hover .tooltip-witness,
+.inputContainer3:hover .tooltip-charge,
+.inputTypeTooltip:hover .tooltip-type,
+.inputLocationTooltip:hover .tooltip-location,
+.inputTitleTooltip:hover .tooltip-title,
+.inputContainer5:hover .tooltip-image {
+    visibility: visible;
+}
+
+.archiveButton,
+.deleteButton,
+.editButton,
+.rejectButton,
+.lockerButton,
+.wantedButton,
+.jailButton,
+.confineButton,
+.acceptButton {
+    background-color: white;
+    border-radius: 15px;
+    font-family: crock;
+    font-size: 0.7vw;
+    color: black;
+    float: right;
+    border: none;
+    margin: 5px
+}
+
+
+.archiveButton:hover,
+.editButton:hover,
+.deleteButton:hover,
+.rejectButton:hover,
+.lockerButton:hover,
+.wantedButton:hover,
+.jailButton:hover,
+.confineButton:hover,
+.acceptButton:hover {
+    opacity: 1.0;
+    background-color: #252526;
+    color: white;
+}
+
+.image-bubble {
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: crock;
+    padding: 1px 10px;
+    color: black;
+    margin: 1px;
+}
+
+.image-bubble:hover {
+    background-color: grey;
+}
+
+.image-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.image-modal-content {
+    position: relative;
+    margin: auto;
+    padding: 15px;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: -1.5vw;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: crock;
+    background-color: white;
+    width: 1vw;
+    height: 4.3vh;
+    border-radius: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    background-color: black;
+}
+
+/* records*/
+
+.record-image img {
+    width: 100%;
+    height: 100%;
+    max-width: 16vw;
+    max-height: 20vh;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.record-fields {
+    position: absolute;
+    top: 1vh;
+    left: 16vw;
+    padding: 10px;
+    width: 15vw;
+    height: 15vh;
+}
+
+.record-field-label {
+    font-size: 0.8vw;
+    color: white;
+    font-family: crock;
+    padding: 8px;
+}
+
+.record-field-content {
+    font-size: 16px;
+    color: black;
+    background: white;
+    border-radius: 18px;
+    padding: 1px 10px;
+    font-family: crock;
+
+
+}
+
+.entries-pannel {
+    color: white;
+    margin-top: 0.5vh;
+    font-family: crock;
+    padding: 1px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    font-size: 22px;
+}
+
+.notes-div {
+    color: white;
+    font-family: rdr;
+    font-size: 20px;
+    margin-top: 2vh;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: url('images/pause_background.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+.save-notes-btn,
+.update-notes-btn {
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    font-family: crock;
+    margin-left: 1vw;
+    margin-top: 0.7vh;
+}
+
+.save-notes-btn:hover,
+.update-notes-btn:hover {
+    background-color: #252526;
+    color: white;
+}
+
+.notes-input {
+    display: none;
+    margin-top: 2vh;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 18px;
+    width: 30vw;
+    height: 15vh;
+    margin-left: 1vw;
+}
+
+.entries-pannel:hover {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+.update-image-btn {
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    font-family: crock;
+    margin-left: 1vw;
+}
+
+#tutorialButton {
+    padding: 0px 20px;
+    position: absolute;
+    bottom: 18vh;
+    left: 42vw;
+    background-color: white;
+    color: black;
+    font-family: crock;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#tutorialButton:hover {
+    scale: 1.1
+}
+
+.update-image-btn:hover {
+    background-color: #252526;
+    color: white;
+}
+
+.image-url-input {
+    display: none;
+    margin-top: 1vh;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 18px;
+    width: calc(60% - 2vw);
+    margin-left: 7vw;
+}
+
+
+.image-url-input[style*="display: inline"] {
+    display: inline-block;
+
+}
+
+
+.sectionTitle {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1vh;
+    margin-bottom: 2vh;
+}
+
+
+.sectionTitle h1 {
+    color: white;
+    font-family: crock;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.tutorialEntry h2 {
+    color: white;
+    font-family: crock;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.tutorialEntry p {
+    color: white;
+    font-family: rdr;
+    line-height: 1.5;
+    margin-bottom: 2vh;
+}
+
+
+.edit-time-input {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 0;
+    font-family: rdr;
+    font-size: 16px;
+    width: 20vw;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

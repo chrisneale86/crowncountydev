@@ -1,0 +1,125 @@
+-- Here's the list of items needed by default for the script. 
+------------ 
+-- VORP --
+------------ 
+-- Copy this in a sql file to import it into your database
+
+INSERT IGNORE INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `id`, `metadata`, `desc`)  VALUES ("horsebrush" 		          ,"Horsebrush"           , 10, 1, 'item_standard', 1, 1, '{}', 'Horse item') ON DUPLICATE KEY UPDATE  `item` = VALUES(`item`), `label`= VALUES(`label`),`limit`= VALUES(`limit`), `can_remove`= VALUES(`can_remove`), `type`= VALUES(`type`), `usable`= VALUES(`usable`), `metadata`= VALUES(`metadata`), `desc`= VALUES(`desc`);  
+INSERT IGNORE INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `id`, `metadata`, `desc`)  VALUES ("kit_horse_brush"            ,"Horsebrush"           , 10, 1, 'item_standard', 1, 1, '{}', 'Horse item') ON DUPLICATE KEY UPDATE  `item` = VALUES(`item`), `label`= VALUES(`label`),`limit`= VALUES(`limit`), `can_remove`= VALUES(`can_remove`), `type`= VALUES(`type`), `usable`= VALUES(`usable`), `metadata`= VALUES(`metadata`), `desc`= VALUES(`desc`);  
+INSERT IGNORE INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `id`, `metadata`, `desc`)  VALUES ("consumable_haycube"         ,"Hay Cube"             , 10, 1, 'item_standard', 1, 1, '{}', 'Horse item') ON DUPLICATE KEY UPDATE  `item` = VALUES(`item`), `label`= VALUES(`label`),`limit`= VALUES(`limit`), `can_remove`= VALUES(`can_remove`), `type`= VALUES(`type`), `usable`= VALUES(`usable`), `metadata`= VALUES(`metadata`), `desc`= VALUES(`desc`);  
+INSERT IGNORE INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `id`, `metadata`, `desc`)  VALUES ("consumable_sugarcube"		  ,"Sugar Cube"           , 10, 1, 'item_standard', 1, 1, '{}', 'Horse item') ON DUPLICATE KEY UPDATE  `item` = VALUES(`item`), `label`= VALUES(`label`),`limit`= VALUES(`limit`), `can_remove`= VALUES(`can_remove`), `type`= VALUES(`type`), `usable`= VALUES(`usable`), `metadata`= VALUES(`metadata`), `desc`= VALUES(`desc`);  
+INSERT IGNORE INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `id`, `metadata`, `desc`)  VALUES ("consumable_carrot"          ,"Carrot"               , 10, 1, 'item_standard', 1, 1, '{}', 'Horse item') ON DUPLICATE KEY UPDATE  `item` = VALUES(`item`), `label`= VALUES(`label`),`limit`= VALUES(`limit`), `can_remove`= VALUES(`can_remove`), `type`= VALUES(`type`), `usable`= VALUES(`usable`), `metadata`= VALUES(`metadata`), `desc`= VALUES(`desc`);  
+INSERT IGNORE INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `id`, `metadata`, `desc`)  VALUES ("consumable_horse_reviver"   ,"Horse Reviver"        , 10, 1, 'item_standard', 1, 1, '{}', 'Horse item') ON DUPLICATE KEY UPDATE  `item` = VALUES(`item`), `label`= VALUES(`label`),`limit`= VALUES(`limit`), `can_remove`= VALUES(`can_remove`), `type`= VALUES(`type`), `usable`= VALUES(`usable`), `metadata`= VALUES(`metadata`), `desc`= VALUES(`desc`);  
+ 
+-- 
+--PLACE THESE REGISTER USABLE ITEM EVENT IN A OPEN SOURCE SERVER.LUA (for an open source resource example check the sirevlc_registered_items available in my discord file channel https://discord.com/channels/942431188881141820/1128772481637957733)
+ 
+  VorpInv.RegisterUsableItem("horsebrush", function(data)
+      local _source = data.source   
+      TriggerClientEvent("sirevlc_horses_brush", _source)
+      VorpInv.CloseInv(data.source)
+  end)
+  
+   VorpInv.RegisterUsableItem("kit_horse_brush", function(data)
+       local _source = data.source   
+       TriggerClientEvent("sirevlc_horses_brush", _source)
+       VorpInv.CloseInv(data.source)
+   end)
+  -- 
+    VorpInv.RegisterUsableItem("consumable_haycube", function(data)
+       local _source = data.source   
+       TriggerClientEvent("sirevlc_horses_feed",_source, 50, 50)
+	   VorpInv.subItem(_source, "consumable_haycube"		  , 1)
+       VorpInv.CloseInv(data.source)
+   end)
+   
+  VorpInv.RegisterUsableItem("consumable_sugarcube", function(data)
+       local _source = data.source   
+       TriggerClientEvent("sirevlc_horses_feed",_source, 50, 50)
+	   VorpInv.subItem(_source, "consumable_sugarcube"		  , 1)
+       VorpInv.CloseInv(data.source)
+   end)
+  --
+   VorpInv.RegisterUsableItem("consumable_carrot", function(data)
+       local _source = data.source   
+       TriggerClientEvent("sirevlc_horses_feed",_source, 50, 50)
+	   VorpInv.subItem(_source, "consumable_carrot"		  , 1)
+       VorpInv.CloseInv(data.source)
+   end)
+  
+   VorpInv.RegisterUsableItem("consumable_hay", function(data)
+       local _source = data.source   
+       TriggerClientEvent("sirevlc_horses_feed",_source, 50, 50)
+	   VorpInv.subItem(_source, "consumable_hay"		  , 1)
+       VorpInv.CloseInv(data.source)
+   end)
+ 
+---------------------
+-- REDEMRP REBOOT --
+---------------------
+-- Add this to your redemrp inventory config
+
+["horsebrush"] 		           ,     =  { label = "Horsebrush"           , description = "Horse Item", 					weight = 0.1, canBeDropped = true, canBeUsed = true, limit = 200, imgsrc = "horsebrush.png" 		        ,type = "item_standard"},                  
+["kit_horse_brush"]            ,     =  { label = "Horsebrush"           , description = "Horse Item", 					weight = 0.1, canBeDropped = true, canBeUsed = true, limit = 200, imgsrc = "kit_horse_brush.png"            ,type = "item_standard"},                  
+["consumable_haycube"]         ,     =  { label = "Hay Cube"             , description = "Horse Item", 					weight = 0.1, canBeDropped = true, canBeUsed = true, limit = 200, imgsrc = "consumable_haycube.png"         ,type = "item_standard"},                  
+["consumable_sugarcube"]	   ,     =  { label = "Sugar Cube"           , description = "Horse Item", 					weight = 0.1, canBeDropped = true, canBeUsed = true, limit = 200, imgsrc = "consumable_sugarcube.png"		,type = "item_standard"},                  
+["consumable_carrot"]          ,     =  { label = "Carrot"               , description = "Horse Item", 					weight = 0.1, canBeDropped = true, canBeUsed = true, limit = 200, imgsrc = "consumable_carrot.png"          ,type = "item_standard"},                  
+["consumable_horse_reviver"]   ,     =  { label = "Horse Reviver"        , description = "Horse Item", 					weight = 0.1, canBeDropped = true, canBeUsed = true, limit = 200, imgsrc = "consumable_horse_reviver.png"   ,type = "item_standard"},                  
+ 
+ 
+ 
+-- PLACE THESE REGISTER USABLE ITEM EVENT IN A OPEN SOURCE SERVER.LUA (for an open source resource example check the sirevlc_registered_items available in my discord file channel https://discord.com/channels/942431188881141820/1128772481637957733)
+
+RegisterServerEvent("horsebrush" 		        AddEventHandler("RegisterUsableItem:Horsebrush"     function(source) local _source = source TriggerEvent('redemrp:getPlayerFromId', _source, function(user) TriggerClientEvent("sirevlc_horses_brush",_source)   end) end)
+RegisterServerEvent("kit_horse_brush"           AddEventHandler("RegisterUsableItem:Horsebrush"     function(source) local _source = source TriggerEvent('redemrp:getPlayerFromId', _source, function(user) TriggerClientEvent("sirevlc_horses_brush",_source)   end) end)
+RegisterServerEvent("consumable_haycube"        AddEventHandler("RegisterUsableItem:Hay Cube"       function(source) local _source = source TriggerEvent('redemrp:getPlayerFromId', _source, function(user) TriggerClientEvent("sirevlc_horses_feed",_source, 50, 50) local item = data.getItem(_source, "consumable_haycube")   local itemData = item itemData.RemoveItem(1)  end) end)
+RegisterServerEvent("consumable_sugarcube"      AddEventHandler("RegisterUsableItem:Sugar Cube"     function(source) local _source = source TriggerEvent('redemrp:getPlayerFromId', _source, function(user) TriggerClientEvent("sirevlc_horses_feed",_source, 50, 50) local item = data.getItem(_source, "consumable_sugarcube") local itemData = item itemData.RemoveItem(1)  end) end)
+RegisterServerEvent("consumable_carrot"         AddEventHandler("RegisterUsableItem:Carrot"         function(source) local _source = source TriggerEvent('redemrp:getPlayerFromId', _source, function(user) TriggerClientEvent("sirevlc_horses_feed",_source, 50, 50) local item = data.getItem(_source, "consumable_carrot")    local itemData = item itemData.RemoveItem(1)  end) end)
+  
+  
+
+---------------------
+-- REDEMRP2 --
+---------------------
+-- Add this to your redemrp inventory config
+
+["horsebrush"] 		        ,     =  { label = "Horsebrush"           , description = "Horse Item", weight = 0.1, canBeDropped = true, canBeUsed = true, requireLvl = 0, limit = 200, imgsrc = "horsebrush.png" 		         ,type = "item_standard"},                  
+["kit_horse_brush"]         ,     =  { label = "Horsebrush"           , description = "Horse Item", weight = 0.1, canBeDropped = true, canBeUsed = true, requireLvl = 0, limit = 200, imgsrc = "kit_horse_brush.png"             ,type = "item_standard"},                  
+["consumable_haycube"]      ,     =  { label = "Hay Cube"             , description = "Horse Item", weight = 0.1, canBeDropped = true, canBeUsed = true, requireLvl = 0, limit = 200, imgsrc = "consumable_haycube.png"          ,type = "item_standard"},                  
+["consumable_sugarcube"]	,     =  { label = "Sugar Cube"           , description = "Horse Item", weight = 0.1, canBeDropped = true, canBeUsed = true, requireLvl = 0, limit = 200, imgsrc = "consumable_sugarcube.png"		 ,type = "item_standard"},                  
+["consumable_carrot"]       ,     =  { label = "Carrot"               , description = "Horse Item", weight = 0.1, canBeDropped = true, canBeUsed = true, requireLvl = 0, limit = 200, imgsrc = "consumable_carrot.png"           ,type = "item_standard"},                  
+["consumable_horse_reviver"],     =  { label = "Horse Reviver"        , description = "Horse Item", weight = 0.1, canBeDropped = true, canBeUsed = true, requireLvl = 0, limit = 200, imgsrc = "consumable_horse_reviver.png"    ,type = "item_standard"},                  
+ 
+ 
+ 
+-- PLACE THESE REGISTER USABLE ITEM EVENT IN A OPEN SOURCE SERVER.LUA (for an open source resource example check the sirevlc_registered_items available in my discord file channel https://discord.com/channels/942431188881141820/1128772481637957733)
+
+RegisterServerEvent("horsebrush" 		        AddEventHandler("RegisterUsableItem:Horsebrush"     function(source) local _source = source TriggerEvent('redemrp:getPlayerFromId', _source, function(user) TriggerClientEvent("sirevlc_horses_brush",_source)   end) end)
+RegisterServerEvent("kit_horse_brush"           AddEventHandler("RegisterUsableItem:Horsebrush"     function(source) local _source = source TriggerEvent('redemrp:getPlayerFromId', _source, function(user) TriggerClientEvent("sirevlc_horses_brush",_source)   end) end)
+RegisterServerEvent("consumable_haycube"        AddEventHandler("RegisterUsableItem:Hay Cube"       function(source) local _source = source TriggerEvent('redemrp:getPlayerFromId', _source, function(user) TriggerClientEvent("sirevlc_horses_feed",_source, 50, 50) local item = data.getItem(_source, "consumable_haycube")   local itemData = item itemData.RemoveItem(1)  end) end)
+RegisterServerEvent("consumable_sugarcube"      AddEventHandler("RegisterUsableItem:Sugar Cube"     function(source) local _source = source TriggerEvent('redemrp:getPlayerFromId', _source, function(user) TriggerClientEvent("sirevlc_horses_feed",_source, 50, 50) local item = data.getItem(_source, "consumable_sugarcube") local itemData = item itemData.RemoveItem(1)  end) end)
+RegisterServerEvent("consumable_carrot"         AddEventHandler("RegisterUsableItem:Carrot"         function(source) local _source = source TriggerEvent('redemrp:getPlayerFromId', _source, function(user) TriggerClientEvent("sirevlc_horses_feed",_source, 50, 50) local item = data.getItem(_source, "consumable_carrot")    local itemData = item itemData.RemoveItem(1)  end) end)
+ 
+---------------------
+-- RSG --
+---------------------
+-- Add this into your rsg core items.lua 
+
+['horsebrush'] 		         = {['name'] = 'horsebrush'		        	    , ['label'] = 'Horsebrush'           ,   ['weight'] = 1,   ['type'] = 'item', ['image'] = 'horsebrush.png'		        	    , ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'Horse Item'},
+['kit_horse_brush']          = {['name'] = 'kit_horse_brush'         		, ['label'] = 'Horsebrush'           ,   ['weight'] = 1,   ['type'] = 'item', ['image'] = 'kit_horse_brush.png'         		, ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'Horse Item'},
+['consumable_haycube']       = {['name'] = 'consumable_haycube'      		, ['label'] = 'Hay Cube'             ,   ['weight'] = 1,   ['type'] = 'item', ['image'] = 'consumable_haycube.png'      		, ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'Horse Item'},
+['consumable_sugarcube']	 = {['name'] = 'consumable_sugarcube'			, ['label'] = 'Sugar Cube'           ,   ['weight'] = 1,   ['type'] = 'item', ['image'] = 'consumable_sugarcube.png'			, ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'Horse Item'},
+['consumable_carrot']        = {['name'] = 'consumable_carrot'       		, ['label'] = 'Carrot'               ,   ['weight'] = 1,   ['type'] = 'item', ['image'] = 'consumable_carrot.png'       		, ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'Horse Item'},
+['consumable_horse_reviver'] = {['name'] = 'consumable_horse_reviver'		, ['label'] = 'Horse Reviver'        ,   ['weight'] = 1,   ['type'] = 'item', ['image'] = 'consumable_horse_reviver.png'		, ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['level'] = 0, ['description'] = 'Horse Item'},
+ 
+
+-- PLACE THESE REGISTER USABLE ITEM EVENT IN A OPEN SOURCE SERVER.LUA (for an open source resource example check the sirevlc_registered_items available in my discord file channel https://discord.com/channels/942431188881141820/1128772481637957733)
+
+ 
+ RSGCore.Functions.CreateUseableItem("horsebrush" 		   , function(source, item) local _source = source local User = RSGCore.Functions.GetPlayer(_source) TriggerClientEvent("sirevlc_horses_brush", _source) end)
+ RSGCore.Functions.CreateUseableItem("kit_horse_brush"     , function(source, item) local _source = source local User = RSGCore.Functions.GetPlayer(_source) TriggerClientEvent("sirevlc_horses_brush", _source) end)
+ RSGCore.Functions.CreateUseableItem("consumable_haycube"  , function(source, item) local _source = source local User = RSGCore.Functions.GetPlayer(_source) TriggerClientEvent("sirevlc_horses_feed",  _source) User.Functions.RemoveItem("consumable_haycube"   , 1) end)
+ RSGCore.Functions.CreateUseableItem("consumable_sugarcube", function(source, item) local _source = source local User = RSGCore.Functions.GetPlayer(_source) TriggerClientEvent("sirevlc_horses_feed",  _source) User.Functions.RemoveItem("consumable_sugarcube" , 1) end)
+ RSGCore.Functions.CreateUseableItem("consumable_carrot"   , function(source, item) local _source = source local User = RSGCore.Functions.GetPlayer(_source) TriggerClientEvent("sirevlc_horses_feed",  _source) User.Functions.RemoveItem("consumable_carrot"    , 1) end)
+ 
+ 

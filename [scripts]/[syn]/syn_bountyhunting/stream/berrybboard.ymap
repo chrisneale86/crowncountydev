@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-2206.489990" y="-747.329987" z="-236.529999"/>
+	<streamingExtentsMax x="-1406.489990" y="52.670013" z="563.470001"/>
+	<entitiesExtentsMin x="-1856.489990" y="-397.329987" z="113.470001"/>
+	<entitiesExtentsMax x="-1756.489990" y="-297.329987" z="213.470001"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>mp005_p_mp_bountyboard01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1806.489990" y="-347.329987" z="163.470001"/>
+			<rotation w="0.216432" x="0.008520" y="-0.001889" z="-0.976259"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="200"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

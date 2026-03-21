@@ -1,0 +1,9 @@
+#1 2025. 07. 05
+Update: Added option to enable eagle eye tracking for reward object
+Added option to disable last killer id at random selection once a killer mission finished and Config.RandomEventsAfterFinish is true
+New configs: Config.EagleEyeFinishObject and Config.DisableLastKillerFromRandomSelection
+Updated files: config.lua, client.lua, server.lua and fxmanifest.lua
+
+#2 2026. 02. 19
+Update: Added option to configure ingame hours for Killer spawn, as #1 example shows with start_time variable
+Updated files: config.lua and client.lua

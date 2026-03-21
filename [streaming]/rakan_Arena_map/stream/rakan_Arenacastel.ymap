@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-1679.319336" y="-3509.834961" z="-309.433876"/>
+	<streamingExtentsMax x="-727.713379" y="-2522.747314" z="495.599579"/>
+	<entitiesExtentsMin x="-1329.319336" y="-3159.834961" z="40.566124"/>
+	<entitiesExtentsMax x="-1077.713379" y="-2872.747314" z="145.599579"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1244.208862" y="-3096.869141" z="91.733253"/>
+			<rotation w="0.863967" x="-0.010307" y="0.000253" z="-0.503443"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall5</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1241.885986" y="-2966.334473" z="93.469475"/>
+			<rotation w="0.972235" x="-0.042449" y="0.010038" z="0.229906"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall2</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1251.032471" y="-3029.923828" z="95.164825"/>
+			<rotation w="0.309885" x="-0.002704" y="-0.008297" z="-0.950734"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1132.925415" y="-3048.101807" z="92.406380"/>
+			<rotation w="0.489298" x="-0.013453" y="-0.023671" z="0.871691"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1263.414429" y="-2941.713135" z="92.894371"/>
+			<rotation w="0.963682" x="-0.010738" y="-0.006081" z="0.266767"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall3</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1182.477783" y="-3086.260010" z="91.741440"/>
+			<rotation w="0.796371" x="-0.014123" y="-0.033083" z="0.603738"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1184.827393" y="-3095.545410" z="91.228447"/>
+			<rotation w="0.207836" x="0.000000" y="0.000000" z="-0.978164"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall5</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1187.222778" y="-2969.820068" z="94.361259"/>
+			<rotation w="0.144530" x="-0.017681" y="0.026210" z="0.988995"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1264.540527" y="-3021.272949" z="92.717354"/>
+			<rotation w="0.870418" x="-0.000000" y="-0.000000" z="-0.492314"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-tor1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1180.999634" y="-3078.378906" z="90.566124"/>
+			<rotation w="0.820610" x="0.000000" y="0.000000" z="0.571489"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1226.190918" y="-2932.225830" z="92.863976"/>
+			<rotation w="0.265216" x="0.000000" y="-0.000000" z="-0.964189"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1187.815552" y="-2922.747314" z="92.833458"/>
+			<rotation w="0.268771" x="0.000000" y="-0.000000" z="-0.963204"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1273.488525" y="-2982.806885" z="92.797234"/>
+			<rotation w="0.877122" x="0.000000" y="-0.000000" z="-0.480267"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall3</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1251.460449" y="-3031.449951" z="93.786255"/>
+			<rotation w="0.447537" x="-0.015628" y="0.031204" z="0.893584"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1163.574341" y="-2936.821289" z="93.990227"/>
+			<rotation w="0.491377" x="0.000984" y="0.033313" z="0.870309"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall3</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1127.983765" y="-3074.805664" z="91.182556"/>
+			<rotation w="0.819132" x="0.005685" y="-0.005382" z="0.573552"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall5</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1231.682007" y="-3002.558350" z="93.571770"/>
+			<rotation w="0.468801" x="-0.016370" y="0.030822" z="0.882614"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall3</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1273.487183" y="-2950.418945" z="93.553017"/>
+			<rotation w="0.973761" x="-0.032048" y="0.016335" z="0.224712"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall3</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1254.138062" y="-3035.137207" z="92.947708"/>
+			<rotation w="0.466528" x="-0.035763" y="0.030448" z="0.883259"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall5</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1174.140015" y="-3015.417236" z="94.703888"/>
+			<rotation w="0.986445" x="-0.043297" y="0.010358" z="-0.157939"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1147.834351" y="-3081.934570" z="91.210396"/>
+			<rotation w="0.975669" x="-0.000000" y="0.000000" z="0.219251"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1142.901733" y="-3011.312012" z="94.606651"/>
+			<rotation w="0.857238" x="-0.031961" y="0.005069" z="-0.513902"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall2</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1248.338501" y="-3026.451416" z="94.996582"/>
+			<rotation w="0.328748" x="0.000000" y="0.000000" z="-0.944418"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1221.621338" y="-3109.834961" z="91.288986"/>
+			<rotation w="0.203885" x="0.000000" y="0.000000" z="-0.978995"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1153.506592" y="-2974.696045" z="95.599579"/>
+			<rotation w="0.507197" x="-0.004464" y="0.009733" z="0.861764"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall5</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1194.929199" y="-3052.866699" z="92.459167"/>
+			<rotation w="0.825503" x="0.009489" y="-0.017048" z="0.564060"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall2</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1279.319336" y="-2955.505859" z="92.820343"/>
+			<rotation w="0.995290" x="0.000000" y="-0.000000" z="-0.096942"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-tor1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1188.298950" y="-3081.302490" z="90.729996"/>
+			<rotation w="0.813235" x="-0.022322" y="-0.016217" z="0.581281"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall1</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1254.638794" y="-3059.367920" z="92.426712"/>
+			<rotation w="0.864075" x="-0.004392" y="0.007540" z="-0.503288"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>siska-wall3</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1127.713379" y="-3069.800781" z="91.225296"/>
+			<rotation w="0.993717" x="-0.016385" y="-0.010593" z="-0.110207"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>bw-wall-wall5</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1229.800171" y="-3032.885986" z="93.206863"/>
+			<rotation w="0.988428" x="-0.035804" y="0.003469" z="-0.147362"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

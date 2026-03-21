@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="2966.988770" y="-1106.763977" z="-358.320587"/>
+	<streamingExtentsMax x="3797.660400" y="-281.586243" z="444.953445"/>
+	<entitiesExtentsMin x="3366.988770" y="-706.763977" z="41.679413"/>
+	<entitiesExtentsMax x="3397.660400" y="-681.586243" z="44.953445"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_gunsmithtrapdoor01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="3397.660400" y="-704.905701" z="44.953445"/>
+			<rotation w="0.904773" x="-0.097643" y="-0.247018" z="0.332917"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_gunsmithtrapdoor01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="3396.075439" y="-706.763977" z="44.942192"/>
+			<rotation w="0.335613" x="-0.245341" y="0.094889" z="-0.904526"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

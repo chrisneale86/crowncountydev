@@ -1,0 +1,193 @@
+---SISIKA DOORS SYN_DOORLOCKS
+
+        --- METAL WALLS DOORS that are entrance to sisika if you come from bridge
+        [596497682] = {596497682,-2046717337,"p_door48x",3350.991943,-644.946472,44.537170},
+        [230271338] = {230271338,-2046717337,"p_door48x",3350.563721,-648.003052,44.537643},
+
+        ---METAL DOOR TOWERS
+        [1803726739] = {1803726739,-2046717337,"p_door48x",3366.479980,-680.435120,45.636028}, --sis_tower_door_central
+        [1378416582] = {1378416582,-2046717337,"p_door48x",3369.641846,-723.589355,44.423378}, --sis_tower_door1
+        [711895122] = {711895122,-2046717337,"p_door48x",3407.346924,-677.658875,45.639351}, --sis_tower_door2
+        [4253601415] = {4253601415,-2046717337,"p_door48x",3384.534424,-639.446472,45.644089}, --sis_tower_door3
+        [132244281] = {132244281,-2046717337,"p_door48x",3318.457520,-658.115112,45.032860}, --sis_tower_door4
+
+        ---CELLS BUILDING ground floor
+        [2317433188] = {2317433188,-113235247,"p_door15x",3339.753174,-667.641174,44.786285}, --sis_newblock_main_door1
+        [3694157185] = {3694157185,-113235247,"p_door15x",3337.627441,-668.207886,44.786476}, --sis_newblock_main_door2
+
+        [920892069] = {920892069,-113235247,"p_door15x",3339.430176,-663.323486,44.786285}, --sis_newblock_entryright_door
+        [578672858] = {578672858,575114670,"ann_jail_cell_door_01",3342.385010,-662.483459,44.763107}, --sis_newblock_intermediaire_right_door
+        [2895306683] = {2895306683,980307335,"p_door_val_jail01x",3347.139648,-663.273682,44.790688}, --sis_newblock_storage_door
+        [3378817498] = {3378817498,980307335,"p_door_val_jail01x",3344.764404,-663.478088,44.790688}, --sis_newblock_canteen_door
+
+
+        [3933851073] = {3933851073,-113235247,"p_door15x",3333.316895,-664.813843,44.786285}, --sis_newblock_entryleft_door
+        [2240503000] = {2240503000,447074149,"p_door34x",3329.715576,-666.624207,44.787041}, --sis_newblock_investigation_door
+        [650309963] = {650309963,447074149,"p_door34x",3329.003662,-664.026978,44.787041}, --sis_newblock_interrogation_door
+        [1760337117] = {1760337117,-1800129672,"p_door36x",3330.397949,-661.265991,44.786285}, --sis_newblock_central_door
+        [1430817604] = {1430817604,575114670,"ann_jail_cell_door_01",3328.041260,-660.397949,44.763107}, --sis_newblock_room1stjail_door
+        [2896879042] = {2896879042,575114670,"ann_jail_cell_door_01",3333.610596,-657.747864,44.773106}, --sis_newblock_corridor1st_door
+        [1179119277] = {1179119277,575114670,"ann_jail_cell_door_01",3346.351563,-654.368164,44.773106}, --sis_newblock_corridor2nd_door
+        [1552791865] = {1552791865,575114670,"ann_jail_cell_door_01",3348.167969,-657.824890,44.773106}, --sis_newblock_corridor3rd_door
+
+        ---CELLS BUILDING --1st floor
+        [1020452154] = {1020452154,575114670,"ann_jail_cell_door_01",3348.852295,-662.804138,47.767624}, --sis_newblock_intermediaire_1stfloor_door1
+        [4017963664] = {4017963664,575114670,"ann_jail_cell_door_01",3345.152832,-665.374939,47.776539}, --sis_newblock_intermediaire_1stfloor_door2
+
+        ---CELLS BUILDING --2nd floor
+        [1180208480] = {1180208480,-113235247,"p_door15x",3345.116943,-665.424438,50.796913},---sis_newblock_2ndfloor_middle_door
+        [2058120164] = {2058120164,-113235247,"p_door15x",3337.520996,-663.018616,50.796913},--sis_newblock_director_office_door
+        [2407956458] = {2407956458,-113235247,"p_door15x",3333.573730,-664.994324,50.796474},--sis_newblock_director_room_door
+        [971832681] = {971832681,447074149,"p_door34x",3344.298096,-660.613037,50.793919},--sis_newblock_2ndfloor_room1_door
+        [3441691111] = {3441691111,447074149,"p_door34x",3333.813477,-662.931580,50.797668},--sis_newblock_2ndfloor_room2_door
+
+        ---WORK WAREHOUSE BLOCK
+        [2830674854] = {2830674854,-113235247,"p_door15x",3378.376709,-660.780396,45.805721},---sis_workblock_main_door
+        [1616014595] = {1616014595,-113235247,"p_door15x",3371.849121,-658.318909,45.454914},---sis_workblock_shop_main_door1
+        [892016309] = {892016309,-113235247,"p_door15x",3371.849121,-658.318909,45.454914},---sis_workblock_shop_main_door2
+        [1075328024] = {1075328024,-1819321039,"p_door13x",3376.431152,-656.826538,45.804745},---sis_workblock_shop_middle_door 
+        [2435546083] = {2435546083,-1819321039,"p_door13x",3377.379150,-654.105957,45.805588},---sis_workblock_littleroom_door
+        [454805450] = {454805450,-1819321039,"p_door13x",3381.016846,-654.990967,45.806583},---sis_workblock_middle_door1
+        [2201040051] = {2201040051,-1819321039,"p_door13x",3392.192383,-672.162415,45.809448},---sis_workblock_middle_door_furnace
+        [1155653753] = {1155653753,-1819321039,"p_door13x",3392.190674,-672.165649,48.821251},---sis_workblock_2ndfloor_room_door
+
+        ----SERVICES BLOCK
+        [1743333398] = {1743333398,-113235247,"p_door15x",3381.197754,-682.679688,45.805664},---sis_3block_main_door
+        [1307212933] = {1307212933,-29643421,,"p_door11x",3384.758301,-684.909973,45.805229},---sis_3block_library_door
+        [853083969] = {853083969,-29643421,,"p_door11x",3390.750977,-689.248108,45.805229},---sis_3block_postoffice_door
+        [1448360114] = {1448360114,-29643421,,"p_door11x",3388.303223,-689.045593,48.785191},---sis_3block_paperfabric_door
+        [3958068222] = {3958068222,-29643421,,"p_door11x",3385.996338,-691.807251,48.785191},----sis_3block_bath_door
+
+        ----MEDICAL CENTER
+        [2179292606] = {2179292606,-113235247,"p_door15x",3365.164551,-701.826965,44.545605},---sis_doctor_main_door
+        [523610381] = {523610381,-113235247,"p_door15x",3374.066162,-702.687439,44.545506},---sis_doctor_back_door
+        [4267013128] = {4267013128,-113235247,"p_door15x",3368.164063,-703.458740,44.535507},----sis_doctor_middle_door
+
+        ----ELECTRIC CHAIR ROOM
+        [2591072101] = {2591072101,-807564273,"p_door06x",3354.872314,-713.45416,44.055737},----sis_electric_chair_door_room
+
+        ----JAILS CELL BLOCK
+
+        [2551648116] = {2551648116,-1099727136,"p_door_val_jail_cell02x",3345.630859,-657.307922,47.788280}, ---sis_newblock_solitaire1_door 
+        [3986970204] = {3986970204,-1099727136,"p_door_val_jail_cell02x",3344.994141,-655.049255,47.788280}, ---sis_newblock_solitaire2_door 
+
+        [662490642] = {662490642,-798350419,"p_door_val_jail_cell01x",3325.836426,-661.487244,44.786285},----sis_newblock_jaildown_door --- jail ground floor
+        [2517442265] = {2517442265,-798350419,"p_door_val_jail_cell01x",3341.176758,-659.920715,47.789719},----sis_newblock_jail1r_door
+        [1412135824] = {1412135824,-798350419,"p_door_val_jail_cell01x",3337.097412,-661.021057,47.799717},---sis_newblock_jail2r_door
+        [890712729] = {890712729,-798350419,"p_door_val_jail_cell01x",3332.998779,-662.13452,47.799717},---sis_newblock_jail3r_door
+        [2080255315] = {2080255315,-798350419,"p_door_val_jail_cell01x",3328.855713,-663.232666,47.799717},----sis_newblock_jail4r_door
+        [2406235702] = {2406235702,-798350419,"p_door_val_jail_cell01x",3340.908447,-662.855042,47.790314},---sis_newblock_jail1l_door
+        [1570804412] = {1570804412,-798350419,"p_door_val_jail_cell01x",3336.768311,-663.949585,47.789436},----sis_newblock_jail2l_door
+        [2254398406] = {2254398406,-798350419,"p_door_val_jail_cell01x",3332.663330,-665.049438,47.790314},----sis_newblock_jail3l_door
+        [4148143533] = {4148143533,-798350419,"p_door_val_jail_cell01x",3328.587402,-666.140808,47.790314},----sis_newblock_jail4l_door
+
+
+
+
+    ---CELLS ground floor
+
+    {
+        authorizedJobs = { "police","marshal" }, -- jobs
+        object = -798350419,        ----p_door_val_jail_cell01 -----sis_newblock_jaildown_door --- jail ground floor
+        objCoords  = vector3(3325.836426,-661.487244,44.786285),
+        textCoords  = vector3(0.0, 0.0, 0.0), --- you must do this
+        objYaw = -165.0,
+        locked = true,
+        distance = 1.0
+    },
+
+    ---SOLITAIRE 1st FLOOR
+   
+    {
+        authorizedJobs = { "police","marshal" }, -- jobs
+        object = -1099727136,        ----p_door_val_jail_cell02 ---sis_newblock_solitaire1_door 
+        objCoords  = vector3(3345.630859,-657.307922,47.788280), 
+        textCoords  = vector3(0.0, 0.0, 0.0), --- you must do this
+        objYaw = -75.0,
+        locked = true,
+        distance = 1.0
+    },
+    {
+        authorizedJobs = { "police","marshal" }, 
+        object = -1099727136,        ----p_door_val_jail_cell02 --- ---sis_newblock_solitaire2_door
+        objCoords  = vector3(3344.994141,-655.049255,47.788280),
+        textCoords  = vector3(0.0, 0.0, 0.0), --- you must do this
+        objYaw = -75.0,
+        locked = true,
+        distance = 1.0
+    },
+
+    ---CELLS 1st FLOOR
+
+    {
+        authorizedJobs = { "police","marshal" }, -- jobs
+        object = -798350419,        ----p_door_val_jail_cell01 --- sis_newblock_jail1r_door
+        objCoords  = vector3(3325.836426, -661.487244, 44.786285),
+        textCoords  = vector3(0.0, 0.0, 0.0), --- you must do this
+        objYaw = 15.0,
+        locked = true,
+        distance = 1.0
+    },
+    {
+        authorizedJobs = { "police","marshal" }, 
+        object = -798350419,        ----p_door_val_jail_cell01 --- sis_newblock_jail2r_door
+        objCoords  = vector3(3341.176758,-659.920715,47.789719),
+        textCoords  = vector3(0.0, 0.0, 0.0), --- you must do this
+        objYaw = 15.0,
+        locked = true,
+        distance = 1.0
+    },
+    {
+        authorizedJobs = { "police","marshal" }, 
+        object = -798350419,        ----p_door_val_jail_cell01 ---sis_newblock_jail3r_door
+        objCoords  = vector3(3332.998779,-662.13452,47.799717),
+        textCoords  = vector3(0.0, 0.0, 0.0), --- you must do this
+        objYaw = 15.0,
+        locked = true,
+        distance = 1.0
+    },
+    {
+        authorizedJobs = { "police","marshal" }, 
+        object = -798350419,        ----p_door_val_jail_cell01 -------sis_newblock_jail4r_door
+        objCoords  = vector3(3332.998779,-662.13452,47.799717),
+        textCoords  = vector3(0.0, 0.0, 0.0), --- you must do this
+        objYaw = 15.0,
+        locked = true,
+        distance = 1.0
+    },
+    {
+        authorizedJobs = { "police","marshal" }, 
+        object = -798350419,        ----p_door_val_jail_cell01 ------sis_newblock_jail1l_door
+        objCoords  = vector3(3340.908447,-662.855042,47.790314),
+        textCoords  = vector3(0.0, 0.0, 0.0), --- you must do this
+        objYaw = -165.0,
+        locked = true,
+        distance = 1.0
+    },
+    {
+        authorizedJobs = { "police","marshal" }, 
+        object = -798350419,        ----p_door_val_jail_cell01 ------sis_newblock_jail2l_door
+        objCoords  = vector3(3336.768311,-663.949585,47.789436),
+        textCoords  = vector3(0.0, 0.0, 0.0), --- you must do this
+        objYaw = -165.0,
+        locked = true,
+        distance = 1.0
+    },
+    {
+        authorizedJobs = { "police","marshal" }, 
+        object = -798350419,        ----p_door_val_jail_cell01 -----sis_newblock_jail3l_door
+        objCoords  = vector3(3332.663330,-665.049438,47.790314),
+        textCoords  = vector3(0.0, 0.0, 0.0), --- you must do this
+        objYaw = -165.0,
+        locked = true,
+        distance = 1.0
+    },
+    {
+        authorizedJobs = { "police","marshal" }, 
+        object = -798350419,        ----p_door_val_jail_cell01 -----sis_newblock_jail4l_door
+        objCoords  = vector3(3328.587402,-666.140808,47.790314),
+        textCoords  = vector3(0.0, 0.0, 0.0), --- you must do this
+        objYaw = -165.0,
+        locked = true,
+        distance = 1.0
+    },

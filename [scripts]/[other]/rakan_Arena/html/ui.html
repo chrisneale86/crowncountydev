@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arena HUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Menü -->
+  <div id="menu" style="display:none;">
+    <h1>Arena World</h1>
+    <select id="mode">
+      <option value="1">1 vs 1</option>
+      <option value="2">2 vs 2</option>
+      <option value="3">3 vs 3</option>
+      <option value="4">4 vs 4</option>
+      <option value="5">5 vs 5</option>
+    </select>
+    <br>
+    <button onclick="enterArena()">
+      <img src="img/enter.png" alt="Enter Icon" class="btn-icon"> Enter
+    </button>
+    <button onclick="closeMenu()">
+      <img src="img/leave.png" alt="Leave Icon" class="btn-icon"> Leave
+    </button>
+  </div>
+
+  <!-- Revive Timer -->
+  <div id="timer" style="display:none;">
+   <h2>💀 Respawn in <span id="time">0</span> Seconds 💀</h2>
+  </div>
+
+<div id="kd-hud" style="display:none;">
+  <div class="hud-box blue">
+    <img src="img/gun.png" class="hud-icon"> <span id="hud-kills">0</span>
+  </div>
+  <div class="hud-box red">
+    <img src="img/skull.png" class="hud-icon"> <span id="hud-deaths">0</span>
+  </div>
+  <div class="hud-box gold">
+    <img src="img/kd.png" class="hud-icon"> <span id="hud-kdr">0.00</span>
+  </div>
+</div>
+
+<div id="team-hud" style="display:none;">
+  <div id="team-box" class="team-box">Team 1</div>
+  <div id="leaderboard" style="display:none;">
+    <h3>Top Players</h3>
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>

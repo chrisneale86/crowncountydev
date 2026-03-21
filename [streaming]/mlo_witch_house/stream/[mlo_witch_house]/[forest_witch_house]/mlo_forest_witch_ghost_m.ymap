@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapData>
+  <name>mlo_forest_witch_ghost_m</name> 
+  <parent/>
+  <flags value="1"/>
+  <contentFlags value="73"/>
+  <streamingExtentsMin x="-2471.80176" y="-1867.09314" z="-60.1555634" />
+  <streamingExtentsMax x="-2054.39038" y="-1452.66284" z="366.338135" />
+  <entitiesExtentsMin x="-2271.80176" y="-1667.09314" z="139.844437" />
+  <entitiesExtentsMax x="-2254.39038" y="-1652.66284" z="166.338135" />
+  <entities>
+    <Item type="CEntityDef">
+     <archetypeName>mlo_witch_house_ghost</archetypeName>
+     <flags value="85524512" />
+     <position x="-2267.74" y="-1662.29" z="143.6" />
+     <rotation x="0" y="0" z="-0.707107" w="0.707107" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="150" />
+     <childLodDist value="50" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="1" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <redm_loves_you_2158e9a42f04a7dc value="255"/>
+     <redm_loves_you_7dd29b0dd179bea5 value="255"/>
+   </Item>
+</entities>
+<containerLods/>
+<boxOccluders/>
+<occludeModels/>
+<physicsDictionaries/>
+<instancedData>
+  <ImapLink/>
+  <PropInstanceList/>
+  <GrassInstanceList/>
+</instancedData>
+<timeCycleModifiers/>
+<carGenerators/>
+<LODLightsSOA>
+  <direction/>
+  <falloff/>
+  <falloffExponent/>
+  <timeAndStateFlags/>
+  <hash/>
+  <coneInnerAngle/>
+  <coneOuterAngleOrCapExt/>
+  <coronaIntensity/>
+</LODLightsSOA>
+<DistantLODLightsSOA>
+  <position/>
+  <RGBI/>
+  <numStreetLights value="0"/>
+  <category value="0"/>
+</DistantLODLightsSOA>
+<block>
+  <version value="0"/>
+  <flags value="0"/>
+  <name>mlo_forest_witch_ghost_m</name>
+  <exportedBy/>
+  <owner/>
+  <time/>
+</block>
+</CMapData>

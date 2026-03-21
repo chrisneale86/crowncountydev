@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapData>
+  <name>mlo_forest_witch_ymap</name> 
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="73"/>
+  <streamingExtentsMin x="-2471.80176" y="-1867.09314" z="-60.1555634" />
+  <streamingExtentsMax x="-2054.39038" y="-1452.66284" z="366.338135" />
+  <entitiesExtentsMin x="-2271.80176" y="-1667.09314" z="139.844437" />
+  <entitiesExtentsMax x="-2254.39038" y="-1652.66284" z="166.338135" />
+  <entities>
+    <Item type="CEntityDef">
+     <archetypeName>mlo_forest_witch_ext_fnd</archetypeName>
+     <flags value="1572872" />
+     <position x="-2263.81" y="-1659.79" z="143.283" />
+     <rotation x="0" y="0" z="0" w="1" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="100" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <redm_loves_you_2158e9a42f04a7dc value="255"/>
+     <redm_loves_you_7dd29b0dd179bea5 value="255"/>
+   </Item>
+   <Item type="CEntityDef">
+     <archetypeName>mlo_witch_house_ext_glass</archetypeName>
+     <flags value="353894400" />
+     <position x="-2263.81" y="-1659.79" z="143.283" />
+     <rotation x="0" y="0" z="0" w="1" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="100" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <redm_loves_you_2158e9a42f04a7dc value="255"/>
+     <redm_loves_you_7dd29b0dd179bea5 value="255"/>
+   </Item>
+   <Item type="CEntityDef">
+    <archetypeName>mlo_forest_witch_ext</archetypeName>
+    <flags value="1572872"/>
+    <position x="-2263.81" y="-1659.79" z="143.283" />
+    <rotation x="0" y="0" z="0" w="1" />
+    <scaleXY value="1"/>
+    <scaleZ value="1"/>
+    <parentIndex value="-1"/>
+    <lodDist value="500"/>
+    <childLodDist value="0"/>
+    <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+    <numChildren value="0"/>
+    <redm_loves_you_2158e9a42f04a7dc value="255" />
+    <redm_loves_you_7dd29b0dd179bea5 value="255" />
+  </Item>
+  <Item type="CMloInstanceDef">
+    <archetypeName>mlo_witch_house_int_col</archetypeName>
+    <flags value="1572864"/>
+    <position x="-2263.81" y="-1659.79" z="143.283" />
+    <rotation x="0" y="0" z="0" w="1" />
+    <scaleXY value="1.00000000"/>
+    <scaleZ value="1.00000000"/>
+    <parentIndex value="-1"/>
+    <lodDist value="200.00000000"/>
+    <childLodDist value="0.00000000"/>
+    <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+    <numChildren value="0"/>
+    <priorityLevel>PRI_REQUIRED</priorityLevel>
+    <extensions/>
+    <redm_loves_you_2158e9a42f04a7dc value="255"/>
+    <redm_loves_you_7dd29b0dd179bea5 value="255"/>
+    <tintValue value="0"/>
+    <groupId>IG_ID_NONE</groupId>
+    <floorId value="0"/>
+    <defaultEntitySets/>
+    <numExitPortals value="16"/>
+    <MLOInstflags value="0"/>
+    <redm_loves_you_cf303652f51cff2d value="0.00000000"/>
+  </Item>
+</entities>
+<containerLods/>
+<boxOccluders/>
+<occludeModels/>
+<physicsDictionaries>
+  <Item>mlo_gk_hgofwk</Item>
+</physicsDictionaries>
+<instancedData>
+  <ImapLink/>
+  <PropInstanceList/>
+  <GrassInstanceList/>
+</instancedData>
+<timeCycleModifiers itemType="CTimeCycleModifier">
+  <Item>
+   <name>conf_light_mlo_gk_8kh9027</name>
+   <minExtents x="-2268.86938" y="-1665.07092" z="143.283" />
+   <maxExtents x="-2258.25366" y="-1654.50745" z="156.0041" />
+   <percentage value="95" />
+   <range value="50" />
+   <startHour value="0" />
+   <endHour value="23" />
+   <transform>
+    1 0 0 0
+    0 1 0 0
+    0 0 1 0
+    0 0 0 0
+  </transform>
+</Item>
+</timeCycleModifiers>
+<carGenerators/>
+<LODLightsSOA>
+  <direction/>
+  <falloff/>
+  <falloffExponent/>
+  <timeAndStateFlags/>
+  <hash/>
+  <coneInnerAngle/>
+  <coneOuterAngleOrCapExt/>
+  <coronaIntensity/>
+</LODLightsSOA>
+<DistantLODLightsSOA>
+  <position/>
+  <RGBI/>
+  <numStreetLights value="0"/>
+  <category value="0"/>
+</DistantLODLightsSOA>
+<block>
+  <version value="0"/>
+  <flags value="0"/>
+  <name>mlo_forest_witch_ymap</name>
+  <exportedBy/>
+  <owner/>
+  <time/>
+</block>
+</CMapData>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPackFileMetaData>
+ <MapDataGroups />
+ <HDTxdBindingArray />
+ <imapDependencies />
+ <imapDependencies_2 itemType="CImapDependencies">
+  <Item>
+   <imapName>arm_inn</imapName>
+   <manifestFlags>INTERIOR_DATA</manifestFlags>
+   <itypDepArray>
+    <Item>arm_inn</Item>
+<Item>int_depot</Item>
+<Item>int_doctor_office</Item>
+<Item>int_gunsmith</Item>
+<Item>int_hotel</Item>
+<Item>int_office</Item>
+<Item>int_specialist_shop</Item>
+<Item>mp005_s_posse_collector</Item>
+<Item>mp006_lev_des_mp</Item>
+<Item>mp006_s_lev_des_rend_targ</Item>
+<Item>mp007_naturalist</Item>
+<Item>mp008_s_lev_des02</Item>
+<Item>p_bedroom</Item>
+<Item>p_clothing</Item>
+<Item>p_door</Item>
+<Item>p_drug</Item>
+<Item>p_furniture</Item>
+<Item>p_household</Item>
+<Item>p_hunting</Item>
+<Item>p_instrument</Item>
+<Item>p_kitchen</Item>
+<Item>p_light</Item>
+<Item>p_light_ground01</Item>
+<Item>p_light_hanging01</Item>
+<Item>p_light_wall01</Item>
+<Item>p_office</Item>
+<Item>p_plant</Item>
+<Item>p_roadside</Item>
+<Item>p_seating</Item>
+<Item>p_store</Item>
+<Item>p_table</Item>
+<Item>p_valuable</Item>
+<Item>s_cs_objects</Item>
+<Item>s_lev_des_mission</Item>
+   </itypDepArray>
+  </Item>
+ </imapDependencies_2>
+ <itypDependencies_2 />
+ <Interiors itemType="CInteriorBoundsFiles">
+  <Item>
+   <Name>arm_inn_int</Name>
+   <Bounds>
+    <Item>arm_inn_int</Item>
+   </Bounds>
+  </Item>
+ </Interiors>
+ <bogwbkaa_0xe4e2a5f7 />
+ <dwsenfba_0x637c584a />
+ <txdRelationships />
+ <imapAliases />
+ <assetOwnerMap />
+</CPackFileMetaData>

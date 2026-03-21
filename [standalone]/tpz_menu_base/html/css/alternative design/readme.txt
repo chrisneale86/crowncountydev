@@ -1,0 +1,1 @@
+To use the alternative background images (the design in general), drag all the files from this folder and place them on `css` folder (replace previous files).

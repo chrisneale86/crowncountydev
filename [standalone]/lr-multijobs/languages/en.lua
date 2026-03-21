@@ -1,0 +1,35 @@
+Locales['en'] = {
+  -- Client UI
+  ['cl_lang_1'] = 'On Duty',
+  ['cl_lang_2'] = 'Off Duty',
+  ['cl_lang_3'] = 'My Jobs',
+  ['cl_lang_4'] = 'Toggle Duty',
+  ['cl_lang_5'] = 'Duty Status',
+  ['cl_lang_grade'] = 'Grade',
+  ['cl_lang_salary'] = 'Salary',
+  ['cl_job_actions'] = 'Job Actions',
+  ['cl_switch_job'] = 'Switch Job',
+  ['cl_switch_your_job'] = 'Switch your job to',
+  ['cl_delete_job'] = 'Quit Job',
+  ['cl_delete_selected_job'] = 'Quit this job and go unemployed',
+
+  -- Server Messages
+  ['sv_command_desc'] = 'Open your jobs menu',
+  ['sv_current_job_error'] = 'You already have that job active!',
+  ['sv_invalid_job'] = 'You are not hired for this job!',
+  ['sv_not_hired'] = 'You are not hired for this position!',
+  ['sv_job'] = 'Job switched to',
+  ['sv_job_grade'] = 'Grade',
+  ['sv_job_cooldown'] = 'Please wait before switching jobs again',
+  ['sv_job_quit'] = 'You quit your job',
+  ['sv_job_quit_error'] = 'You can only quit your current job',
+  ['sv_no_jobs'] = 'You have not been hired for any jobs yet',
+  ['sv_job_updated'] = 'Your job has been updated by management',
+  ['sv_job_fired'] = 'You have been fired from',
+  ['sv_job_hired'] = 'You have been hired as',
+  ['sv_job_promoted'] = 'You have been promoted to grade',
+  ['sv_job_demoted'] = 'You have been demoted to grade',
+  ['sv_database_error'] = 'Failed to update job. Please try again.',
+  ['sv_job_not_found'] = 'Job configuration not found',
+  ['sv_unemployed'] = 'Unemployed'
+}
