@@ -132,7 +132,7 @@ Progressive_Code_Ranch_System_Config.RanchesForSale = {
 
                 female_model = "A_C_Sheep_01", 
 
-                price = 50, 
+                price = 45, 
 
                 max = 5, 
 
