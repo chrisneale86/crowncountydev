@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="150" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-18.082187" y="-19.790144" z="-13.900473" />
+   <bbMax x="15.539605" y="17.593989" z="15.2254" />
+   <bsCentre x="-1.27129078" y="-1.09807777" z="0.662463665" />
+   <bsRadius value="18.94825" />
+   <hdTextureDist value="56.3" />
+   <name>dew_millshed2</name>
+   <textureDictionary>dew_millshed2</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary>dew_millshed2</physicsDictionary>
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>dew_millshed2</assetName>
+   <extensions>
+    <Item type="CExtensionDefStairs">
+     <name>yuetfBA_0x833A19C5</name>
+     <offsetPosition x="-5.94561768" y="-0.0249023438" z="-1.59674835" />
+     <bottom x="-5.94549561" y="-0.0248413086" z="-1.75042725" />
+     <top x="-5.488159" y="-0.334198" z="-1.22258" />
+     <boundMin x="-6.4821167" y="-1.15838623" z="-1.757927" />
+     <boundMax x="-4.83111572" y="0.707428" z="-1.22258" />
+     <steps itemType="CExtensionDefStep">
+      <Item>
+       <position x="-5.94549561" y="-0.0248413086" z="-1.61869812" />
+       <width value="1.695283" />
+       <depth value="0.192423" />
+       <height value="0.131729" />
+       <forward x="0.814674854" y="-0.579917967" z="0" />
+       <right x="0.579917967" y="0.814674854" z="0" />
+      </Item>
+      <Item>
+       <position x="-5.782959" y="-0.127838135" z="-1.486969" />
+       <width value="1.695283" />
+       <depth value="0.170662" />
+       <height value="0.131729" />
+       <forward x="0.8193226" y="-0.5733327" z="0" />
+       <right x="0.5733327" y="0.8193226" z="0" />
+      </Item>
+      <Item>
+       <position x="-5.650818" y="-0.235839844" z="-1.3644104" />
+       <width value="1.695283" />
+       <depth value="0.190085" />
+       <height value="0.122559" />
+       <forward x="0.822327852" y="-0.569013953" z="0" />
+       <right x="0.569013953" y="0.822327852" z="0" />
+      </Item>
+      <Item>
+       <position x="-5.488159" y="-0.334198" z="-1.22258" />
+       <width value="1.695283" />
+       <depth value="0.190085" />
+       <height value="0.14183" />
+       <forward x="0.8193226" y="-0.5733327" z="0" />
+       <right x="0.5733327" y="0.8193226" z="0" />
+      </Item>
+     </steps>
+    </Item>
+   </extensions>
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+  <Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="100" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-20.97005" y="-20.99129" z="-20.99129" />
+   <bbMax x="20.97005" y="20.99129" z="20.99129" />
+   <bsCentre x="0" y="0" z="0" />
+   <bsRadius value="18.386958" />
+   <hdTextureDist value="55" />
+   <name>dew_plane0012</name>
+   <textureDictionary>dew_millshed2</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary>dew_plane0012</physicsDictionary>
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>dew_plane0012</assetName>
+   <extensions>
+    <Item type="CExtensionDefAudioEmitter">
+     <name>dew_plane001</name>
+     <offsetPosition x="-1.7109375" y="8.044861" z="19.9732819" />
+     <offsetRotation x="0" y="0" z="0" w="1" />
+     <effectHash value="2544562664" />
+    </Item>
+    <Item type="CExtensionDefAudioEmitter">
+     <name>dew_plane001</name>
+     <offsetPosition x="2.16381836" y="-0.3796997" z="21.0839081" />
+     <offsetRotation x="0" y="0" z="0" w="1" />
+     <effectHash value="3346351195" />
+    </Item>
+   </extensions>
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+  </archetypes>
+  <name>dew_mine</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

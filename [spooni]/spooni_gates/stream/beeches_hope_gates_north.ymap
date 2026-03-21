@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-2059.119995" y="-1899.327759" z="-317.215790"/>
+	<streamingExtentsMax x="-1249.498413" y="-1096.810425" z="482.909676"/>
+	<entitiesExtentsMin x="-1709.119995" y="-1549.327759" z="32.784210"/>
+	<entitiesExtentsMax x="-1599.498413" y="-1446.810425" z="132.909676"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_emrfencegater02x_h</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1649.498413" y="-1499.327759" z="82.819305"/>
+			<rotation w="0.081785" x="0.000000" y="0.000000" z="-0.996650"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>spooni_gate_r</archetypeName>
+			<flags value="1572865"/>
+			<position x="-1649.548706" y="-1499.227417" z="82.909676"/>
+			<rotation w="0.992190" x="0.000000" y="0.000000" z="0.124740"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="150"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_emrfencegater02x_h</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1659.119995" y="-1496.810425" z="82.784210"/>
+			<rotation w="0.991672" x="-0.000261" y="0.018509" z="0.127455"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>spooni_gate_l</archetypeName>
+			<flags value="1572865"/>
+			<position x="-1659.078735" y="-1496.859985" z="82.870125"/>
+			<rotation w="0.991020" x="0.000233" y="0.001730" z="0.133704"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="150"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>
