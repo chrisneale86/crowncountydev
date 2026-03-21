@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<CMapData>
+    <flags value="2"/>
+    <contentFlags value="65"/>
+    <streamingExtentsMin x="1909.59351" y="-1831.152" z="-633.4839" />
+	<streamingExtentsMax x="3309.59351" y="-431.151978" z="766.5161" />
+	<entitiesExtentsMin x="2616.00146" y="-1259.57825" z="47.06543" />
+	<entitiesExtentsMax x="2703.62061" y="-1209.57886" z="71.35762" />
+    <entities>
+        <Item type="CEntityDef">
+   <archetypeName>new_saloon01_lod</archetypeName>
+   <flags value="1572928" />
+   <position x="2634.38623" y="-1226.88721" z="58.1001" />
+   <rotation x="0" y="0" z="0" w="1" />
+   <scaleXY value="1" />
+   <scaleZ value="1" />
+   <parentIndex value="0" />
+   <lodDist value="299" />
+   <childLodDist value="0" />
+   <lodLevel>LODTYPES_DEPTH_LOD</lodLevel>
+   <numChildren value="1" />
+   <priorityLevel>PRI_REQUIRED</priorityLevel>
+   <extensions />
+   <powerGridId value="0" />
+   <tintValue value="0" />
+   <GtyHDFA_0x0DC5F270 value="255" />
+   <kXvVXMA_0x540CA436 value="255" />
+  </Item>
+    </entities>
+</CMapData>

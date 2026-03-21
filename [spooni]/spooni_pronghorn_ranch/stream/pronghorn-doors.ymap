@@ -1,0 +1,761 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-2979.755371" y="-64.029999" z="-249.466263"/>
+	<streamingExtentsMax x="-2169.469971" y="752.899994" z="550.547867"/>
+	<entitiesExtentsMin x="-2629.755371" y="285.970001" z="100.533737"/>
+	<entitiesExtentsMax x="-2519.469971" y="402.899994" z="200.547867"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_door04x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-2579.755371" y="344.600006" z="150.547867"/>
+			<rotation w="0.707107" x="-0.000000" y="0.000000" z="0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-door1</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door04x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-2569.469971" y="335.970001" z="150.547867"/>
+			<rotation w="0.000000" x="-0.000000" y="0.000000" z="1.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-door2</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door04x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-2569.469971" y="352.899994" z="150.533737"/>
+			<rotation w="0.000000" x="-0.000000" y="0.000000" z="1.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-door3</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door04x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2555.651367" y="353.860657" z="150.563293"/>
+			<rotation w="0.707107" x="0.000000" y="-0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-door4</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<!-- INT -->
+		<Item type="CEntityDef">
+			<archetypeName>p_door_prong_mans01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2576.211426" y="341.819458" z="153.729996"/>
+			<rotation w="0.707107" x="0.000000" y="-0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-int-door1</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door04x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2572.139893" y="340.309998" z="153.729996"/>
+			<rotation w="0.000000" x="0.000000" y="-0.000000" z="-1.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-int-door2</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door04x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2564.129883" y="340.329987" z="153.740005"/>
+			<rotation w="0.000000" x="0.000000" y="-0.000000" z="-1.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-int-door3</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_prong_mans01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2567.393555" y="351.321075" z="153.770004"/>
+			<rotation w="0.707107" x="-0.000000" y="0.000000" z="0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-int-door4</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_prong_mans01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2572.175537" y="340.378784" z="150.493576"/>
+			<rotation w="1.000000" x="0.000000" y="-0.000000" z="-0.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-int-door5</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_prong_mans01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2576.204346" y="349.167206" z="153.738922"/>
+			<rotation w="0.707107" x="-0.000000" y="0.000000" z="0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-int-door6</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_prong_mans01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2574.600586" y="342.480042" z="150.534286"/>
+			<rotation w="1.000000" x="0.000000" y="-0.000000" z="-0.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-int-door7</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_prong_mans01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2567.531982" y="344.109772" z="150.515671"/>
+			<rotation w="0.707107" x="0.000000" y="-0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-int-door8</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_prong_mans01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2567.411133" y="341.855469" z="153.759995"/>
+			<rotation w="0.707107" x="0.000000" y="-0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-int-door9</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_prong_mans01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2576.165283" y="341.805298" z="150.462326"/>
+			<rotation w="0.707107" x="0.000000" y="-0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-int-door10</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door_prong_mans01x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2576.202881" y="350.768829" z="150.500000"/>
+			<rotation w="0.707107" x="0.000000" y="-0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door_prong_mans01x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-int-door11</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<!-- House -->
+		<Item type="CEntityDef">
+			<archetypeName>p_door04x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2586.366455" y="439.480011" z="146.979996"/>
+			<rotation w="0.707107" x="0.000000" y="-0.000000" z="-0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-house-door1</Id>
+				</Item>
+			</extensions>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_door04x</archetypeName>
+			<flags value="1572865"/>
+			<position x="-2597.543213" y="431.733582" z="146.953125"/>
+			<rotation w="1.000000" x="0.000000" y="-0.000000" z="-0.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="50"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+			<extensions>
+				<Item type="CExtensionDefDoor">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<ELUGHoA_0xDAF8214E value="false" />
+					<enableLimitAngle value="true" />
+					<EFwMwAA_0x091A42D0 value="false" />
+					<startsLocked value="false" />
+					<canBreak value="false" />
+					<PkpciBA_0xA37CAB71 value="false" />
+					<dKbmTLA_0xCFE37BDB value="1.470796" />
+					<nuskEbA_0xA0CF3C8D value="1.470796" />
+					<RbUnQLA_0x9C555ECF value="0" />
+					<OPkNlHA_0xBCA0289E value="0" />
+					<doorTargetRatio value="0" />
+					<audioHash>ismdclsa_0x725d11b6</audioHash>
+					<doorTags>
+						<Item />
+						<Item />
+						<Item />
+						<Item />
+					</doorTags>
+				</Item>
+				<Item type="SSxlGTA_0xDB12012B">
+					<name>p_door04x</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<Id>pronghorn-house-door2</Id>
+				</Item>
+			</extensions>
+		</Item>
+	</entities>
+</CMapData>
