@@ -1,0 +1,4600 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CMapTypes>
+	<archetypes>
+	<Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="35" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-9.391108" y="-5.343351" z="-1.456368" />
+   <bbMax x="2.128868" y="5.440606" z="1.850448" />
+   <bsCentre x="-3.63111973" y="0.0486273766" z="0.197040081" />
+   <bsRadius value="8.061306" />
+   <hdTextureDist value="12.42" />
+   <name>new_police_jailintcells</name>
+   <textureDictionary>new_police_int</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>new_police_jailintcells</assetName>
+   <extensions />
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+		<Item type="CBaseArchetypeDef">
+			<loadFlags value="0x0000000024C20000" />
+			<lodDist value="60" />
+			<flags value="616693760" />
+			<avoidanceflags value="0" />
+			<specialAttribute value="7" />
+			<bbMin x="-1.196338" y="-1.096338" z="-1.196338" />
+			<bbMax x="1.689314" y="1.096248" z="2.792653" />
+			<bsCentre x="0.34464952" y="0" z="1.396328" />
+			<bsRadius value="1.441454" />
+			<hdTextureDist value="7.68" />
+			<name>door27</name>
+			<textureDictionary>door27</textureDictionary>
+			<physicsDictionary>door27</physicsDictionary>
+			<clipDictionary />
+			<drawableDictionary />
+			<assetType>ASSET_TYPE_DRAWABLE</assetType>
+			<assetName>door27</assetName>
+			<extensions>
+				<Item type="CExtensionDefAudioCollisionSettings">
+					<name>door27</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<settings>GcmtbAA_0xF84BDDFC</settings>
+				</Item>
+			</extensions>
+			<guid value="0x0000000000000000" />
+			<zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_DUMMY_OBJECT</zqNiUDA_0x07D164A8>
+		</Item>
+		<Item type="CBaseArchetypeDef">
+			<loadFlags value="0x0000000024C20000" />
+			<lodDist value="60" />
+			<flags value="616693760" />
+			<avoidanceflags value="0" />
+			<specialAttribute value="7" />
+			<bbMin x="-1.196338" y="-1.096338" z="-1.196338" />
+			<bbMax x="1.689314" y="1.096248" z="2.792653" />
+			<bsCentre x="0.34464952" y="0" z="1.396328" />
+			<bsRadius value="1.441454" />
+			<hdTextureDist value="7.68" />
+			<name>door28</name>
+			<textureDictionary>door28</textureDictionary>
+			<physicsDictionary>door27</physicsDictionary>
+			<clipDictionary />
+			<drawableDictionary />
+			<assetType>ASSET_TYPE_DRAWABLE</assetType>
+			<assetName>door28</assetName>
+			<extensions>
+				<Item type="CExtensionDefAudioCollisionSettings">
+					<name>door28</name>
+					<offsetPosition x="0" y="0" z="0" />
+					<settings>GcmtbAA_0xF84BDDFC</settings>
+				</Item>
+			</extensions>
+			<guid value="0x0000000000000000" />
+			<zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_DUMMY_OBJECT</zqNiUDA_0x07D164A8>
+		</Item>
+		<Item type="CBaseArchetypeDef">
+			<loadFlags value="0x0000000000000000" />
+			<lodDist value="199" />
+			<flags value="0" />
+			<avoidanceflags value="0" />
+			<specialAttribute value="0" />
+			<bbMin x="-51.8971872" y="-58.625734" z="-35.228065" />
+			<bbMax x="51.9010906" y="58.649563" z="34.964195" />
+			<bsCentre x="0.00195217133" y="0.0119142532" z="-0.13193512" />
+			<bsRadius value="48.56178" />
+			<hdTextureDist value="100" />
+			<name>new_police_ceiling_details1_shell</name>
+			<textureDictionary>new_police_int</textureDictionary>
+			<clipDictionary />
+			<drawableDictionary />
+			<physicsDictionary />
+			<assetType>ASSET_TYPE_DRAWABLE</assetType>
+			<assetName>new_police_ceiling_details1_shell</assetName>
+			<extensions />
+			<guid value="0x0000000000000000" />
+			<zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+		</Item>
+		<Item type="CBaseArchetypeDef">
+			<loadFlags value="0x0000000000000000" />
+			<lodDist value="199" />
+			<flags value="0" />
+			<avoidanceflags value="0" />
+			<specialAttribute value="0" />
+			<bbMin x="-51.8971872" y="-58.625734" z="-35.228065" />
+			<bbMax x="51.9010906" y="58.649563" z="34.964195" />
+			<bsCentre x="0.00195217133" y="0.0119142532" z="-0.13193512" />
+			<bsRadius value="48.56178" />
+			<hdTextureDist value="100" />
+			<name>new_police_ceiling_details2_shell</name>
+			<textureDictionary>new_police_int</textureDictionary>
+			<clipDictionary />
+			<drawableDictionary />
+			<physicsDictionary />
+			<assetType>ASSET_TYPE_DRAWABLE</assetType>
+			<assetName>new_police_ceiling_details2_shell</assetName>
+			<extensions />
+			<guid value="0x0000000000000000" />
+			<zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+		</Item>
+		<Item type="CBaseArchetypeDef">
+			<loadFlags value="0x0000000000000000" />
+			<lodDist value="199" />
+			<flags value="0" />
+			<avoidanceflags value="0" />
+			<specialAttribute value="0" />
+			<bbMin x="-51.8971872" y="-58.625734" z="-35.228065" />
+			<bbMax x="51.9010906" y="58.649563" z="34.964195" />
+			<bsCentre x="0.00195217133" y="0.0119142532" z="-0.13193512" />
+			<bsRadius value="48.56178" />
+			<hdTextureDist value="100" />
+			<name>new_police_shell</name>
+			<textureDictionary>new_police_int</textureDictionary>
+			<clipDictionary />
+			<drawableDictionary />
+			<physicsDictionary />
+			<assetType>ASSET_TYPE_DRAWABLE</assetType>
+			<assetName>new_police_shell</assetName>
+			<extensions />
+			<guid value="0x0000000000000000" />
+			<zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+		</Item>
+		<Item type="CBaseArchetypeDef">
+			<loadFlags value="0x0000000000000000" />
+			<lodDist value="199" />
+			<flags value="0" />
+			<avoidanceflags value="0" />
+			<specialAttribute value="0" />
+			<bbMin x="-51.8971872" y="-58.625734" z="-35.228065" />
+			<bbMax x="51.9010906" y="58.649563" z="34.964195" />
+			<bsCentre x="0.00195217133" y="0.0119142532" z="-0.13193512" />
+			<bsRadius value="48.56178" />
+			<hdTextureDist value="100" />
+			<name>new_police_lob_walls_shell</name>
+			<textureDictionary>new_police_int</textureDictionary>
+			<clipDictionary />
+			<drawableDictionary />
+			<physicsDictionary />
+			<assetType>ASSET_TYPE_DRAWABLE</assetType>
+			<assetName>new_police_lob_walls_shell</assetName>
+			<extensions />
+			<guid value="0x0000000000000000" />
+			<zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+		</Item>
+		<Item type="CMloArchetypeDef">
+			<loadFlags value="0x0000000000000000" />
+			<lodDist value="80" />
+			<flags value="0" />
+			<avoidanceflags value="0" />
+			<specialAttribute value="0" />
+			<bbMin x="0" y="0" z="0" />
+			<bbMax x="0" y="0" z="0" />
+			<bsCentre x="0" y="0" z="0" />
+			<bsRadius value="0" />
+			<hdTextureDist value="40" />
+			<name>new_police_ceiling_details_col</name>
+			<textureDictionary />
+			<clipDictionary />
+			<drawableDictionary />
+			<physicsDictionary>new_police_ceiling_details_col</physicsDictionary>
+			<assetType>ASSET_TYPE_ASSETLESS</assetType>
+			<assetName>new_police_ceiling_details_col</assetName>
+			<extensions />
+			<guid value="0x0000000000000000" />
+			<zqNiUDA_0x07D164A8>ORmmUEA_0x9B931532</zqNiUDA_0x07D164A8>
+			<mloFlags value="0" />
+			<entities>
+				<Item type="CEntityDef">
+					<archetypeName>new_police_ceiling_details1_shell</archetypeName>
+					<flags value="1572864" />
+					<id value="0x0000000000000000" />
+					<position x="0.192855" y="-0.002256" z="4.197631" />
+					<rotation x="0" y="0" z="0" w="1" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="80" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions />
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>new_police_ceiling_details2_shell</archetypeName>
+					<flags value="1572864" />
+					<id value="0x0000000000000000" />
+					<position x="0.192855" y="-0.002256" z="4.197631" />
+					<rotation x="0" y="0" z="0" w="1" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="80" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions />
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>new_police_lob_walls_shell</archetypeName>
+					<flags value="1572864" />
+					<id value="0x0000000000000000" />
+					<position x="0.192855" y="-0.002256" z="4.197631" />
+					<rotation x="0" y="0" z="0" w="1" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="80" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions />
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>new_police_shell</archetypeName>
+					<flags value="1572864" />
+					<id value="0x0000000000000000" />
+					<position x="0.192855" y="-0.002256" z="4.197631" />
+					<rotation x="0" y="0" z="0" w="1" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="80" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions />
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_doornbd39a</archetypeName>
+					<flags value="1572864" />
+					<id value="0x4EDA9CC10892999C" />
+					<position x="14.1923084" y="1.097598" z="0.699143" />
+					<rotation x="0" y="0" z="0.7071068" w="0.707106769" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_doornbd39a</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>mWyXoAA_0xB6B7A73E</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_doornbd39a</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door32</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_doornbd39a</archetypeName>
+					<flags value="1572864" />
+					<id value="0x4D913C72670FC8F7" />
+					<position x="14.1922255" y="-1.105044" z="0.699143" />
+					<rotation x="0" y="0" z="-0.707106531" w="0.7071072" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_doornbd39a</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>mWyXoAA_0xB6B7A73E</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_doornbd39a</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door31</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_l</archetypeName>
+					<flags value="1572864" />
+					<id value="0x456CB5D4D5C99C8D" />
+					<position x="8.955687" y="-1.661514" z="0.699143" />
+					<rotation x="0" y="0" z="0.7071068" w="0.707106769" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>iGsclMA_0xB07E9B63</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>jNrAQKA_0xCC75FCE7</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_l</archetypeName>
+					<flags value="1572864" />
+					<id value="0x457AA0470F76F79A" />
+					<position x="8.955677" y="3.410866" z="0.70374" />
+					<rotation x="0" y="0" z="0.7071068" w="0.707106769" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>iGsclMA_0xB07E9B63</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>gRQgZBA_0x70094407</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_r</archetypeName>
+					<flags value="1572864" />
+					<id value="0x41A587901726CBFE" />
+					<position x="8.955687" y="-3.392975" z="0.699143" />
+					<rotation x="0" y="0" z="0.7071068" w="0.707106769" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>MRdhXJA_0xD6AB1151</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_r</archetypeName>
+					<flags value="1572864" />
+					<id value="0x482B076312249937" />
+					<position x="8.955677" y="1.68111491" z="0.70374" />
+					<rotation x="0" y="0" z="0.7071068" w="0.707106769" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>ENAtNGA_0xBA3F587A</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_l</archetypeName>
+					<flags value="1572864" />
+					<id value="0x47862D0545FA0CC9" />
+					<position x="6.38547945" y="-8.45714" z="0.699143" />
+					<rotation x="0" y="0" z="1" w="0" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>iGsclMA_0xB07E9B63</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door39</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_r</archetypeName>
+					<flags value="1572864" />
+					<id value="0x4439F2BD04951DD8" />
+					<position x="4.654074" y="-8.45714" z="0.699143" />
+					<rotation x="0" y="0" z="1" w="0" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door40</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_l</archetypeName>
+					<flags value="1572864" />
+					<id value="0x49CC45DE6120D4D1" />
+					<position x="-4.267275" y="-8.460222" z="0.699143" />
+					<rotation x="0" y="0" z="1" w="0" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>iGsclMA_0xB07E9B63</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door37</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_r</archetypeName>
+					<flags value="1572864" />
+					<id value="0x49650E2B09390484" />
+					<position x="-5.99867964" y="-8.460222" z="0.699143" />
+					<rotation x="0" y="0" z="1" w="0" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door38</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_r</archetypeName>
+					<flags value="1572864" />
+					<id value="0x4A947A94C3CDFAD2" />
+					<position x="-8.579475" y="-1.40266609" z="0.699143" />
+					<rotation x="0" y="0" z="-0.707106531" w="0.7071072" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door34</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_l</archetypeName>
+					<flags value="1572864" />
+					<id value="0x416C9F68391D581E" />
+					<position x="-8.579475" y="-3.133992" z="0.699143" />
+					<rotation x="0" y="0" z="-0.707106531" w="0.7071072" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>iGsclMA_0xB07E9B63</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door33</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_l</archetypeName>
+					<flags value="1572864" />
+					<id value="0x486632A6093933B1" />
+					<position x="-8.579475" y="1.40410793" z="0.699143" />
+					<rotation x="0" y="0" z="-0.707106531" w="0.7071072" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>iGsclMA_0xB07E9B63</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door35</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_r</archetypeName>
+					<flags value="1572864" />
+					<id value="0x4F5D08790BE36549" />
+					<position x="-8.579475" y="3.135514" z="0.699143" />
+					<rotation x="0" y="0" z="-0.707106531" w="0.7071072" />
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door36</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door28</archetypeName>
+					<flags value="1572864"/>
+					<position x="-1.674815" y="5.414630" z="0.700584"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door1</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door28</archetypeName>
+					<flags value="1572864"/>
+					<position x="2.360209" y="5.419185" z="0.707581"/>
+					<rotation w="0.000000" x="0.000000" y="0.000000" z="-1.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door2</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door28</archetypeName>
+					<flags value="1572864"/>
+					<position x="2.366394" y="-5.405275" z="0.707581"/>
+					<rotation w="0.000000" x="0.000000" y="0.000000" z="-1.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door3</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door28</archetypeName>
+					<flags value="1572864"/>
+					<position x="-1.678851" y="-5.411432" z="0.707581"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door4</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door28</archetypeName>
+					<flags value="1572864"/>
+					<position x="6.789135" y="-7.636322" z="0.701271"/>
+					<rotation w="0.707107" x="0.000000" y="0.000000" z="-0.707107"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door5</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door28</archetypeName>
+					<flags value="1572864"/>
+					<position x="6.809544" y="7.639151" z="0.701271"/>
+					<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707107"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door6</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door27</archetypeName>
+					<flags value="1572864"/>
+					<position x="14.216477" y="-3.930955" z="0.729240"/>
+					<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707107"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door27</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door27</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door7</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door28</archetypeName>
+					<flags value="1572864"/>
+					<position x="4.284395" y="-4.601743" z="-3.914085"/>
+					<rotation w="0.000000" x="0.000000" y="0.000000" z="-1.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door8</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door28</archetypeName>
+					<flags value="1572864"/>
+					<position x="0.239877" y="-4.592406" z="-3.911087"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door9</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door28</archetypeName>
+					<flags value="1572864"/>
+					<position x="-6.599894" y="-4.581761" z="-3.911087"/>
+					<rotation w="0.000000" x="0.000000" y="0.000000" z="-1.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door10</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door28</archetypeName>
+					<flags value="1572864"/>
+					<position x="-10.636659" y="-4.581553" z="-3.911087"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door11</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door48x</archetypeName>
+					<flags value="1572864"/>
+					<position x="-11.095547" y="4.701945" z="-3.655045"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door48x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door48x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door12</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door48x</archetypeName>
+					<flags value="1572864"/>
+					<position x="-6.194283" y="4.703757" z="-3.655045"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door48x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door48x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door13</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door48x</archetypeName>
+					<flags value="1572864"/>
+					<position x="-1.292767" y="4.695030" z="-3.655045"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door48x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door48x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door14</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door48x</archetypeName>
+					<flags value="1572864"/>
+					<position x="3.758486" y="4.707338" z="-3.655045"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door48x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door48x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door15</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>door28</archetypeName>
+					<flags value="1572864"/>
+					<position x="6.909286" y="-1.664362" z="-3.911087"/>
+					<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707107"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>door28</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door16</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_val_jail_cell02x</archetypeName>
+					<flags value="1572864"/>
+					<position x="11.146493" y="-5.801682" z="-3.919006"/>
+					<rotation w="0.000000" x="0.000000" y="0.000000" z="-1.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_val_jail_cell02x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_val_jail_cell02x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door17</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_r</archetypeName>
+					<flags value="1572864"/>
+					<position x="8.844336" y="-0.647718" z="7.607590"/>
+					<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707107"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door18</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_l</archetypeName>
+					<flags value="1572864"/>
+					<position x="8.852180" y="1.084077" z="7.607590"/>
+					<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707107"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door19</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_doornbdaly01x</archetypeName>
+					<flags value="1572864"/>
+					<position x="0.733193" y="-1.380363" z="7.607597"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_doornbdaly01x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_doornbdaly01x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door20</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_doornbdaly01x</archetypeName>
+					<flags value="1572864"/>
+					<position x="-0.523426" y="-1.380129" z="7.607597"/>
+					<rotation w="0.000000" x="0.000000" y="0.000000" z="-1.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_doornbdaly01x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_doornbdaly01x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door21</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_doornbdaly01x</archetypeName>
+					<flags value="1572864"/>
+					<position x="0.723354" y="1.871402" z="7.607597"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_doornbdaly01x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_doornbdaly01x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door22</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_doorrhogensto02x</archetypeName>
+					<flags value="1572864"/>
+					<position x="-0.525059" y="1.847237" z="7.607590"/>
+					<rotation w="0.000000" x="0.000000" y="0.000000" z="-1.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_doorrhogensto02x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_doorrhogensto02x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door23</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_r</archetypeName>
+					<flags value="1572864"/>
+					<position x="12.767201" y="-3.174410" z="12.645187"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door24</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_l</archetypeName>
+					<flags value="1572864"/>
+					<position x="11.037892" y="-3.171706" z="12.644852"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door25</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_r</archetypeName>
+					<flags value="1572864"/>
+					<position x="9.520244" y="-0.645053" z="12.793228"/>
+					<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707107"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_r</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door26</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_nbx_doc01x_l</archetypeName>
+					<flags value="1572864"/>
+					<position x="9.520883" y="1.085700" z="12.797256"/>
+					<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707107"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_nbx_doc01x_l</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door27</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_val_bank00_lx</archetypeName>
+					<flags value="1572864"/>
+					<position x="0.727084" y="-1.363802" z="12.938477"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_val_bank00_lx</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_val_bank00_lx</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door28</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_doorriverboat01x</archetypeName>
+					<flags value="1572864"/>
+					<position x="-2.428430" y="0.770534" z="12.976746"/>
+					<rotation w="0.707107" x="0.000000" y="0.000000" z="0.707107"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_doorriverboat01x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_doorriverboat01x</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door29</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+					<archetypeName>p_door_val_bank00_rx</archetypeName>
+					<flags value="1572864"/>
+					<position x="0.731167" y="1.859474" z="12.938477"/>
+					<rotation w="1.000000" x="0.000000" y="0.000000" z="0.000000"/>
+					<scaleXY value="1" />
+					<scaleZ value="1" />
+					<parentIndex value="-1" />
+					<lodDist value="-1" />
+					<childLodDist value="0" />
+					<lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+					<numChildren value="0" />
+					<priorityLevel>PRI_REQUIRED</priorityLevel>
+					<extensions>
+						<Item type="CExtensionDefDoor">
+							<name>p_door_val_bank00_rx</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<autoOpens value="False" />
+							<enableLimitAngle value="True" />
+							<EFwMwAA_0x091A42D0 value="False" />
+							<startsLocked value="False" />
+							<canBreak value="False" />
+							<PkpciBA_0xA37CAB71 value="False" />
+							<limitAnglePos value="1.570796" />
+							<limitAngleNeg value="1.570796" />
+							<RbUnQLA_0x9C555ECF value="0" />
+							<OPkNlHA_0xBCA0289E value="0" />
+							<doorTargetRatio value="0" />
+							<audioHash>XwZhBHA_0x3C043270</audioHash>
+							<doorTags>
+								<Item />
+								<Item />
+								<Item />
+								<Item />
+							</doorTags>
+						</Item>
+						<Item type="CExtensionDefScriptEntityId">
+							<name>p_door_val_bank00_rx</name>
+							<offsetPosition x="0" y="0" z="0" />
+							<Id>sd_police_door30</Id>
+						</Item>
+					</extensions>
+					<powerGridId value="0" />
+					<tintValue value="0" />
+					<GtyHDFA_0x0DC5F270 value="255" />
+					<kXvVXMA_0x540CA436 value="255" />
+				</Item>
+				<Item type="CEntityDef">
+     <archetypeName>p_lightfancy01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x4AFCFAE9957721BB" />
+     <position x="9.222256" y="-1.12359309" z="1.749542" />
+     <rotation x="0" y="0" z="-0.6087614" w="0.7933534" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="21" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions>
+      <Item type="CExtensionDefLightEffect">
+       <name />
+       <offsetPosition x="0" y="0" z="0" />
+       <instances itemType="CLightAttrDef">
+        <Item>
+         <posn>0.001823425 0.001862 -0.124108</posn>
+         <colour>254 209 168</colour>
+         <flashiness value="5" />
+         <intensity value="34" />
+         <flags value="384" />
+         <boneTag value="-11234" />
+         <lightType value="2" />
+         <groupId value="0" />
+         <timeFlags value="16777215" />
+         <falloff value="2.5" />
+         <falloffExponent value="8" />
+         <cullingPlane>0 0 -1 2.5</cullingPlane>
+         <cullingPlane1>0 0 -1 2.5</cullingPlane1>
+         <shadowBlur value="255" />
+         <shadowOpacity value="255" />
+         <padding2 value="0" />
+         <roughnessMod value="0" />
+         <volIntensity value="1" />
+         <volSizeScale value="1" />
+         <volOuterColour>255 255 255</volOuterColour>
+         <lightHash value="164" />
+         <volOuterIntensity value="0" />
+         <injectsIntoVoxels value="True" />
+         <coronaSize value="0" />
+         <volOuterExponent value="1" />
+         <lightFadeDistance value="0" />
+         <shadowFadeDistance value="20" />
+         <specularFadeDistance value="0" />
+         <volumetricFadeDistance value="30" />
+         <shadowNearClip value="0.01" />
+         <jwWnkOA_0x4855CDE5 value="0" />
+         <aVNWOWA_0x0DA3D86E value="0" />
+         <coronaIntensity value="1" />
+         <coronaZBias value="0.1" />
+         <jaUgZFA_0x93C52D2C />
+         <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+         <emitterSize value="1" />
+         <emitterIntensityMult value="1" />
+         <emitterTintDesaturation value="0.75" />
+         <direction>0 0 1</direction>
+         <tangent>-1 0 0</tangent>
+         <coneInnerAngle value="10" />
+         <coneOuterAngle value="90" />
+         <squareAspectRatio value="1" />
+         <extents>1 0 0</extents>
+         <projectedTextureKey value="0" />
+         <SSAOStrength value="1" />
+         <extraFlags value="4608" />
+         <falloffBias value="0.015" />
+         <KEQjKDA_0x3F4C1BB0 value="0" />
+         <xnzMOUA_0x9C23D4E9 value="0" />
+         <wrapAmount value="0" />
+         <nonDirectionality value="0" />
+         <scaleDirectional value="1" />
+         <ciMauyA_0xA968034C value="0" />
+         <zuvBbAA_0x5148E7B3 value="0" />
+         <uanzvAA_0x83161CBE value="True" />
+         <yNonDHA_0xC11AF51B value="0" />
+         <hNLtnOA_0x53A339C3 value="0" />
+         <GQdKoGA_0x0F06E05A value="0" />
+         <kbeoGZA_0x724AE3FF value="1" />
+         <UuQeEIA_0x73D8B6CB value="0.7" />
+         <gvmiqBA_0x2EBE653A value="0" />
+         <JdptERA_0x208D587D value="0" />
+         <zsUuaBA_0x2E0E4E3C value="1" />
+         <VeekdIA_0xB4B05CF2 value="0" />
+         <OBPcFAA_0x0963B563 value="1000000" />
+         <dynamicShadowFadeDistance value="0" />
+         <lightId value="626797220" />
+         <blendTime value="15" />
+         <offset value="0" />
+         <pwFikYA_0x30ECA388 x="0" y="0" z="0.39167" />
+         <overrideHash value="2122446584" />
+        </Item>
+        <Item>
+         <posn>0.001823425 0.001862 -0.02420101</posn>
+         <colour>254 209 168</colour>
+         <flashiness value="5" />
+         <intensity value="1.5" />
+         <flags value="0" />
+         <boneTag value="-11234" />
+         <lightType value="1" />
+         <groupId value="0" />
+         <timeFlags value="16777215" />
+         <falloff value="2.5" />
+         <falloffExponent value="8" />
+         <cullingPlane>0 0 -1 2.5</cullingPlane>
+         <cullingPlane1>0 0 -1 2.5</cullingPlane1>
+         <shadowBlur value="0" />
+         <shadowOpacity value="255" />
+         <padding2 value="0" />
+         <roughnessMod value="0" />
+         <volIntensity value="1" />
+         <volSizeScale value="1" />
+         <volOuterColour>255 255 255</volOuterColour>
+         <lightHash value="235" />
+         <volOuterIntensity value="0" />
+         <injectsIntoVoxels value="True" />
+         <coronaSize value="0" />
+         <volOuterExponent value="1" />
+         <lightFadeDistance value="0" />
+         <shadowFadeDistance value="20" />
+         <specularFadeDistance value="0" />
+         <volumetricFadeDistance value="30" />
+         <shadowNearClip value="0.01" />
+         <jwWnkOA_0x4855CDE5 value="0" />
+         <aVNWOWA_0x0DA3D86E value="0" />
+         <coronaIntensity value="1" />
+         <coronaZBias value="0.1" />
+         <jaUgZFA_0x93C52D2C />
+         <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+         <emitterSize value="1" />
+         <emitterIntensityMult value="1" />
+         <emitterTintDesaturation value="0.75" />
+         <direction>0 0 1</direction>
+         <tangent>-1 0 0</tangent>
+         <coneInnerAngle value="10" />
+         <coneOuterAngle value="90" />
+         <squareAspectRatio value="1" />
+         <extents>1 0 0</extents>
+         <projectedTextureKey value="0" />
+         <SSAOStrength value="1.5" />
+         <extraFlags value="4608" />
+         <falloffBias value="0.015" />
+         <KEQjKDA_0x3F4C1BB0 value="0" />
+         <xnzMOUA_0x9C23D4E9 value="0" />
+         <wrapAmount value="0" />
+         <nonDirectionality value="0" />
+         <scaleDirectional value="1" />
+         <ciMauyA_0xA968034C value="0" />
+         <zuvBbAA_0x5148E7B3 value="0" />
+         <uanzvAA_0x83161CBE value="True" />
+         <yNonDHA_0xC11AF51B value="0" />
+         <hNLtnOA_0x53A339C3 value="0" />
+         <GQdKoGA_0x0F06E05A value="0" />
+         <kbeoGZA_0x724AE3FF value="1" />
+         <UuQeEIA_0x73D8B6CB value="0.7" />
+         <gvmiqBA_0x2EBE653A value="0" />
+         <JdptERA_0x208D587D value="0" />
+         <zsUuaBA_0x2E0E4E3C value="1" />
+         <VeekdIA_0xB4B05CF2 value="0" />
+         <OBPcFAA_0x0963B563 value="1000000" />
+         <dynamicShadowFadeDistance value="0" />
+         <lightId value="746557675" />
+         <blendTime value="15" />
+         <offset value="0" />
+         <pwFikYA_0x30ECA388 x="0" y="0" z="0.491577029" />
+         <overrideHash value="1285924631" />
+        </Item>
+       </instances>
+       <additionalInstances />
+      </Item>
+     </extensions>
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+	<Item type="CEntityDef">
+     <archetypeName>p_lightfancy01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x430028EE88786CE9" />
+     <position x="9.222256" y="1.10981393" z="1.749542" />
+     <rotation x="0" y="0" z="-0.6087614" w="0.7933534" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="21" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions>
+      <Item type="CExtensionDefLightEffect">
+       <name />
+       <offsetPosition x="0" y="0" z="0" />
+       <instances itemType="CLightAttrDef">
+        <Item>
+         <posn>0.001823425 0.001862 -0.124108</posn>
+         <colour>254 209 168</colour>
+         <flashiness value="5" />
+         <intensity value="34" />
+         <flags value="384" />
+         <boneTag value="-11234" />
+         <lightType value="2" />
+         <groupId value="0" />
+         <timeFlags value="16777215" />
+         <falloff value="2.5" />
+         <falloffExponent value="8" />
+         <cullingPlane>0 0 -1 2.5</cullingPlane>
+         <cullingPlane1>0 0 -1 2.5</cullingPlane1>
+         <shadowBlur value="255" />
+         <shadowOpacity value="255" />
+         <padding2 value="0" />
+         <roughnessMod value="0" />
+         <volIntensity value="1" />
+         <volSizeScale value="1" />
+         <volOuterColour>255 255 255</volOuterColour>
+         <lightHash value="164" />
+         <volOuterIntensity value="0" />
+         <injectsIntoVoxels value="True" />
+         <coronaSize value="0" />
+         <volOuterExponent value="1" />
+         <lightFadeDistance value="0" />
+         <shadowFadeDistance value="20" />
+         <specularFadeDistance value="0" />
+         <volumetricFadeDistance value="30" />
+         <shadowNearClip value="0.01" />
+         <jwWnkOA_0x4855CDE5 value="0" />
+         <aVNWOWA_0x0DA3D86E value="0" />
+         <coronaIntensity value="1" />
+         <coronaZBias value="0.1" />
+         <jaUgZFA_0x93C52D2C />
+         <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+         <emitterSize value="1" />
+         <emitterIntensityMult value="1" />
+         <emitterTintDesaturation value="0.75" />
+         <direction>0 0 1</direction>
+         <tangent>-1 0 0</tangent>
+         <coneInnerAngle value="10" />
+         <coneOuterAngle value="90" />
+         <squareAspectRatio value="1" />
+         <extents>1 0 0</extents>
+         <projectedTextureKey value="0" />
+         <SSAOStrength value="1" />
+         <extraFlags value="4608" />
+         <falloffBias value="0.015" />
+         <KEQjKDA_0x3F4C1BB0 value="0" />
+         <xnzMOUA_0x9C23D4E9 value="0" />
+         <wrapAmount value="0" />
+         <nonDirectionality value="0" />
+         <scaleDirectional value="1" />
+         <ciMauyA_0xA968034C value="0" />
+         <zuvBbAA_0x5148E7B3 value="0" />
+         <uanzvAA_0x83161CBE value="True" />
+         <yNonDHA_0xC11AF51B value="0" />
+         <hNLtnOA_0x53A339C3 value="0" />
+         <GQdKoGA_0x0F06E05A value="0" />
+         <kbeoGZA_0x724AE3FF value="1" />
+         <UuQeEIA_0x73D8B6CB value="0.7" />
+         <gvmiqBA_0x2EBE653A value="0" />
+         <JdptERA_0x208D587D value="0" />
+         <zsUuaBA_0x2E0E4E3C value="1" />
+         <VeekdIA_0xB4B05CF2 value="0" />
+         <OBPcFAA_0x0963B563 value="1000000" />
+         <dynamicShadowFadeDistance value="0" />
+         <lightId value="626797220" />
+         <blendTime value="15" />
+         <offset value="0" />
+         <pwFikYA_0x30ECA388 x="0" y="0" z="0.39167" />
+         <overrideHash value="2122446584" />
+        </Item>
+        <Item>
+         <posn>0.001823425 0.001862 -0.02420101</posn>
+         <colour>254 209 168</colour>
+         <flashiness value="5" />
+         <intensity value="1.5" />
+         <flags value="0" />
+         <boneTag value="-11234" />
+         <lightType value="1" />
+         <groupId value="0" />
+         <timeFlags value="16777215" />
+         <falloff value="2.5" />
+         <falloffExponent value="8" />
+         <cullingPlane>0 0 -1 2.5</cullingPlane>
+         <cullingPlane1>0 0 -1 2.5</cullingPlane1>
+         <shadowBlur value="0" />
+         <shadowOpacity value="255" />
+         <padding2 value="0" />
+         <roughnessMod value="0" />
+         <volIntensity value="1" />
+         <volSizeScale value="1" />
+         <volOuterColour>255 255 255</volOuterColour>
+         <lightHash value="235" />
+         <volOuterIntensity value="0" />
+         <injectsIntoVoxels value="True" />
+         <coronaSize value="0" />
+         <volOuterExponent value="1" />
+         <lightFadeDistance value="0" />
+         <shadowFadeDistance value="20" />
+         <specularFadeDistance value="0" />
+         <volumetricFadeDistance value="30" />
+         <shadowNearClip value="0.01" />
+         <jwWnkOA_0x4855CDE5 value="0" />
+         <aVNWOWA_0x0DA3D86E value="0" />
+         <coronaIntensity value="1" />
+         <coronaZBias value="0.1" />
+         <jaUgZFA_0x93C52D2C />
+         <UqAqJIA_0x52A89335 x="0" y="0" z="0" />
+         <emitterSize value="1" />
+         <emitterIntensityMult value="1" />
+         <emitterTintDesaturation value="0.75" />
+         <direction>0 0 1</direction>
+         <tangent>-1 0 0</tangent>
+         <coneInnerAngle value="10" />
+         <coneOuterAngle value="90" />
+         <squareAspectRatio value="1" />
+         <extents>1 0 0</extents>
+         <projectedTextureKey value="0" />
+         <SSAOStrength value="1.5" />
+         <extraFlags value="4608" />
+         <falloffBias value="0.015" />
+         <KEQjKDA_0x3F4C1BB0 value="0" />
+         <xnzMOUA_0x9C23D4E9 value="0" />
+         <wrapAmount value="0" />
+         <nonDirectionality value="0" />
+         <scaleDirectional value="1" />
+         <ciMauyA_0xA968034C value="0" />
+         <zuvBbAA_0x5148E7B3 value="0" />
+         <uanzvAA_0x83161CBE value="True" />
+         <yNonDHA_0xC11AF51B value="0" />
+         <hNLtnOA_0x53A339C3 value="0" />
+         <GQdKoGA_0x0F06E05A value="0" />
+         <kbeoGZA_0x724AE3FF value="1" />
+         <UuQeEIA_0x73D8B6CB value="0.7" />
+         <gvmiqBA_0x2EBE653A value="0" />
+         <JdptERA_0x208D587D value="0" />
+         <zsUuaBA_0x2E0E4E3C value="1" />
+         <VeekdIA_0xB4B05CF2 value="0" />
+         <OBPcFAA_0x0963B563 value="1000000" />
+         <dynamicShadowFadeDistance value="0" />
+         <lightId value="746557675" />
+         <blendTime value="15" />
+         <offset value="0" />
+         <pwFikYA_0x30ECA388 x="0" y="0" z="0.491577029" />
+         <overrideHash value="1285924631" />
+        </Item>
+       </instances>
+       <additionalInstances />
+      </Item>
+     </extensions>
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+	<Item type="CEntityDef">
+     <archetypeName>p_lampwall01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x40293AF515835B3D" />
+     <position x="-8.434114" y="-3.64339614" z="2.909465" />
+     <rotation x="0" y="0" z="0.7071068" w="-0.707106769" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="25" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+    <Item type="CEntityDef">
+     <archetypeName>p_lampwall01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x435D99AA8955DF94" />
+     <position x="-8.434114" y="3.656591" z="2.909465" />
+     <rotation x="0" y="0" z="0.7071068" w="-0.707106769" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="25" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+	<Item type="CEntityDef">
+     <archetypeName>p_lampwall01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x45A18E9099F6DC12" />
+     <position x="-8.434114" y="-0.84554" z="2.909465" />
+     <rotation x="0" y="0" z="0.7071068" w="-0.707106769" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="25" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+    <Item type="CEntityDef">
+     <archetypeName>p_lampwall01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x4B0B9351CAAB2D8A" />
+     <position x="-8.434114" y="0.876162" z="2.909465" />
+     <rotation x="0" y="0" z="0.7071068" w="-0.707106769" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="25" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+    <Item type="CEntityDef">
+     <archetypeName>p_lampwall01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x48D40220F70990F7" />
+     <position x="-6.499447" y="-8.221089" z="3.019582" />
+     <rotation x="0" y="0" z="1" w="0" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="25" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+    <Item type="CEntityDef">
+     <archetypeName>p_lampwall01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x452B5765C0749957" />
+     <position x="-3.80385113" y="-8.221024" z="3.019582" />
+     <rotation x="0" y="0" z="1" w="0" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="25" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+	 <Item type="CEntityDef">
+     <archetypeName>p_dblsconcelight01x</archetypeName>
+     <flags value="337117186" />
+     <id value="0x40E845ABE07059AB" />
+     <position x="13.5800295" y="1.533415" z="2.893513" />
+     <rotation x="0" y="0" z="0.7071068" w="0.707106769" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="25" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+    <Item type="CEntityDef">
+     <archetypeName>p_dblsconcelight01x</archetypeName>
+     <flags value="337117186" />
+     <id value="0x4ECDD4D2EFC4491C" />
+     <position x="13.5800295" y="-1.55268312" z="2.934015" />
+     <rotation x="0" y="0" z="0.7071068" w="0.707106769" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="25" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+	<Item type="CEntityDef">
+     <archetypeName>p_dblsconcelight01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x4793851D60233264" />
+     <position x="5.52074337" y="8.474758" z="2.95330715" />
+     <rotation x="0" y="0" z="0" w="1" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="25" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+    <Item type="CEntityDef">
+     <archetypeName>p_dblsconcelight01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x4E5CA62776088A1B" />
+     <position x="-5.136819" y="8.474758" z="3.506879" />
+     <rotation x="0" y="0" z="0" w="1" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="15" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+	<Item type="CEntityDef">
+     <archetypeName>p_dblsconcelight01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x45ED8820AF92452A" />
+     <position x="7.759284" y="5.355442" z="2.95330715" />
+     <rotation x="0" y="0" z="0" w="1" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="25" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+    <Item type="CEntityDef">
+     <archetypeName>p_dblsconcelight01x</archetypeName>
+     <flags value="1572864" />
+     <id value="0x4607350EC8577DFF" />
+     <position x="7.759284" y="-5.364901" z="2.95330715" />
+     <rotation x="0" y="0" z="1" w="0" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="25" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+	<Item type="CEntityDef">
+     <archetypeName>new_police_jailintcells</archetypeName>
+     <flags value="18350080" />
+     <id value="0x418E6B3C055FA4AB" />
+     <position x="1.082147" y="-0.052793" z="2.150406" />
+     <rotation x="0" y="0" z="0" w="1" />
+     <scaleXY value="1" />
+     <scaleZ value="1" />
+     <parentIndex value="-1" />
+     <lodDist value="35" />
+     <childLodDist value="0" />
+     <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+     <numChildren value="0" />
+     <priorityLevel>PRI_REQUIRED</priorityLevel>
+     <extensions />
+     <powerGridId value="0" />
+     <tintValue value="0" />
+     <GtyHDFA_0x0DC5F270 value="255" />
+     <kXvVXMA_0x540CA436 value="255" />
+    </Item>
+			</entities>
+			<rooms itemType="CMloRoomDef">
+				<Item>
+					<name>limbo</name>
+					<bbMin x="-13.428457" y="-10.598222" z="-4.387555" />
+					<bbMax x="15.863592" y="10.736877" z="17.463448" />
+					<blend value="1" />
+					<timecycleName />
+					<flags value="0" />
+					<portalCount value="44" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array">0 1 2 3</attachedObjects>
+				</Item>
+				<Item>
+					<name>Room.1</name>
+					<bbMin x="8.972552" y="-4.421625" z="0.70026207" />
+					<bbMax x="14.278162" y="4.41934" z="5.8605547" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="4" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array">48 49 56 57</attachedObjects>
+					<reflectionProbes itemType="CReflectionProbeData">
+						<Item>
+							<minExtents x="-13.428457" y="-10.598222" z="-4.387555" />
+							<maxExtents x="15.863592" y="10.736877" z="17.463448" />
+							<rotation x="0" y="0" z="0" w="1" />
+							<centerOffset x="0" y="0" z="0" />
+							<influenceExtents x="1" y="1" z="1" />
+							<probePriority value="255" />
+							<guid value="0x413ee5057f3b7a30" />
+						</Item>
+					</reflectionProbes>
+				</Item>
+				<Item>
+					<name>Room.2</name>
+					<bbMin x="-8.604818" y="-8.498171" z="0.50015545" />
+					<bbMax x="8.971328" y="8.481552" z="7.3213167" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="11" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array">50 51 52 53 54 55 58 59 60 61 62</attachedObjects>
+				</Item>
+				<Item>
+					<name>Room.3</name>
+					<bbMin x="-3.7117145" y="-8.398334" z="0.5737047" />
+					<bbMax x="4.4754725" y="-5.20731" z="4.875533" />
+					<blend value="1" />
+					<timecycleName>sd_police_basement</timecycleName>
+					<flags value="0" />
+					<portalCount value="1" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.4</name>
+					<bbMin x="-3.7117898" y="5.2077274" z="0.5737047" />
+					<bbMax x="4.4754725" y="8.396711" z="4.875532" />
+					<blend value="1" />
+					<timecycleName>sd_police_basement</timecycleName>
+					<flags value="0" />
+					<portalCount value="1" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.5</name>
+					<bbMin x="6.7754984" y="3.9348571" z="-4.042094" />
+					<bbMax x="13.121121" y="9.097168" z="6.083678" />
+					<blend value="1" />
+					<timecycleName>sd_police_basement</timecycleName>
+					<flags value="0" />
+					<portalCount value="2" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.6</name>
+					<bbMin x="-13.248039" y="-4.5986114" z="-3.9241095" />
+					<bbMax x="15.451332" y="8.442337" z="-0.0066022873" />
+					<blend value="1" />
+					<timecycleName>sd_police_basement</timecycleName>
+					<flags value="0" />
+					<portalCount value="4" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array">29 30 31 32</attachedObjects>
+				</Item>
+				<Item>
+					<name>Room.7</name>
+					<bbMin x="6.9088097" y="-10.336143" z="-4.006955" />
+					<bbMax x="14.212176" y="1.7138178" z="0.008600235" />
+					<blend value="1" />
+					<timecycleName>sd_police_basement</timecycleName>
+					<flags value="0" />
+					<portalCount value="1" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array">34</attachedObjects>
+				</Item>
+				<Item>
+					<name>Room.8</name>
+					<bbMin x="-3.3974826" y="-10.308321" z="-4.006955" />
+					<bbMax x="6.5508833" y="-4.5835724" z="0.15998363" />
+					<blend value="1" />
+					<timecycleName>sd_police_basement</timecycleName>
+					<flags value="0" />
+					<portalCount value="1" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.9</name>
+					<bbMin x="-13.343983" y="-10.308321" z="-4.006955" />
+					<bbMax x="-3.3956182" y="-4.5835724" z="0.10421181" />
+					<blend value="1" />
+					<timecycleName>sd_police_basement</timecycleName>
+					<flags value="0" />
+					<portalCount value="1" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.10</name>
+					<bbMin x="9.439354" y="-10.536303" z="0.41495705" />
+					<bbMax x="14.398514" y="-3.1897619" z="12.363669" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="6" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.11</name>
+					<bbMin x="8.850651" y="-3.0082147" z="6.0469656" />
+					<bbMax x="14.206261" y="3.025729" z="12.35451" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="7" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.12</name>
+					<bbMin x="9.521456" y="3.1223805" z="7.087036" />
+					<bbMax x="14.362429" y="10.576846" z="17.041998" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="8" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.13</name>
+					<bbMin x="9.522552" y="-3.1844316" z="12.605991" />
+					<bbMax x="14.3479395" y="3.2178159" z="17.2417" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="6" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.14</name>
+					<bbMin x="9.54325" y="-10.048758" z="12.546685" />
+					<bbMax x="14.514383" y="-3.2030573" z="16.934425" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="3" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.15</name>
+					<bbMin x="-3.75257" y="-1.4651148" z="7.6038303" />
+					<bbMax x="8.884465" y="1.9418728" z="12.369026" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="5" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.16</name>
+					<bbMin x="0.1235044" y="-8.484465" z="7.3213153" />
+					<bbMax x="8.803266" y="-1.4772348" z="12.374854" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="3" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.17</name>
+					<bbMin x="0.12350392" y="1.9540884" z="7.3213153" />
+					<bbMax x="8.803266" y="8.472874" z="12.374854" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="3" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.18</name>
+					<bbMin x="-8.402069" y="-8.484465" z="7.321316" />
+					<bbMax x="0.07964587" y="-1.4733852" z="12.386542" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="5" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.19</name>
+					<bbMin x="-8.461207" y="0.024293218" z="7.321316" />
+					<bbMax x="0.08384347" y="8.472874" z="12.386513" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="5" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.20</name>
+					<bbMin x="-2.4561718" y="-1.4399858" z="12.928961" />
+					<bbMax x="9.5362215" y="1.8866441" z="17.300047" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="4" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.21</name>
+					<bbMin x="0.18807006" y="-6.665128" z="12.646447" />
+					<bbMax x="9.480775" y="-1.4118233" z="17.34386" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="3" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.22</name>
+					<bbMin x="0.18807006" y="1.8275592" z="12.646447" />
+					<bbMax x="9.480775" y="6.6522527" z="17.34386" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="3" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+				<Item>
+					<name>Room.23</name>
+					<bbMin x="-6.760805" y="-6.773558" z="12.646446" />
+					<bbMax x="0.22018957" y="6.6522636" z="17.263025" />
+					<blend value="1" />
+					<timecycleName>sd_police_int</timecycleName>
+					<flags value="0" />
+					<portalCount value="7" />
+					<floorId value="0" />
+					<exteriorVisibiltyDepth value="-1" />
+					<attachedObjects content="int_array" />
+				</Item>
+			</rooms>
+			<portals itemType="CMloPortalDef">
+				<Item>
+					<roomFrom value="1" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.190762   1.0982506   0.70026684   
+            14.190762   1.0982507   3.3648176   
+            14.190762   -1.0999913   3.3648176   
+            14.190762   -1.0999913   0.70026684
+          </corners>
+					<attachedObjects content="int_array">4 5</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="2" />
+					<roomTo value="1" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            8.983733   3.4996178   0.70026684   
+            8.983732   3.4996176   4.772044   
+            8.983732   1.590439   4.772044   
+            8.983733   1.5904375   0.7003403
+          </corners>
+					<attachedObjects content="int_array">6 7</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="2" />
+					<roomTo value="1" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            8.983732   0.99229383   1.7500725   
+            8.984423   1.0059057   4.5874467   
+            8.984423   -1.0028832   4.5874467   
+            8.983732   -0.9911046   1.7500725
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="2" />
+					<roomTo value="1" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            8.983732   -1.589249   0.70013046   
+            8.984588   -1.548554   4.5874286   
+            8.984423   -3.497023   4.587446   
+            8.983732   -3.4984293   0.70026684
+          </corners>
+					<attachedObjects content="int_array">8 9</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="2" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            6.5086346   -8.480362   0.69977856   
+            6.5086346   -8.480362   4.6602283   
+            4.524748   -8.480362   4.6592517   
+            4.5252357   -8.480362   0.69977856
+          </corners>
+					<attachedObjects content="int_array">10 11</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="2" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -4.1441975   -8.480362   0.69977856   
+            -4.1441975   -8.480362   4.6602283   
+            -6.127597   -8.480362   4.65974   
+            -6.127597   -8.480362   0.70026684
+          </corners>
+					<attachedObjects content="int_array">12 13</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="2" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -8.602694   -3.250383   0.70026684   
+            -8.602694   -3.2572184   4.660228   
+            -8.602694   -1.2733312   4.6597395   
+            -8.602694   -1.2733314   0.70026684
+          </corners>
+					<attachedObjects content="int_array">14 15</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="2" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -8.602694   1.2803797   0.70026684   
+            -8.602694   1.2803799   4.6597395   
+            -8.602694   3.2642667   4.6597395   
+            -8.602694   3.2642665   0.70026684
+          </corners>
+					<attachedObjects content="int_array">16 17</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="3" />
+					<roomTo value="2" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -3.5287607   -5.4098787   0.6987753   
+            -3.5287607   -5.4098787   4.66606   
+            4.230517   -5.4098787   4.66606   
+            4.305998   -5.3729415   0.70026684
+          </corners>
+					<attachedObjects content="int_array">20 21</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="4" />
+					<roomTo value="2" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            4.230517   5.411408   0.6987753   
+            4.230517   5.411408   4.66606   
+            -3.5287607   5.411408   4.66606   
+            -3.5287607   5.411408   0.6987753
+          </corners>
+					<attachedObjects content="int_array">18 19</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="5" />
+					<roomTo value="2" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            6.8138685   6.541721   0.7010021   
+            6.8138685   6.541721   4.6678514   
+            6.8138685   7.7524524   4.6678514   
+            6.8138685   7.7524524   0.7010021
+          </corners>
+					<attachedObjects content="int_array">23</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="6" />
+					<roomTo value="5" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            13.189307   5.959021   -4.035795   
+            13.189307   5.959021   -1.552021   
+            13.263537   7.2265115   -1.552021   
+            13.189307   7.2265115   -4.035795
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="7" />
+					<roomTo value="6" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            6.889263   -2.722633   -3.9191332   
+            6.9760923   -2.722633   8.583069e-05   
+            6.97303   -1.5669848   8.583069e-05   
+            6.886201   -1.5669848   -3.9191332
+          </corners>
+					<attachedObjects content="int_array">33</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="8" />
+					<roomTo value="6" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -1.6230934   -4.5841756   -3.9319506   
+            -1.6230934   -4.5841756   -0.15804482   
+            6.1361837   -4.5841746   -0.15804482   
+            6.1361837   -4.5841746   -3.9319506
+          </corners>
+					<attachedObjects content="int_array">25 26</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="9" />
+					<roomTo value="6" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -12.490967   -4.5845766   -3.9372063   
+            -12.380127   -4.5845766   -0.2902546   
+            -4.7316904   -4.5845766   -0.16330147   
+            -4.7316904   -4.5845766   -3.9372063
+          </corners>
+					<attachedObjects content="int_array">27 28</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="10" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.220814   -3.8664923   0.69102573   
+            14.220803   -3.8964841   5.3262815   
+            14.220869   -5.1596684   5.3262815   
+            14.220843   -5.3029857   0.69102573
+          </corners>
+					<attachedObjects content="int_array">24</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="10" />
+					<roomTo value="2" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            6.7923346   -7.6659703   0.6987753   
+            6.7747564   -7.66597   4.6660604   
+            6.7747564   -6.6112814   4.6660604   
+            6.8075676   -6.6117706   0.6987753
+          </corners>
+					<attachedObjects content="int_array">22</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="10" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.3484885   -8.328613   7.4649544   
+            14.348459   -8.355957   10.923939   
+            14.348459   -9.619141   10.923939   
+            14.3484885   -9.650879   7.4649544
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="10" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.206233   -5.539225   7.4462714   
+            14.206205   -5.619141   10.922474   
+            14.206247   -6.882324   10.922474   
+            14.206261   -6.9611   7.4672675
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="10" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.206233   -3.8197742   7.4462714   
+            14.206205   -3.896973   10.922473   
+            14.206247   -5.160156   10.922473   
+            14.206261   -5.241649   7.4672675
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="11" />
+					<roomTo value="10" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            10.869012   -3.0082147   7.363652   
+            10.91539   -3.0082147   10.418358   
+            9.647032   -3.0082147   10.418358   
+            9.69341   -3.0082147   7.363652
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="11" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.1905365   -1.3183591   7.495716   
+            14.190512   -1.3183589   10.9234495   
+            14.190514   -2.581543   10.922961   
+            14.190588   -2.5815432   7.495716
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="11" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.20574   0.70996076   6.048176   
+            14.20574   0.70996076   10.953403   
+            14.206261   -0.71191424   10.956863   
+            14.206261   -0.71191424   6.0516357
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="11" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.190568   2.6582026   6.019884   
+            14.190573   2.658273   10.922961   
+            14.190573   1.3212891   10.922473   
+            14.190579   1.3212227   6.00963
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="12" />
+					<roomTo value="11" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            10.961953   3.3287287   7.3629847   
+            10.961953   3.3287287   10.324241   
+            9.767066   3.3287287   10.324241   
+            9.767066   3.3287287   7.3629847
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="12" />
+					<roomTo value="11" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            13.703163   3.3273022   7.351006   
+            13.703163   3.3273022   10.288682   
+            12.479471   3.3287287   10.300661   
+            12.479471   3.3287287   7.3629847
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="12" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.204603   5.0862064   7.376997   
+            14.204603   5.0862064   10.943086   
+            14.204682   3.973371   10.944829   
+            14.204682   3.973371   7.3787403
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="12" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.2046545   6.880049   7.396106   
+            14.2046545   6.880049   10.958399   
+            14.2046545   5.6233687   10.958399   
+            14.2046545   5.6233687   7.396106
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="12" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.343197   9.738842   7.496203   
+            14.343197   9.738842   10.966045   
+            14.343197   8.237232   10.966045   
+            14.343197   8.237232   7.496203
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="12" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.351426   6.413973   12.668942   
+            14.351426   6.413973   14.921187   
+            14.354802   4.34555   14.914409   
+            14.354802   4.34555   12.662163
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="12" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.429926   10.010909   12.59929   
+            14.429926   10.010909   15.5783205   
+            14.429926   7.9380097   15.5783205   
+            14.429926   7.9380097   12.59929
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="13" />
+					<roomTo value="12" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            11.0369625   3.3288682   12.592774   
+            11.0369625   3.3288682   15.554396   
+            12.267377   3.3288682   15.554396   
+            12.267377   3.3288682   12.592774
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="13" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.3573   2.3520513   12.660755   
+            14.357375   2.3520442   15.558215   
+            14.357375   1.5747073   15.558215   
+            14.3573   1.5747812   12.660755
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="13" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.357393   0.42985293   12.665729   
+            14.357393   0.42985293   15.5780735   
+            14.357019   -0.426455   15.580511   
+            14.357019   -0.426455   12.668166
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="13" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.356339   -1.5645947   12.69195   
+            14.356339   -1.5645947   15.597257   
+            14.352212   -2.327626   15.605424   
+            14.352212   -2.327626   12.700117
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="14" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.466876   -8.052395   12.647643   
+            14.466876   -8.052395   15.615768   
+            14.466876   -9.929973   15.615768   
+            14.466876   -9.929973   12.647643
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="14" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            14.361787   -4.43437   12.679309   
+            14.361787   -4.43437   15.061422   
+            14.361712   -6.335162   15.061422   
+            14.361712   -6.335162   12.679309
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="14" />
+					<roomTo value="13" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            10.916655   -3.2584586   12.578129   
+            10.916655   -3.2584586   16.486979   
+            12.865604   -3.2584586   16.486979   
+            12.865604   -3.2584586   12.578129
+          </corners>
+					<attachedObjects content="int_array">41 42</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="15" />
+					<roomTo value="11" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            8.833921   1.1505942   7.551177   
+            8.923476   1.1505942   11.530552   
+            8.833921   -0.7023164   11.530552   
+            8.833921   -0.7023164   7.551177
+          </corners>
+					<attachedObjects content="int_array">35 36</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="16" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            2.856228   -8.484465   8.099719   
+            2.8557408   -8.484465   11.757435   
+            0.8044703   -8.484465   11.757435   
+            0.8044703   -8.484465   8.099719
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="16" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            6.5033665   -8.484465   8.099719   
+            6.502878   -8.484465   11.757435   
+            4.4516087   -8.484465   11.757435   
+            4.4516087   -8.484465   8.099719
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="16" />
+					<roomTo value="15" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            0.6021502   -1.4496179   7.594125   
+            0.6021502   -1.4496179   9.92225   
+            1.9522021   -1.4424691   9.92225   
+            1.9522021   -1.4424691   7.594125
+          </corners>
+					<attachedObjects content="int_array">37</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="17" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            4.449192   8.472874   8.099718   
+            4.449192   8.472874   11.757433   
+            6.5004625   8.472874   11.757433   
+            6.50095   8.472874   8.099718
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="17" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            0.7073333   8.472874   8.099718   
+            0.7073333   8.472874   11.757434   
+            2.7586038   8.472874   11.757434   
+            2.7590916   8.472874   8.099718
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="17" />
+					<roomTo value="15" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            1.9518778   1.8785079   7.594125   
+            1.9518778   1.8785079   9.92225   
+            0.6018069   1.8736284   9.92225   
+            0.6018069   1.8736284   7.594125
+          </corners>
+					<attachedObjects content="int_array">39</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="18" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -4.153081   -8.484465   8.099719   
+            -4.153569   -8.484465   11.757435   
+            -6.2048388   -8.484465   11.757435   
+            -6.2048388   -8.484465   8.099719
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="18" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -0.40917563   -8.484465   8.099719   
+            -0.40966487   -8.484465   11.757435   
+            -2.4609344   -8.484465   11.757435   
+            -2.4609344   -8.484465   8.099719
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="18" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -8.461207   -6.2637706   8.099719   
+            -8.461207   -6.2637706   11.757435   
+            -8.461207   -4.2125015   11.757435   
+            -8.461207   -4.2120132   8.099719
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="18" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -8.461207   -2.6134493   8.099718   
+            -8.461207   -2.613449   11.757435   
+            -8.461207   -0.5621795   11.757434   
+            -8.461207   -0.5616914   8.099718
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="18" />
+					<roomTo value="15" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -1.7507465   -1.4172869   7.594125   
+            -1.7507465   -1.4172869   9.92225   
+            -0.40067554   -1.4124072   9.92225   
+            -0.40067554   -1.4124072   7.594125
+          </corners>
+					<attachedObjects content="int_array">38</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="19" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -2.5549867   8.472874   8.099718   
+            -2.5549867   8.472874   11.757434   
+            -0.5037172   8.472874   11.757434   
+            -0.5032289   8.472874   8.099718
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="19" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -6.2049866   8.472874   8.099718   
+            -6.2049866   8.472874   11.757434   
+            -4.153717   8.472874   11.757434   
+            -4.1532297   8.472874   8.099718
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="19" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -8.461207   4.383386   8.099718   
+            -8.461207   4.383386   11.757434   
+            -8.461207   6.4346547   11.757434   
+            -8.461207   6.435143   8.099718
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="19" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -8.461207   0.64389306   8.099718   
+            -8.461207   0.6438933   11.757434   
+            -8.461207   2.6951642   11.757434   
+            -8.461207   2.6956513   8.099718
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="19" />
+					<roomTo value="15" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -0.4003513   1.8484461   7.594125   
+            -0.4003513   1.8484461   9.92225   
+            -1.7504041   1.8412974   9.92225   
+            -1.7504041   1.8412974   7.594125
+          </corners>
+					<attachedObjects content="int_array">40</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="20" />
+					<roomTo value="13" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            9.395375   1.1498265   12.916339   
+            9.395375   1.1498265   16.640697   
+            9.395045   -0.7050768   16.639206   
+            9.395045   -0.7050768   12.914847
+          </corners>
+					<attachedObjects content="int_array">43 44</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="21" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            2.6477435   -6.806257   13.688229   
+            2.6477435   -6.806257   15.897626   
+            1.4011033   -6.806257   15.897626   
+            1.4011033   -6.806257   13.688229
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="21" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            6.2073927   -6.800815   13.688229   
+            6.207494   -6.800801   15.897774   
+            4.9679165   -6.8008204   15.900386   
+            4.9607916   -6.800815   13.688229
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="21" />
+					<roomTo value="20" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            0.6021502   -1.4330552   12.937062   
+            0.6021502   -1.4330552   15.265187   
+            1.9522021   -1.4259064   15.265187   
+            1.9522021   -1.4259064   12.937062
+          </corners>
+					<attachedObjects content="int_array">45</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="22" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            4.928071   6.8064053   13.720642   
+            4.928071   6.8064053   15.881615   
+            6.1263533   6.8064053   15.881615   
+            6.1263533   6.8064053   13.720642
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="22" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            1.2786629   6.804688   13.720642   
+            1.2786629   6.804688   15.881615   
+            2.476946   6.804688   15.881615   
+            2.476946   6.804688   13.720642
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="22" />
+					<roomTo value="20" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            1.9518778   1.8785079   12.937062   
+            1.9518778   1.8785079   15.265187   
+            0.6018069   1.8736284   15.265187   
+            0.6018069   1.8736284   12.937062
+          </corners>
+					<attachedObjects content="int_array">47</attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="23" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -2.3155696   6.8043217   13.720642   
+            -2.3155696   6.8043217   15.881615   
+            -1.1172884   6.8043217   15.881615   
+            -1.1172884   6.8043217   13.720642
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="23" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -5.8173304   6.802956   13.720642   
+            -5.8173304   6.802956   15.881615   
+            -4.619048   6.802956   15.881615   
+            -4.619048   6.802956   13.720642
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="23" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -6.531481   1.189106   13.688267   
+            -6.531472   1.1890354   15.897725   
+            -6.5304146   2.4359264   15.898464   
+            -6.531481   2.4356089   13.688267
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="23" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -6.781481   -2.4103017   13.688267   
+            -6.781472   -2.4103723   15.897725   
+            -6.7804146   -1.1634812   15.898464   
+            -6.781481   -1.1637988   13.688267
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="23" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -4.550271   -6.801236   13.720642   
+            -4.550271   -6.801236   15.881615   
+            -5.7485533   -6.801236   15.881615   
+            -5.7485533   -6.801236   13.720642
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="23" />
+					<roomTo value="0" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -0.9645002   -6.808248   13.720642   
+            -0.9645002   -6.808248   15.881615   
+            -2.1627815   -6.808248   15.881615   
+            -2.1627815   -6.808248   13.720642
+          </corners>
+					<attachedObjects content="int_array"></attachedObjects>
+				</Item>
+				<Item>
+					<roomFrom value="23" />
+					<roomTo value="20" />
+					<flags value="0" />
+					<mirrorPriority value="0" />
+					<opacity value="0" />
+					<redm_loves_you_b5c65d165ac2a96a value="0.8" />
+					<redm_loves_you_77f55279e5bd37e2 value="1" />
+					<redm_loves_you_b35ecf068bc6b8e4 value="1" />
+					<redm_loves_you_e8f083f1ebc039d7 value="1" />
+					<audioOcclusion value="0" />
+					<corners content="vector3_array">
+            -2.554568   0.8473042   12.884536   
+            -2.554568   0.8473042   15.828845   
+            -2.554568   -0.40607727   15.828845   
+            -2.554568   -0.40607727   12.884536
+          </corners>
+					<attachedObjects content="int_array">46</attachedObjects>
+				</Item>
+			</portals>
+			<entitySets />
+			<timeCycleModifiers />
+			<awOyxCA_0x8471928B />
+			<NuIPvDA_0xEC8E962B />
+			<hOImZHA_0x2AF2E200 type="CMloActivationVolume">
+				<bound type="rage__spdSphere">
+					<centerAndRadius x="0" y="0" z="0" w="0" />
+				</bound>
+				<flags />
+			</hOImZHA_0x2AF2E200>
+			<tnISOEA_0xA916F55B value="False" />
+		</Item>
+	</archetypes>
+	<name>new_com_01_jail_t</name>
+</CMapTypes>
