@@ -9,7 +9,7 @@ on:
 jobs:
   sync_repo:
     name: Sync VDS repository
-    runs-on: self-hosted
+    runs-on: [self-hosted, Windows, X64]
 
     steps:
       - name: Sync repository on VDS
