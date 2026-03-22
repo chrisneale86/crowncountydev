@@ -2972,6 +2972,48 @@ Config.crafting = {
             ['expadd'] = 2, -- exp added when recipie is used successfully 
             ['diff'] = 2000, -- difficulty of mini game, the lower the harder, between 1000 to 5000 is ideal 
               
+ },
+     
+       {
+        ['Text'] = "Bag Coal (50x)",
+        ['Desc'] = "Pack 50 loose coal into a manageable sack.",
+        ['Param'] = {
+            ['Item'] = {
+                { name = "coal",   label = "Coal",    count = 50},
+                { name = "floursack",   label = "flour sack",    count = 1},
+                -- If you want to require an empty burlap sack item, add it here:
+                -- { name = "empty_sack",   label = "Empty Sack",    count = 1},
+            },
+            ['Reward'] ={
+                { name = "coal_sack",        count = 1},
+            },
+            ['Job'] = 0,  -- Set to 0 for everyone, or {"miner"} to restrict
+            ['prop'] = 0,  
+            ['location'] = 0, 
+            ['catagory'] = "basic",
+            ['expreq'] = 0, 
+            ['expadd'] = 5, 
+            ['diff'] = 3000, 
+        }
+    },
+    {
+        ['Text'] = "Open Sack of Coal",
+        ['Desc'] = "Unpack a sack to get 50 loose pieces of coal.",
+        ['Param'] = {
+            ['Item'] = {
+                { name = "coal_sack",   label = "Sack of Coal",    count = 1},
+            },
+            ['Reward'] ={
+                { name = "coal",        count = 50},
+            },
+            ['Job'] = 0,
+            ['prop'] = 0,  
+            ['location'] = 0, 
+            ['catagory'] = "basic",
+            ['expreq'] = 0, 
+            ['expadd'] = 1, 
+            ['diff'] = 4000, 
+
         }
     },
 
