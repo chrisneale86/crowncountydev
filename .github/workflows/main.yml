@@ -1,0 +1,128 @@
+name: VDS Repo Auto Sync
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  sync_repo:
+    name: Sync VDS repository
+    runs-on: [self-hosted, windows]
+
+    steps:
+      - name: Sync repository on VDS
+        shell: powershell
+        env:
+          REPO_PATH: 'C:\Users\Administrator\Desktop\dev\crowncountydev'
+        run: |
+          if (-not (Test-Path $env:REPO_PATH)) {
+            throw "Repository path not found: $env:REPO_PATH"
+          }
+
+          Set-Location $env:REPO_PATH
+
+          git status
+          git fetch origin
+          git pull origin main
+
+      - name: Send Discord success embed
+        if: success()
+        shell: powershell
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          REPO_NAME: ${{ github.repository }}
+          BRANCH_NAME: ${{ github.ref_name }}
+          ACTOR_NAME: ${{ github.actor }}
+          COMMIT_SHA: ${{ github.sha }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+          COMMIT_URL: ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:WEBHOOK_URL)) {
+            Write-Host "WEBHOOK_URL secret is not set. Skipping Discord webhook."
+            exit 0
+          }
+
+          $shortSha = $env:COMMIT_SHA.Substring(0, 7)
+
+          $payload = @{
+            username = "GitHub Deployments"
+            embeds = @(
+              @{
+                title = "VDS Sync Successful"
+                description = "The main VDS repository fetched and pulled successfully."
+                fields = @(
+                  @{ name = "Repository"; value = $env:REPO_NAME; inline = $true },
+                  @{ name = "Branch"; value = $env:BRANCH_NAME; inline = $true },
+                  @{ name = "Pushed By"; value = $env:ACTOR_NAME; inline = $true },
+                  @{ name = "Commit"; value = "[${shortSha}]($($env:COMMIT_URL))"; inline = $true },
+                  @{ name = "Message"; value = $env:COMMIT_MESSAGE; inline = $false },
+                  @{ name = "Actions Run"; value = "[Open workflow run]($($env:RUN_URL))"; inline = $false }
+                )
+                url = $env:REPO_URL
+                color = 5763719
+                footer = @{
+                  text = "CrownCounty VDS Auto Sync"
+                }
+                timestamp = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+              }
+            )
+          } | ConvertTo-Json -Depth 10
+
+          Invoke-RestMethod -Uri $env:WEBHOOK_URL `
+            -Method Post `
+            -ContentType "application/json" `
+            -Body $payload
+
+      - name: Send Discord failure embed
+        if: failure()
+        shell: powershell
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          REPO_NAME: ${{ github.repository }}
+          BRANCH_NAME: ${{ github.ref_name }}
+          ACTOR_NAME: ${{ github.actor }}
+          COMMIT_SHA: ${{ github.sha }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+          COMMIT_URL: ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:WEBHOOK_URL)) {
+            Write-Host "WEBHOOK_URL secret is not set. Skipping Discord webhook."
+            exit 0
+          }
+
+          $shortSha = $env:COMMIT_SHA.Substring(0, 7)
+
+          $payload = @{
+            username = "GitHub Deployments"
+            embeds = @(
+              @{
+                title = "VDS Sync Failed"
+                description = "The VDS repository sync failed. Check the workflow run for details."
+                fields = @(
+                  @{ name = "Repository"; value = $env:REPO_NAME; inline = $true },
+                  @{ name = "Branch"; value = $env:BRANCH_NAME; inline = $true },
+                  @{ name = "Pushed By"; value = $env:ACTOR_NAME; inline = $true },
+                  @{ name = "Commit"; value = "[${shortSha}]($($env:COMMIT_URL))"; inline = $true },
+                  @{ name = "Message"; value = $env:COMMIT_MESSAGE; inline = $false },
+                  @{ name = "Actions Run"; value = "[Open workflow run]($($env:RUN_URL))"; inline = $false }
+                )
+                url = $env:REPO_URL
+                color = 15548997
+                footer = @{
+                  text = "CrownCounty VDS Auto Sync"
+                }
+                timestamp = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+              }
+            )
+          } | ConvertTo-Json -Depth 10
+
+          Invoke-RestMethod -Uri $env:WEBHOOK_URL `
+            -Method Post `
+            -ContentType "application/json" `
+            -Body $payload
