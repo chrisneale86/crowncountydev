@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-44.306458" y="-80.800415" z="-5.9341393" />
+      <bbMax x="44.91919" y="120.60266" z="2.1445923" />
+      <bsCentre x="0.30636597" y="19.901123" z="-1.8947735" />
+      <bsRadius value="110.21534" />
+      <hdTextureDist value="60.0"/>
+      <name>rails006</name>
+      <textureDictionary>rails_textures</textureDictionary>
+      <physicsDictionary>rails006</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rails006</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>rails06</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>
