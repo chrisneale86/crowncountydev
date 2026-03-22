@@ -2722,27 +2722,27 @@ Config.crafting = {
         }
     },
 
-                                    {
-        ['Text'] = "Coal Bag",
-        ['Desc'] = "",
-        ['Param'] = {
-            ['Item'] = {
-                { name = "coal",   label = "Coal",    count = 50},
-                { name = "floursack",   label = "Flour Sack",    count = 1},
+    --                                 {
+    --     ['Text'] = "Coal Bag",
+    --     ['Desc'] = "",
+    --     ['Param'] = {
+    --         ['Item'] = {
+    --             { name = "coal",   label = "Coal",    count = 50},
+    --             { name = "floursack",   label = "Flour Sack",    count = 1},
 
-            },
-            ['Reward'] ={
-                { name = "coal_bag",        count = 2},-- you can add multipule reward items 
-            },
-            ['Job'] = {"wilsonco","furymining","annesburgcoal"},
-            ['prop'] = 0,  -- keep 0 to allow crafting from any prop
-            ['location'] = 0, -- keep 0 to allow crafting from any marked location
-            ['catagory'] = "basic",
-            ['expreq'] = 0, -- exp needed for this recipie to appear on players crafting menu 
-            ['expadd'] = 2, -- exp added when recipie is used successfully 
-            ['diff'] = 2000, -- difficulty of mini game, the lower the harder, between 1000 to 5000 is ideal 
-        }
-    },
+    --         },
+    --         ['Reward'] ={
+    --             { name = "coal_bag",        count = 2},-- you can add multipule reward items 
+    --         },
+    --         ['Job'] = {"wilsonco","furymining","annesburgcoal"},
+    --         ['prop'] = 0,  -- keep 0 to allow crafting from any prop
+    --         ['location'] = 0, -- keep 0 to allow crafting from any marked location
+    --         ['catagory'] = "basic",
+    --         ['expreq'] = 0, -- exp needed for this recipie to appear on players crafting menu 
+    --         ['expadd'] = 2, -- exp added when recipie is used successfully 
+    --         ['diff'] = 2000, -- difficulty of mini game, the lower the harder, between 1000 to 5000 is ideal 
+    --     }
+    -- },
 
     --sweet
 
